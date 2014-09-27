@@ -29,6 +29,11 @@ public class AstartAI : MonoBehaviour {
 	public float pickNextWaypointDistance = 1F;
 	public float targetReached = 0.2F;
 
+	//custom values
+	public Vector3 targetVector =  Vector3.zero;
+
+
+
 
 	public void Start () {
 		//Get a reference to the Seeker component we added earlier
@@ -116,6 +121,7 @@ public class AstartAI : MonoBehaviour {
 		//Change target to the next waypoint if the current one is close enough
 		Vector3 currentWaypoint = path[pathIndex];
 		currentWaypoint.y = tr.position.y;
+
 		while ((currentWaypoint - tr.position).sqrMagnitude < pickNextWaypointDistance*pickNextWaypointDistance) {
 			pathIndex++;
 			if (pathIndex >= path.Length) {
@@ -130,9 +136,15 @@ public class AstartAI : MonoBehaviour {
 				}
 			}
 			currentWaypoint = path[pathIndex];
+
+
 			currentWaypoint.y = tr.position.y;
 		}
-		
+
+		//set target vector
+		targetVector = /*path[pathIndex-3]*/currentWaypoint - tr.position;
+		Debug.DrawRay(tr.position, targetVector, Color.red);
+
 		//	___________ Pas touche Astar
 	}
 
