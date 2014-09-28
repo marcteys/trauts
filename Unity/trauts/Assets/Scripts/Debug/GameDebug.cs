@@ -3,8 +3,6 @@ using System.Collections;
 
 public class GameDebug : MonoBehaviour {
 
-	
-	
 	public Transform ground;
 	
 	public string tagObstacles  = "Cube" ;

@@ -25,15 +25,20 @@ public class ForceCalculation : MonoBehaviour {
 	void FixedUpdate ()
 	{
 		targetVector = astarVehicle.targetVector;
-		WheelAngle();
 		GetCubesForce();
-
+		WheelAngle();
 	}
 
 	void WheelAngle()
 	{
-		float angle = Vector3.Angle(targetVector, transform.forward);
+		//apply tht counter force
+		if(counterForce != Vector3.zero)
+		{
+			targetVector = (targetVector + counterForce) * 0.5f;
+			Debug.DrawRay(transform.position,targetVector*2,Color.black); // the target vector with forces
+		}
 
+		float angle = Vector3.Angle(targetVector, transform.forward);
 		Vector3 cross= Vector3.Cross(targetVector, transform.forward);
 		if (cross.y < 0) angle = -angle;
 
@@ -80,8 +85,6 @@ public class ForceCalculation : MonoBehaviour {
 	}
 
 
-
-
 	void GetCubesForce()
 	{
 		//We reset the counterForce
@@ -99,37 +102,19 @@ public class ForceCalculation : MonoBehaviour {
 			{
 				Debug.Log(hit.collider.name);
 				counterForce = counterForce + hit.collider.GetComponent<Waves>().GetForceAtPoint(hit.point);
+				// ici appliquer une force relative a la puissance ???
 			}
 			i++;
 		}
-
-
 		Debug.DrawRay(transform.position, counterForce, Color.blue);//the counter force
 
 	}
-
 
 	float Remap(this float value,  float low1,  float high1,  float low2,  float high2)
 	{
 		return low2 + (value - low1) * (high2 - low2) / (high1 - low1);
 	}
 
-
 	
 }
-
-/*
-public class DataClass {
-	public first parameter;
-	public second parameter
-		
-	public DataClass(first,second) {
-		first parameter = first;
-		second parameter = second;
-	}
-}
-
-*/
-
-
 

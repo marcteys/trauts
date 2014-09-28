@@ -8,7 +8,7 @@ public class Waves : MonoBehaviour {
 
 
 	private float maxWaveScale = 5f;
-	private float waveSpeed = 5f;
+	private float waveSpeed = 2f;
 
 	public float currentForce = 0f;
 
