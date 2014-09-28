@@ -7,14 +7,14 @@ public class ForceCalculation : MonoBehaviour {
 	private Vector3 targetVector = Vector3.zero;
 	private AstartAI astarVehicle = null;
 
-
+	//motors
 	public byte leftMotorPower = 0;
 	public bool leftMotorDirection = true; // true = forward, false = backward;
-	
 	public byte rightMotorPower = 0;
 	public bool rightMotorDirection = true; // true = forward, false = backward;
 
-
+	//force
+	public Vector3 counterForce = Vector3.zero;
 
 
 	void Start ()
@@ -26,6 +26,7 @@ public class ForceCalculation : MonoBehaviour {
 	{
 		targetVector = astarVehicle.targetVector;
 		WheelAngle();
+		GetCubesForce();
 
 	}
 
@@ -43,8 +44,6 @@ public class ForceCalculation : MonoBehaviour {
 		byte rightMotorPower = 0;
 		bool rightMotorDirection = true; // true = forward, false = backward;
 		*/
-
-		Debug.Log (angle);
 	
 		if(angle < 50 && angle> -50)
 		{
@@ -85,8 +84,27 @@ public class ForceCalculation : MonoBehaviour {
 
 	void GetCubesForce()
 	{
-		//lancer un rayon vers le bas et détecter si il y a quelque chose
+		//We reset the counterForce
+		counterForce = Vector3.zero;
 
+		//We hit a ray 
+		RaycastHit[] hits;
+		hits = Physics.RaycastAll(transform.position+(Vector3.up*3), -Vector3.up * 5 , 100.0F);
+		//Debug.DrawRay(transform.position+(Vector3.up*3), -Vector3.up * 5 ,Color.grey); //The ray from the car to the ground
+		int i = 0;
+		while (i < hits.Length)
+		{
+			RaycastHit hit = hits[i];
+			if(hit.collider.CompareTag("Wave")) 
+			{
+				Debug.Log(hit.collider.name);
+				counterForce = counterForce + hit.collider.GetComponent<Waves>().GetForceAtPoint(hit.point);
+			}
+			i++;
+		}
+
+
+		Debug.DrawRay(transform.position, counterForce, Color.blue);//the counter force
 
 	}
 
@@ -99,3 +117,19 @@ public class ForceCalculation : MonoBehaviour {
 
 	
 }
+
+/*
+public class DataClass {
+	public first parameter;
+	public second parameter
+		
+	public DataClass(first,second) {
+		first parameter = first;
+		second parameter = second;
+	}
+}
+
+*/
+
+
+

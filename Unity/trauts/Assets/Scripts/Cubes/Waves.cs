@@ -37,10 +37,13 @@ public class Waves : MonoBehaviour {
 		parentEmitter = parent;
 	}
 
-	public void GetForceAtPoint()
+	public Vector3 GetForceAtPoint(Vector3 point)
 	{
-		
-		
+		Debug.Log (point);
+		Vector3 forceDirection = Vector3.Normalize(( point - parentEmitter.transform.position));
+		//Debug.DrawRay(parentEmitter.transform.position, forceDirection*5, Color.red); // The ray from object to raycast hit
+		return forceDirection;
 	}
 
 }
+

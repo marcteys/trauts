@@ -5,7 +5,7 @@ public class ForceWave : MonoBehaviour {
 
 
 	private GameObject wavePrefab;
-
+	static int waveCount = 0;
 
 	void Start()
 	{
@@ -16,8 +16,10 @@ public class ForceWave : MonoBehaviour {
 	public void CreateWave() {
 		GameObject tmpWave = (GameObject)Instantiate(wavePrefab,this.transform.position,wavePrefab.transform.rotation);
 		tmpWave.transform.parent = this.transform;
-		tmpWave.transform.name = "Wave";
+		tmpWave.transform.name = "Wave"+waveCount;
 		tmpWave.GetComponent<Waves>().SetParent(gameObject);
+		waveCount++;
+
 
 	}
 
