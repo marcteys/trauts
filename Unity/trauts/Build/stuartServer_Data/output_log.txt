@@ -1,0 +1,3308 @@
+Initialize engine version: 4.5.3f3 (fca41a4fabea)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1172]
+    Renderer: AMD Radeon HD 8650G
+    Vendor:   ATI
+    VRAM:     2760 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
+Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
+Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
+- Completed reload, in  0.138 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.Core.dll (this message is harmless)
+Scanning - Process took 87 ms to complete
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AstarPath:Awake() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1270)
+ 
+(Filename: C Line: 0)
+
+Starting Server
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:19)
+NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+ 
+(Filename: C Line: 0)
+
+Server has public address : False. Will use NAT PunchThrough : True
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:20)
+NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+ 
+(Filename: C Line: 0)
+
+Server initialized !
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkServer:OnServerInitialized() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:33)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:21)
+NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+ 
+(Filename: C Line: 0)
+
+Registering on MasterServer
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:22)
+NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Circle(Clone)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:103)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+(3.2, 0.0, -0.2)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Waves:GetForceAtPoint(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:42)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104)
+ForceCalculation:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Waves.GetForceAtPoint (Vector3 point) [0x0000b] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Cubes\Waves.cs:43 
+  at ForceCalculation.GetCubesForce () [0x00084] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:104 
+  at ForceCalculation.FixedUpdate () [0x00011] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Stuart\ForceCalculation.cs:28 
+ 
+(Filename: C Line: 0)
+
+Waiting for finish

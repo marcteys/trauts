@@ -100,7 +100,6 @@ public class ForceCalculation : MonoBehaviour {
 			RaycastHit hit = hits[i];
 			if(hit.collider.CompareTag("Wave")) 
 			{
-				Debug.Log(hit.collider.name);
 				counterForce = counterForce + hit.collider.GetComponent<Waves>().GetForceAtPoint(hit.point);
 				// ici appliquer une force relative a la puissance ???
 			}
