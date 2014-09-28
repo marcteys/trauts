@@ -5,6 +5,7 @@ TagManager:
   tags:
   - Wave
   - Cube
+  - TriggerCube
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
