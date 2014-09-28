@@ -10,7 +10,7 @@ public class ClientDispatch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetMouseButtonDown(1)){
+		if(Network.isClient && Input.GetMouseButtonDown(1)){
 			networkView.RPC ("CreateCircle",RPCMode.All,Vector3.one);
 		}	
 	}
