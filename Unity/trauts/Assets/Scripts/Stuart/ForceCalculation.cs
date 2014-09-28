@@ -85,6 +85,8 @@ public class ForceCalculation : MonoBehaviour {
 
 	void GetCubesForce()
 	{
+		//lancer un rayon vers le bas et détecter si il y a quelque chose
+
 
 	}
 
