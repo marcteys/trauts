@@ -3,33 +3,57 @@ using System.Collections;
 
 public class NetworkClient : MonoBehaviour {
 	
+	private bool refreshing = false;
+	private HostData[] hostData;
 	string gameType = "Stuart";
+	bool autoConnect = false;
+	string defaultServerIP = "10.1.4.49";
+	string serverIP = "10.1.4.49";
 	
-	// Use this for initialization
-	void Start () {
-		StartServer();
-	}
+
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(refreshing){
+			if(MasterServer.PollHostList().Length > 0){
+				Debug.Log(MasterServer.PollHostList().Length);
+				hostData = MasterServer.PollHostList();
+				refreshing = false;
+				
+				// If the user chose tp connect automatically, we select the first game in the list
+				if( autoConnect ){
+					Network.Connect(hostData[0]);
+					Debug.Log("Connecting to server");
+					HideConnectGUI();
+				}
+			}
+		}
 	}
 	
-	void StartServer(){
-		Debug.Log("Starting Server");
-		Debug.Log ("Server has public address : "+Network.HavePublicAddress()+". Will use NAT PunchThrough : "+!Network.HavePublicAddress());
-		Network.InitializeServer(32, 25000, !Network.HavePublicAddress());
-		Debug.Log("Registering on MasterServer");
-		MasterServer.RegisterHost(gameType, "MultiDraw", "Agencement d'espace");
+	public void ConnectToServer(){
+		Network.Connect( serverIP, 25000);
+		Debug.Log("Connecting to server");
+		HideConnectGUI();
 	}
 	
-	void StartServer2(){
-		Debug.Log("Starting Server");
-		Network.InitializeServer(32, 25000, false);
-		Debug.Log("No registration on MasterServer");
+	public void ConnectAutomaticallyToServer(){
+		autoConnect = true;
+		RefreshHostList();
 	}
 	
-	void OnServerInitialized(){
-		Debug.Log("Server initialized !");
+	void RefreshHostList(){
+		Debug.Log("Refreshing host list");
+		MasterServer.RequestHostList(gameType);
+		refreshing = true;
+	}
+	
+	void OnGUI(){
+		if( !Network.isClient ){
+			serverIP = GUI.TextField(new Rect(10, 10, 150, 50), serverIP);
+		}
+	}
+	
+	void HideConnectGUI(){
+		GameObject.Find("ConnectGUI").active = false;
 	}
 }
