@@ -167,8 +167,8 @@ public class FiducialController : MonoBehaviour
             }
             else
             {
-                Vector3 position = new Vector3(xPos * this.m_MainCamera.GetScreenWidth(),
-                    (1 - yPos) * this.m_MainCamera.GetScreenHeight(), this.CameraOffset);
+                Vector3 position = new Vector3(xPos * Screen.width,
+                    (1 - yPos) * Screen.height, this.CameraOffset);
                 this.m_WorldPosition = this.m_MainCamera.ScreenToWorldPoint(position);
                 //worldPosition += cameraOffset * mainCamera.transform.forward;
                 transform.position = this.m_WorldPosition;

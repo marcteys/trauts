@@ -20,8 +20,7 @@ public class AstartAI : MonoBehaviour {
 	protected Seeker seeker;
 	
 	private float lastTimeCheck;
-	private float timeIntervalFlag = 3000;
-	
+
 	protected Vector3[] path;
 	protected int pathIndex = 0;
 	protected Transform tr;
@@ -32,10 +31,8 @@ public class AstartAI : MonoBehaviour {
 	//custom values
 	public Vector3 targetVector =  Vector3.zero;
 
-
-
-
-	public void Start () {
+	public void Start ()
+	{
 		//Get a reference to the Seeker component we added earlier
 		seeker = GetComponent<Seeker>();
 		
@@ -45,11 +42,13 @@ public class AstartAI : MonoBehaviour {
 		Repath ();
 	}
 
-	public void OnPathComplete (Path p) {
+	public void OnPathComplete (Path p)
+	{
 		StartCoroutine (WaitToRepath ());
 
 		//If the path didn't succeed, don't proceed
-		if (p.error) {
+		if (p.error)
+		{
 			return;
 		}
 		
@@ -61,30 +60,37 @@ public class AstartAI : MonoBehaviour {
 		float minDist = Mathf.Infinity;
 		int notCloserHits = 0;
 		
-		for (int i=0;i<path.Length-1;i++) {
+		for (int i=0;i<path.Length-1;i++)
+		{
 			float dist = AstarMath.DistancePointSegmentStrict (path[i],path[i+1],tr.position);
-			if (dist < minDist) {
+			if (dist < minDist)
+			{
 				notCloserHits = 0;
 				minDist = dist;
 				pathIndex = i+1;
-			} else if (notCloserHits > 6) {
+			}
+			else if (notCloserHits > 6)
+			{
 				break;
 			}
 		}
 	}
 
 	
-	public IEnumerator WaitToRepath () {
+	public IEnumerator WaitToRepath ()
+	{
 		float timeLeft = repathRate - (Time.time-lastPathSearch);
 		yield return new WaitForSeconds (timeLeft);
 		Repath ();
 	}
 	
 	
-	public virtual void Repath () {
+	public virtual void Repath ()
+	{
 		lastPathSearch = Time.time;
 
-		if (seeker == null || target == null || !canSearch || !seeker.IsDone ()) {
+		if (seeker == null || target == null || !canSearch || !seeker.IsDone ())
+		{
 			StartCoroutine (WaitToRepath ());
 			return;
 		}
@@ -95,9 +101,11 @@ public class AstartAI : MonoBehaviour {
 	}
 
 	
-	public void PathToTarget (Vector3 targetPoint) {
+	public void PathToTarget (Vector3 targetPoint)
+	{
 		lastPathSearch = Time.time;
-		if (seeker == null) {
+		if (seeker == null)
+		{
 			return;
 		}
 		//Start a new path from transform.positon to target.position, return the result to OnPathComplete
@@ -105,16 +113,19 @@ public class AstartAI : MonoBehaviour {
 	}
 	
 
-	public void Update () {// Start Update
+	public void Update ()
+	{// Start Update
 
 		CalculateTarget();
 
 	}// End Update
 
 	
-	public void CalculateTarget() {
+	public void CalculateTarget()
+	{
 		//	___________ Pas touche Astar
-		if (path == null || pathIndex >= path.Length || pathIndex < 0) {
+		if (path == null || pathIndex >= path.Length || pathIndex < 0)
+		{
 			return;
 		}
 		
@@ -122,22 +133,25 @@ public class AstartAI : MonoBehaviour {
 		Vector3 currentWaypoint = path[pathIndex];
 		currentWaypoint.y = tr.position.y;
 
-		while ((currentWaypoint - tr.position).sqrMagnitude < pickNextWaypointDistance*pickNextWaypointDistance) {
+		while ((currentWaypoint - tr.position).sqrMagnitude < pickNextWaypointDistance*pickNextWaypointDistance)
+		{
 			pathIndex++;
-			if (pathIndex >= path.Length) {
+			if (pathIndex >= path.Length)
+			{
 				//Use a lower pickNextWaypointDistance for the last point. If it isn't that close, then decrement the pathIndex to the previous value and break the loop
-				if ((currentWaypoint - tr.position).sqrMagnitude < (pickNextWaypointDistance*targetReached)*(pickNextWaypointDistance*targetReached)) {
+				if ((currentWaypoint - tr.position).sqrMagnitude < (pickNextWaypointDistance*targetReached)*(pickNextWaypointDistance*targetReached))
+				{
 					ReachedEndOfPath ();
 					return;
-				} else {
+				}
+				else
+				{
 					pathIndex--;
 					//Break the loop, otherwise it will try to check for the last point in an infinite loop
 					break;
 				}
 			}
 			currentWaypoint = path[pathIndex];
-
-
 			currentWaypoint.y = tr.position.y;
 		}
 
@@ -149,14 +163,17 @@ public class AstartAI : MonoBehaviour {
 	}
 
 
-	void OnGUI () {
-		if (GUI.Button (new Rect (10,10,40,20), "Scan")) {
+	void OnGUI ()
+	{
+		if (GUI.Button (new Rect (10,10,40,20), "Scan"))
+		{
 			AstarPath.active.Scan();
 		}
 	}
 
 	
-	public virtual void ReachedEndOfPath () {
+	public virtual void ReachedEndOfPath ()
+	{
 		//The AI has reached the end of the path
 	}
 
