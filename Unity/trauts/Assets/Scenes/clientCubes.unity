@@ -137,6 +137,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 236506178}
   - 114: {fileID: 236506177}
+  - 114: {fileID: 236506179}
   m_Layer: 0
   m_Name: _InteractionsDetection
   m_TagString: Untagged
@@ -173,6 +174,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &236506179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 236506176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3f6e9a6ed8a274780339d282623734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagCube: Cube
 --- !u!1 &823924904
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,10 +233,10 @@ Light:
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
-    m_Strength: .418000013
-    m_Bias: .158999994
-    m_Softness: 3.47000003
-    m_SoftnessFade: 1.70000005
+    m_Strength: .209999993
+    m_Bias: .310000002
+    m_Softness: 2.21000004
+    m_SoftnessFade: 3.24000001
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_ActuallyLightmapped: 0
@@ -420,7 +433,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080814284}
   m_LocalRotation: {x: .416745663, y: 0, z: 0, w: .909023166}
-  m_LocalPosition: {x: -.594971895, y: 3.99972725, z: -3.00323153}
+  m_LocalPosition: {x: -.594971895, y: 7.70736933, z: -6.40146971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -554,7 +567,7 @@ GameObject:
   - 114: {fileID: 1765412498}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

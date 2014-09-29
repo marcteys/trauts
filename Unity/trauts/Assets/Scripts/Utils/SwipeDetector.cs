@@ -23,10 +23,10 @@ public class SwipeDetector : MonoBehaviour {
 	
 	void  Update()
 	{
-		if (Input.touchCount > 0)
+		if (Input.touchCount > 0 /*&& VerifIfCube(Input.touches[0].position) */)
 		{
 			Touch touch = Input.touches[0];
-			
+
 			switch (touch.phase)
 			{
 			case TouchPhase.Began:
@@ -46,6 +46,7 @@ public class SwipeDetector : MonoBehaviour {
 					couldBeSwipe = false;
 				}
 				break;
+
 			case TouchPhase.Ended:
 				if (couldBeSwipe)
 				{
@@ -74,4 +75,21 @@ public class SwipeDetector : MonoBehaviour {
 			}
 		}
 	}
+	/*
+	bool VerifIfCube(Vector3 touchPos)
+	{
+		Ray ray = Camera.main.ScreenPointToRay(touchPos);
+		RaycastHit hit;
+		if (Physics.Raycast(ray, out hit, 100f))
+		{
+			if(hit.transform.CompareTag( "Cube" ))
+			{
+				Debug.Log ("cube clicked");
+				return true;
+			}
+		}
+		Debug.Log ("cube not clicked");
+		return false;
+
+	}*/
 }
