@@ -10,14 +10,14 @@ public class SwipeDetector : MonoBehaviour {
 	
 	private float startTime;
 	private Vector2 startPos;
-	private bool couldBeSwipe;
+	public bool couldBeSwipe;
 	
 	public enum SwipeDirection {
 		None,
 		Up,
 		Down
 	}
-	
+		
 	public SwipeDirection lastSwipe = SwipeDetector.SwipeDirection.None;
 	public float lastSwipeTime;
 	
@@ -69,6 +69,7 @@ public class SwipeDetector : MonoBehaviour {
 						Debug.Log("Found a swipe!  Direction: " + lastSwipe);
 					}
 				}
+				couldBeSwipe = false;
 				break;
 			}
 		}

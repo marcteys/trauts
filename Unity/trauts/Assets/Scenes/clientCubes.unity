@@ -138,7 +138,7 @@ GameObject:
   - 4: {fileID: 236506178}
   - 114: {fileID: 236506177}
   m_Layer: 0
-  m_Name: _SwipteDetector
+  m_Name: _InteractionsDetection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,6 +158,7 @@ MonoBehaviour:
   comfortZone: 70
   minSwipeDist: 14
   maxSwipeTime: .5
+  couldBeSwipe: 0
   lastSwipe: 0
   lastSwipeTime: 0
 --- !u!4 &236506178
@@ -171,7 +172,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
 --- !u!1 &823924904
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +202,7 @@ Transform:
   - {fileID: 960612190}
   - {fileID: 1753741732}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!108 &823924906
 Light:
   m_ObjectHideFlags: 0
@@ -328,7 +329,7 @@ Transform:
   m_Children:
   - {fileID: 128158940}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
 --- !u!114 &1032426597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,7 +424,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
 --- !u!1001 &1714386869
 Prefab:
   m_ObjectHideFlags: 0
@@ -608,7 +609,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
 --- !u!114 &1765412498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,4 +690,4 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
