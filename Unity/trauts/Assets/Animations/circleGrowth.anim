@@ -36,7 +36,7 @@ AnimationClip:
         value: {x: 0, y: 0, z: 1}
         inSlope: {x: -60.0000038, y: -60.0000038, z: 0}
         outSlope: {x: -60.0000038, y: -60.0000038, z: 0}
-        tangentMode: 0
+        tangentMode: 501921908
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: CircleOneSmall
@@ -47,22 +47,22 @@ AnimationClip:
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 30.0000019, y: 30.0000019, z: 15.000001}
         outSlope: {x: 30.0000019, y: 30.0000019, z: 15.000001}
-        tangentMode: 0
+        tangentMode: 508791120
       - time: .25
         value: {x: 2, y: 2, z: 1}
         inSlope: {x: 15.000001, y: 15.000001, z: 7.50000048}
         outSlope: {x: 15.000001, y: 15.000001, z: 7.50000048}
-        tangentMode: -1082130432
+        tangentMode: 0
       - time: .300000012
         value: {x: 2, y: 2, z: 1}
         inSlope: {x: -30.0000019, y: -30.0000019, z: 0}
         outSlope: {x: -30.0000019, y: -30.0000019, z: 0}
-        tangentMode: 97579044
+        tangentMode: 0
       - time: .333333343
         value: {x: 0, y: 0, z: 1}
         inSlope: {x: -60.0000038, y: -60.0000038, z: 0}
         outSlope: {x: -60.0000038, y: -60.0000038, z: 0}
-        tangentMode: 98892160
+        tangentMode: 509484624
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: CircleTwoThick
@@ -73,12 +73,12 @@ AnimationClip:
         value: {x: 20, y: 20, z: 1}
         inSlope: {x: -120, y: -120, z: 0}
         outSlope: {x: -120, y: -120, z: 0}
-        tangentMode: 1734934528
+        tangentMode: 0
       - time: .333333343
         value: {x: 0, y: 0, z: 1}
         inSlope: {x: -120, y: -120, z: 0}
         outSlope: {x: -120, y: -120, z: 0}
-        tangentMode: 109069724
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: CircleThreeOuter
@@ -94,7 +94,7 @@ AnimationClip:
         value: {x: 30, y: 30, z: 2}
         inSlope: {x: 62.0689621, y: 62.0689621, z: 4.13793087}
         outSlope: {x: 62.0689621, y: 62.0689621, z: 4.13793087}
-        tangentMode: 4
+        tangentMode: 510086304
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: CircleFourMain
@@ -136,48 +136,6 @@ AnimationClip:
     attribute: m_IsActive
     path: CircleFourMain
     classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: material._Color.r
-    path: CircleFourMain
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: material._Color.g
-    path: CircleFourMain
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: material._Color.b
-    path: CircleFourMain
-    classID: 23
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -249,24 +207,6 @@ AnimationClip:
       isPPtrCurve: 0
     - path: 3452096993
       attribute: 2108656497
-      script: {fileID: 0}
-      classID: 23
-      customType: 22
-      isPPtrCurve: 0
-    - path: 3452096993
-      attribute: 1303350129
-      script: {fileID: 0}
-      classID: 23
-      customType: 22
-      isPPtrCurve: 0
-    - path: 3452096993
-      attribute: 1571785585
-      script: {fileID: 0}
-      classID: 23
-      customType: 22
-      isPPtrCurve: 0
-    - path: 3452096993
-      attribute: 1840221041
       script: {fileID: 0}
       classID: 23
       customType: 22
@@ -615,48 +555,6 @@ AnimationClip:
     attribute: m_IsActive
     path: CircleFourMain
     classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: material._Color.r
-    path: CircleFourMain
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: material._Color.g
-    path: CircleFourMain
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: material._Color.b
-    path: CircleFourMain
-    classID: 23
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
