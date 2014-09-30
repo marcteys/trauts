@@ -62,9 +62,9 @@ public class ClientDispatch : MonoBehaviour {
 
 
 	[RPC]
-	void ChangeMode(int cubeID, InteractiveMode newMode)
+	void ChangeMode(int cubeID, int newMode)
 	{
-
+		cubesList[cubeID].GetComponent<CubeInteraction>().SetNewType(newMode);
 	}
 
 }

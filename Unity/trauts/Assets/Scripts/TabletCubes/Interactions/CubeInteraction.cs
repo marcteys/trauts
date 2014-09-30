@@ -31,7 +31,6 @@ public class CubeInteraction : MonoBehaviour {
 	public NetworkView serverView;
 
 
-
 	 void Start() 
 	{
 		repulsObj = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
@@ -78,15 +77,7 @@ public class CubeInteraction : MonoBehaviour {
 	{
 		ApplyGauge();
 	}
-
-	void ApplyGauge()
-	{
-		if(gauge < 1f) gauge = gauge + Time.deltaTime * regenSpeed;
-
-		Vector3 gaugeScale = new Vector3(1,1,gauge);
-		gaugeColor.localScale = gaugeScale;
-	}
-
+	
 	void RepulsiveWave()
 	{
 		//Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
@@ -103,7 +94,7 @@ public class CubeInteraction : MonoBehaviour {
 		Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
 	}
 
-	public void ChangeType(bool slideRight)
+	public void SwipteType(bool slideRight)
 	{
 		Debug.Log ("Cube orientation Changed");
 
@@ -136,14 +127,35 @@ public class CubeInteraction : MonoBehaviour {
 			case InteractiveMode.Attractive : 
 				interactiveMode = InteractiveMode.Repulsive;
 				break;
-				
+
 			case InteractiveMode.Emc : 
 				interactiveMode = InteractiveMode.Attractive;
 				break;
 			}
 		}
 
+		serverView.RPCEx("ChangeMode", RPCMode.All, cubeId, (int)interactiveMode);
+
 		ChangeColor();
+	}
+
+	public void SetNewType(int newType)
+	{
+		interactiveMode = (InteractiveMode)newType;
+		ChangeColor();
+	}
+
+
+
+	// other visual tools 
+
+
+	void ApplyGauge()
+	{
+		if(gauge < 1f) gauge = gauge + Time.deltaTime * regenSpeed;
+		
+		Vector3 gaugeScale = new Vector3(1,1,gauge);
+		gaugeColor.localScale = gaugeScale;
 	}
 
 	void ChangeColor()

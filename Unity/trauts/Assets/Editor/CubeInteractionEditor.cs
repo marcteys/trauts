@@ -12,11 +12,11 @@ public class CubeInteractionEditor : Editor
 		CubeInteraction myScript = (CubeInteraction)target;
 		if(GUILayout.Button("Change Type Right"))
 		{
-			myScript.ChangeType(true);
+			myScript.SwipteType(true);
 		}
 		if(GUILayout.Button("Change Type Left"))
 		{
-			myScript.ChangeType(false);
+			myScript.SwipteType(false);
 		}
 	}
 }

@@ -8,7 +8,6 @@ public class TouchEventHandler : MonoBehaviour {
 	private SwipeDetector sd;
 	private float limit = 100;
 
-
 	void Start ()
 	{
 		sd = this.GetComponent<SwipeDetector>();
@@ -31,12 +30,9 @@ public class TouchEventHandler : MonoBehaviour {
 		{
 			if(hit.transform.CompareTag( tagCube ))
 			{
-				Debug.Log ("cube");
 				hit.transform.GetComponent<CubeInteraction>().CreateWave();
-
 			}
 		}
 	}
-
 
 }

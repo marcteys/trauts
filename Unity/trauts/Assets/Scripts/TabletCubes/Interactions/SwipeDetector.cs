@@ -25,7 +25,7 @@ public class SwipeDetector : MonoBehaviour {
 
 	void  Update()
 	{
-		if (Input.touchCount > 0 && VerifIfCube(Input.touches[0].position))
+		if (Input.touchCount > 0)
 		{
 			Touch touch = Input.touches[0];
 
@@ -34,9 +34,16 @@ public class SwipeDetector : MonoBehaviour {
 			case TouchPhase.Began:
 				lastSwipe = SwipeDetector.SwipeDirection.None;
 				lastSwipeTime = 0;
-				couldBeSwipe = true;
 				startPos = touch.position;
 				startTime = Time.time;
+				couldBeSwipe = true;
+
+				if(!VerifIfCube(startPos))
+				{
+					couldBeSwipe = false;
+					return;
+
+				}
 				break;
 				
 			case TouchPhase.Moved:
@@ -65,12 +72,12 @@ public class SwipeDetector : MonoBehaviour {
 						if (swipeValue > 0)
 						{
 							lastSwipe = SwipeDetector.SwipeDirection.Up;
-							clickedCube.ChangeType(true);
+							clickedCube.SwipteType(true);
 						}
 						else if (swipeValue < 0)
 						{
 							lastSwipe = SwipeDetector.SwipeDirection.Down;
-							clickedCube.ChangeType(false);
+							clickedCube.SwipteType(false);
 						}
 						
 						// Set the time the last swipe occured, useful for other scripts to check:
