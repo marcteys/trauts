@@ -9,19 +9,23 @@ Direct3D:
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
-- Completed reload, in  0.109 seconds
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
+Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
+- Completed reload, in  0.119 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.Core.dll (this message is harmless)
-Scanning - Process took 58 ms to complete
+Scanning - Process took 61 ms to complete
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
@@ -65,15 +69,4 @@ NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scr
  
 (Filename: C Line: 0)
 
-click on Cube Cube
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-GameDebug:DetectCube() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Debug\GameDebug.cs:39)
-GameDebug:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Debug\GameDebug.cs:23)
- 
-(Filename: C Line: 0)
-
-Internal RPC error. Invalid RPC index, function not registered.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2463)
-
+Waiting for finish

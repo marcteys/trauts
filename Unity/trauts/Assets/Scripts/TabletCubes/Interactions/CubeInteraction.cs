@@ -37,7 +37,15 @@ public class CubeInteraction : MonoBehaviour {
 		repulsObj = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		gaugeColor = this.transform.Find("CubeInfo/Color");
 		gaugeBG = this.transform.Find("CubeInfo/Background").GetComponent<BlinkBackground>();
+		ChangeColor();
+
 	}
+
+	void OnConnectedToServer()
+	{
+		ChangeColor();
+	}
+
 
 	public void CreateWave()
 	{
@@ -82,7 +90,7 @@ public class CubeInteraction : MonoBehaviour {
 	void RepulsiveWave()
 	{
 		//Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
-		serverView.RPCEx("CreateWave", RPCMode.All, cubeId,transform.position.x,transform.position.y,transform.position.z, (int)interactiveMode);
+		serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
 	}
 
 	void AttractiveWave()
@@ -95,9 +103,10 @@ public class CubeInteraction : MonoBehaviour {
 		Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
 	}
 
-
-	void ChangeType(bool slideRight)
+	public void ChangeType(bool slideRight)
 	{
+		Debug.Log ("Cube orientation Changed");
+
 		if(slideRight) 
 		{
 			// si on vas vers la droite
@@ -119,7 +128,6 @@ public class CubeInteraction : MonoBehaviour {
 		else 
 		{
 			//si on vas vers la gauche
-			// si on vas vers la droite
 			switch(interactiveMode)
 			{
 			case InteractiveMode.Repulsive :
@@ -134,6 +142,36 @@ public class CubeInteraction : MonoBehaviour {
 				break;
 			}
 		}
+
+		ChangeColor();
+	}
+
+	void ChangeColor()
+	{
+
+		Color targetColor = new Color(1,1,1,1);
+
+		switch(interactiveMode)
+		{
+		case InteractiveMode.Repulsive :
+			targetColor = GameData.repulsiveColor;
+			break;
+			
+		case InteractiveMode.Attractive : 
+			targetColor = GameData.attractiveColor;
+			break;
+			
+		case InteractiveMode.Emc : 
+			targetColor = GameData.emcColor;
+			break;
+		}
+
+
+		MaterialPropertyBlock mb = new MaterialPropertyBlock();
+		mb.AddColor("_Color",targetColor);
+		gaugeColor.transform.renderer.SetPropertyBlock(mb);
+
+
 	}
 
 }

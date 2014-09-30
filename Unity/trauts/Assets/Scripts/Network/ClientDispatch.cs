@@ -20,7 +20,7 @@ public class ClientDispatch : MonoBehaviour {
 	void Start()
 	{
 		//debug
-		Network.InitializeServer(200,8081,true);
+		//Network.InitializeServer(200,8081,true);
 
 		cubesList = new GameObject[cubeNumber];
 
@@ -52,9 +52,9 @@ public class ClientDispatch : MonoBehaviour {
 
 
 	[RPC]
-	void CreateWave(int cubeID, float cubePosX, float cubePosY,float cubePosZ, int intMode)
+	void CreateWave(int cubeID, int intMode)
 	{
-		Vector3 cubePos = new Vector3(cubePosX,cubePosY,cubePosZ);
+		Vector3 cubePos = cubesList[cubeID].transform.position;
 
 		GameObject wavePrefab = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		GameObject tmpWave = (GameObject)Instantiate(wavePrefab,cubePos,wavePrefab.transform.rotation);

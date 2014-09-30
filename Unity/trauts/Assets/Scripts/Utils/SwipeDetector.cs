@@ -20,10 +20,12 @@ public class SwipeDetector : MonoBehaviour {
 		
 	public SwipeDirection lastSwipe = SwipeDetector.SwipeDirection.None;
 	public float lastSwipeTime;
-	
+
+	public CubeInteraction clickedCube;
+
 	void  Update()
 	{
-		if (Input.touchCount > 0 /*&& VerifIfCube(Input.touches[0].position) */)
+		if (Input.touchCount > 0 && VerifIfCube(Input.touches[0].position))
 		{
 			Touch touch = Input.touches[0];
 
@@ -61,9 +63,15 @@ public class SwipeDetector : MonoBehaviour {
 						// If the swipe direction is positive, it was an upward swipe.
 						// If the swipe direction is negative, it was a downward swipe.
 						if (swipeValue > 0)
+						{
 							lastSwipe = SwipeDetector.SwipeDirection.Up;
+							clickedCube.ChangeType(true);
+						}
 						else if (swipeValue < 0)
+						{
 							lastSwipe = SwipeDetector.SwipeDirection.Down;
+							clickedCube.ChangeType(false);
+						}
 						
 						// Set the time the last swipe occured, useful for other scripts to check:
 						lastSwipeTime = Time.time;
@@ -75,7 +83,7 @@ public class SwipeDetector : MonoBehaviour {
 			}
 		}
 	}
-	/*
+
 	bool VerifIfCube(Vector3 touchPos)
 	{
 		Ray ray = Camera.main.ScreenPointToRay(touchPos);
@@ -84,12 +92,12 @@ public class SwipeDetector : MonoBehaviour {
 		{
 			if(hit.transform.CompareTag( "Cube" ))
 			{
-				Debug.Log ("cube clicked");
+				clickedCube = hit.transform.gameObject.GetComponent<CubeInteraction>();
 				return true;
 			}
 		}
 		Debug.Log ("cube not clicked");
 		return false;
 
-	}*/
+	}
 }

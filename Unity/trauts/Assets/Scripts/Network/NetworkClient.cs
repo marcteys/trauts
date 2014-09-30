@@ -10,6 +10,8 @@ public class NetworkClient : MonoBehaviour {
 	string defaultServerIP = "127.0.0.1";
 	string serverIP = "127.0.0.1";
 
+	public bool connectOnStart = false;
+
 	// Update is called once per frame
 	void Update ()
 	{
@@ -30,7 +32,11 @@ public class NetworkClient : MonoBehaviour {
 			}
 		}
 	}
-	
+
+	void Start()
+	{
+		if(connectOnStart) ConnectToServer();
+	}
 	public void ConnectToServer()
 	{
 		Network.Connect( serverIP, 25000);
