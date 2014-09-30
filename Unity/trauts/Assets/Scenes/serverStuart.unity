@@ -204,8 +204,9 @@ GameObject:
   - 23: {fileID: 485743549}
   - 114: {fileID: 485743554}
   - 114: {fileID: 485743553}
+  - 114: {fileID: 485743555}
   m_Layer: 9
-  m_Name: Cube_Orange
+  m_Name: Cube_3
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,11 +269,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 485743548}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82dbd0dfb37e50f4c992204e1ed76dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactiveMode: 0
 --- !u!114 &485743554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +288,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updateError: .100000001
   checkTime: .100000001
+--- !u!114 &485743555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 485743548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeId: 3
+  gauge: 1
+  interactiveMode: 0
+  serverView: {fileID: 0}
 --- !u!1 &532477440
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,8 +385,9 @@ GameObject:
   - 23: {fileID: 555204387}
   - 114: {fileID: 555204390}
   - 114: {fileID: 555204386}
+  - 114: {fileID: 555204391}
   m_Layer: 9
-  m_Name: Cube_Purple
+  m_Name: Cube_4
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -393,11 +411,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 555204384}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82dbd0dfb37e50f4c992204e1ed76dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactiveMode: 0
 --- !u!23 &555204387
 Renderer:
   m_ObjectHideFlags: 0
@@ -450,6 +469,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updateError: .100000001
   checkTime: .100000001
+--- !u!114 &555204391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 555204384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeId: 4
+  gauge: 1
+  interactiveMode: 0
+  serverView: {fileID: 0}
 --- !u!1 &1064862334
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,8 +581,9 @@ GameObject:
   - 23: {fileID: 1076065373}
   - 114: {fileID: 1076065378}
   - 114: {fileID: 1076065377}
+  - 114: {fileID: 1076065379}
   m_Layer: 9
-  m_Name: Cube_Red
+  m_Name: Cube_0
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -611,11 +646,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1076065372}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82dbd0dfb37e50f4c992204e1ed76dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactiveMode: 0
 --- !u!114 &1076065378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,6 +665,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updateError: .100000001
   checkTime: .100000001
+--- !u!114 &1076065379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1076065372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeId: 0
+  gauge: 1
+  interactiveMode: 0
+  serverView: {fileID: 0}
 --- !u!1 &1087951824
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +997,7 @@ GameObject:
   - 4: {fileID: 1370745853}
   - 148: {fileID: 1370745854}
   - 114: {fileID: 1370745855}
+  - 114: {fileID: 1370745856}
   m_Layer: 0
   m_Name: _NetworkDispatcher
   m_TagString: Untagged
@@ -988,6 +1040,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 785f05329656c4c40a8bf8b1cc35490a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serverView: {fileID: 1370745854}
+  cubeNumber: 3
+  cubesList: []
+--- !u!114 &1370745856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 0fe05ca69896e5149993d7a002536940,
+    type: 2}
+  m_PrefabInternal: {fileID: 156311866}
+  m_GameObject: {fileID: 1370745852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754d95386d6cc489195f951bbeeb7345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1427723140
@@ -1035,8 +1102,9 @@ GameObject:
   - 23: {fileID: 1552309814}
   - 114: {fileID: 1552309819}
   - 114: {fileID: 1552309818}
+  - 114: {fileID: 1552309820}
   m_Layer: 9
-  m_Name: Cube_Green
+  m_Name: Cube_2
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1099,11 +1167,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1552309813}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82dbd0dfb37e50f4c992204e1ed76dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactiveMode: 0
 --- !u!114 &1552309819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1117,6 +1186,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updateError: .100000001
   checkTime: .100000001
+--- !u!114 &1552309820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552309813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeId: 2
+  gauge: 1
+  interactiveMode: 0
+  serverView: {fileID: 0}
 --- !u!1 &1633143725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,8 +1390,9 @@ GameObject:
   - 23: {fileID: 2027287997}
   - 114: {fileID: 2027288002}
   - 114: {fileID: 2027288001}
+  - 114: {fileID: 2027288003}
   m_Layer: 9
-  m_Name: Cube_Blue
+  m_Name: Cube_1
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1370,11 +1455,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2027287996}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82dbd0dfb37e50f4c992204e1ed76dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactiveMode: 0
 --- !u!114 &2027288002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1388,6 +1474,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updateError: .100000001
   checkTime: .100000001
+--- !u!114 &2027288003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027287996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeId: 1
+  gauge: 1
+  interactiveMode: 0
+  serverView: {fileID: 0}
 --- !u!1 &2094874301
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,6 +18,7 @@ public class CubeInteraction : MonoBehaviour {
 	//stats for nerds
 	private float waveCost = 0.2f;
 	private float regenSpeed = 0.1f;
+
 	private GameObject repulsObj;
 	private GameObject attractObj;
 	private GameObject emcObj;
@@ -36,7 +37,6 @@ public class CubeInteraction : MonoBehaviour {
 		repulsObj = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		gaugeColor = this.transform.Find("CubeInfo/Color");
 		gaugeBG = this.transform.Find("CubeInfo/Background").GetComponent<BlinkBackground>();
-
 	}
 
 	public void CreateWave()
@@ -82,7 +82,7 @@ public class CubeInteraction : MonoBehaviour {
 	void RepulsiveWave()
 	{
 		//Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
-		serverView.RPCEx("CreateWave", RPCMode.All, cubeId, this.transform.position, interactiveMode);
+		serverView.RPCEx("CreateWave", RPCMode.All, cubeId,transform.position.x,transform.position.y,transform.position.z, (int)interactiveMode);
 	}
 
 	void AttractiveWave()
@@ -96,9 +96,44 @@ public class CubeInteraction : MonoBehaviour {
 	}
 
 
-	void ChangeType()
+	void ChangeType(bool slideRight)
 	{
+		if(slideRight) 
+		{
+			// si on vas vers la droite
+			switch(interactiveMode)
+			{
+			case InteractiveMode.Repulsive :
+				interactiveMode = InteractiveMode.Attractive;
+				break;
+				
+			case InteractiveMode.Attractive : 
+				interactiveMode = InteractiveMode.Emc;
+				break;
+				
+			case InteractiveMode.Emc : 
+				break;
+			}
 
+		}
+		else 
+		{
+			//si on vas vers la gauche
+			// si on vas vers la droite
+			switch(interactiveMode)
+			{
+			case InteractiveMode.Repulsive :
+				break;
+				
+			case InteractiveMode.Attractive : 
+				interactiveMode = InteractiveMode.Repulsive;
+				break;
+				
+			case InteractiveMode.Emc : 
+				interactiveMode = InteractiveMode.Attractive;
+				break;
+			}
+		}
 	}
 
 }

@@ -41,7 +41,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 785f05329656c4c40a8bf8b1cc35490a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherView: {fileID: 14800000}
+  serverView: {fileID: 14800000}
+  cubeNumber: 3
+  cubesList: []
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

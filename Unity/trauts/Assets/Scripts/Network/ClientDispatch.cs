@@ -14,6 +14,25 @@ public class ClientDispatch : MonoBehaviour {
 		Emc
 	}
 
+	public int cubeNumber;
+	public GameObject[] cubesList;
+
+	void Start()
+	{
+		//debug
+		Network.InitializeServer(200,8081,true);
+
+		cubesList = new GameObject[cubeNumber];
+
+		for(int i= 0; i<cubeNumber; ++i)
+		{
+			cubesList[i] = GameObject.Find("Cube_"+i);
+		}
+
+
+
+	}
+
 	void OnGUI()
 	{
 		if(GUILayout.Button("Call Print"))
@@ -33,8 +52,10 @@ public class ClientDispatch : MonoBehaviour {
 
 
 	[RPC]
-	void CreateWave(int cubeID, Vector3 cubePos, InteractiveMode intMode)
+	void CreateWave(int cubeID, float cubePosX, float cubePosY,float cubePosZ, int intMode)
 	{
+		Vector3 cubePos = new Vector3(cubePosX,cubePosY,cubePosZ);
+
 		GameObject wavePrefab = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		GameObject tmpWave = (GameObject)Instantiate(wavePrefab,cubePos,wavePrefab.transform.rotation);
 	}
