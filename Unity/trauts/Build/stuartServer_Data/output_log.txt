@@ -19,13 +19,13 @@ Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServe
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
-- Completed reload, in  0.107 seconds
+- Completed reload, in  0.103 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.Core.dll (this message is harmless)
-Scanning - Process took 73 ms to complete
+Scanning - Process took 74 ms to complete
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
@@ -35,6 +35,7 @@ AstarPath:Awake() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPa
  
 (Filename: C Line: 0)
 
+WARNING: Shader Unsupported: 'Trauts/AlphaUnlit' - Pass '' shader state not supported
 Starting Server
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -43,7 +44,7 @@ NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scr
  
 (Filename: C Line: 0)
 
-Server has public address : True. Will use NAT PunchThrough : False
+Server has public address : False. Will use NAT PunchThrough : True
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:20)
@@ -68,31 +69,5 @@ NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Asse
 NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
  
 (Filename: C Line: 0)
-
-DNSLookup: Error looking up masterserver.unity3d.com (9852)
-Cannot resolve master server address, you must be connected to the internet before using it or set the address to something accessible to you.
-UnityEngine.MasterServer:RegisterHost(String, String, String)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:23)
-NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkUtility.cpp line 652] 
-(Filename: C Line: 0)
-
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1172.
-sendto failed with code -1 for char 9 and length 1172.
-sendto failed with code -1 for char 9 and length 1172.
-sendto failed with code -1 for char 9 and length 1172.
-sendto failed with code -1 for char 9 and length 548.
-sendto failed with code -1 for char 9 and length 548.
-sendto failed with code -1 for char 9 and length 548.
-sendto failed with code -1 for char 9 and length 548.
-sendto failed with code -1 for char 9 and length 548.
-Failed to connect to master server at 0.0.0.0:23466
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/MasterServerInterface.cpp Line: 231)
 
 Waiting for finish
