@@ -8,12 +8,10 @@ public class TouchEventHandler : MonoBehaviour {
 	private SwipeDetector sd;
 	private float limit = 100;
 
-	private GameObject wave;
 
 	void Start ()
 	{
 		sd = this.GetComponent<SwipeDetector>();
-		wave = (GameObject)Resources.Load ("Tablet/CircleExpand") as GameObject;
 	}
 	
 	void Update ()
@@ -34,7 +32,8 @@ public class TouchEventHandler : MonoBehaviour {
 			if(hit.transform.CompareTag( tagCube ))
 			{
 				Debug.Log ("cube");
-				Instantiate(wave, hit.transform.position, wave.transform.rotation);
+				hit.transform.GetComponent<CubeInteraction>().CreateWave();
+
 			}
 		}
 	}
