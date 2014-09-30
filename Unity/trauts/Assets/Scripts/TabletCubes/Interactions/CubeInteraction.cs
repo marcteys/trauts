@@ -4,6 +4,9 @@ using System.Collections;
 public class CubeInteraction : MonoBehaviour {
 
 
+
+	public int cubeId =0;
+
 	public float gauge = 1f;
 	public enum InteractiveMode {
 		Repulsive,
@@ -23,17 +26,21 @@ public class CubeInteraction : MonoBehaviour {
 	private Transform gaugeColor;
 	private BlinkBackground gaugeBG;
 
+	//server stuff
+	public NetworkView serverView;
 
-	public void Start() 
+
+
+	 void Start() 
 	{
-		repulsObj = (GameObject)Resources.Load ("Tablet/CircleExpand") as GameObject;
+		repulsObj = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		gaugeColor = this.transform.Find("CubeInfo/Color");
 		gaugeBG = this.transform.Find("CubeInfo/Background").GetComponent<BlinkBackground>();
+
 	}
 
 	public void CreateWave()
 	{
-
 		if(gauge > waveCost)
 		{
 			switch(interactiveMode)
@@ -57,7 +64,6 @@ public class CubeInteraction : MonoBehaviour {
 		{
 			gaugeBG.blink = true;
 		}
-
 	}
 
 	void Update()
@@ -75,7 +81,8 @@ public class CubeInteraction : MonoBehaviour {
 
 	void RepulsiveWave()
 	{
-		Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
+		//Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
+		serverView.RPCEx("CreateWave", RPCMode.All, cubeId, this.transform.position, interactiveMode);
 	}
 
 	void AttractiveWave()
@@ -86,6 +93,12 @@ public class CubeInteraction : MonoBehaviour {
 	void EmcWave() 
 	{
 		Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
+	}
+
+
+	void ChangeType()
+	{
+
 	}
 
 }

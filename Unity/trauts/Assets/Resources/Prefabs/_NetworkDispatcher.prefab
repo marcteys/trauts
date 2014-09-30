@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 148: {fileID: 14800000}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: _NetworkDispatcher
   m_TagString: Untagged
@@ -38,6 +39,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 785f05329656c4c40a8bf8b1cc35490a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherView: {fileID: 14800000}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754d95386d6cc489195f951bbeeb7345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!148 &14800000
