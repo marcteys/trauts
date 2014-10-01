@@ -3,8 +3,6 @@ using System.Collections;
 
 public class CubeInteraction : MonoBehaviour {
 
-
-
 	public int cubeId =0;
 
 	public float gauge = 1f;
@@ -30,21 +28,18 @@ public class CubeInteraction : MonoBehaviour {
 	//server stuff
 	public NetworkView serverView;
 
-
-	 void Start() 
+	void Start() 
 	{
 		repulsObj = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		gaugeColor = this.transform.Find("CubeInfo/Color");
 		gaugeBG = this.transform.Find("CubeInfo/Background").GetComponent<BlinkBackground>();
 		ChangeColor();
-
 	}
 
 	void OnConnectedToServer()
 	{
 		ChangeColor();
 	}
-
 
 	public void CreateWave()
 	{
@@ -65,11 +60,10 @@ public class CubeInteraction : MonoBehaviour {
 				break;
 			}
 			gauge -= waveCost;
-
 		}
 		else
 		{
-			gaugeBG.blink = true;
+			gaugeBG.StartBlink();
 		}
 	}
 
@@ -91,7 +85,7 @@ public class CubeInteraction : MonoBehaviour {
 
 	void EmcWave() 
 	{
-		Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
+		serverView.RPCEx("CreateEmc", RPCMode.Server, cubeId);
 	}
 
 	public void SwipteType(bool slideRight)
@@ -114,7 +108,6 @@ public class CubeInteraction : MonoBehaviour {
 			case InteractiveMode.Emc : 
 				break;
 			}
-
 		}
 		else 
 		{
@@ -146,9 +139,7 @@ public class CubeInteraction : MonoBehaviour {
 	}
 
 
-
 	// other visual tools 
-
 
 	void ApplyGauge()
 	{
@@ -178,11 +169,9 @@ public class CubeInteraction : MonoBehaviour {
 			break;
 		}
 
-
 		MaterialPropertyBlock mb = new MaterialPropertyBlock();
 		mb.AddColor("_Color",targetColor);
 		gaugeColor.transform.renderer.SetPropertyBlock(mb);
-
 
 	}
 

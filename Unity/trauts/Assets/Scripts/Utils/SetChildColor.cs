@@ -5,6 +5,7 @@ public class SetChildColor : MonoBehaviour {
 
 	public Color newColor = new Color(1,1,1,1);
 	private MaterialPropertyBlock mb;
+
 	void Awake()
 	{
 		mb = new MaterialPropertyBlock();
@@ -14,7 +15,6 @@ public class SetChildColor : MonoBehaviour {
 		{
 			child.renderer.SetPropertyBlock(mb);
 		}
-
 	}
 
 }
