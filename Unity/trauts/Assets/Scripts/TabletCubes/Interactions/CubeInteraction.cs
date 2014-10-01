@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CubeInteraction : MonoBehaviour {
 
-	public int cubeId =0;
+	private int cubeId =0;
 
 	public float gauge = 1f;
 	public enum InteractiveMode {
@@ -30,10 +30,14 @@ public class CubeInteraction : MonoBehaviour {
 
 	void Start() 
 	{
+		//find the cube id
+		cubeId = int.Parse(this.transform.name.Split('_')[1]);
 		repulsObj = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		gaugeColor = this.transform.Find("CubeInfo/Color");
 		gaugeBG = this.transform.Find("CubeInfo/Background").GetComponent<BlinkBackground>();
 		ChangeColor();
+
+		if(serverView == null) serverView = GameObject.Find("_NetworkDispatcher").GetComponent<NetworkView>();
 	}
 
 	void OnConnectedToServer()

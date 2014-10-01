@@ -87,7 +87,7 @@ GameObject:
   - 23: {fileID: 670383}
   - 114: {fileID: 670382}
   m_Layer: 0
-  m_Name: Cube_2
+  m_Name: 
   m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,10 +118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 2
   gauge: 1
   interactiveMode: 0
-  serverView: {fileID: 128158941}
+  serverView: {fileID: 0}
 --- !u!23 &670383
 Renderer:
   m_ObjectHideFlags: 0
@@ -198,12 +197,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 30638714}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  am: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!23 &30638717
 Renderer:
   m_ObjectHideFlags: 0
@@ -244,7 +243,6 @@ GameObject:
   - 33: {fileID: 37721916}
   - 65: {fileID: 37721915}
   - 23: {fileID: 37721914}
-  - 114: {fileID: 37721913}
   - 114: {fileID: 37721912}
   m_Layer: 9
   m_Name: Cube_0
@@ -278,23 +276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 0
   gauge: 1
   interactiveMode: 0
   serverView: {fileID: 128158941}
---- !u!114 &37721913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 37721910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateError: .100000001
-  checkTime: .100000001
 --- !u!23 &37721914
 Renderer:
   m_ObjectHideFlags: 0
@@ -532,7 +516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  am: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!23 &92376918
 Renderer:
   m_ObjectHideFlags: 0
@@ -699,7 +683,6 @@ GameObject:
   - 33: {fileID: 186668043}
   - 65: {fileID: 186668042}
   - 23: {fileID: 186668041}
-  - 114: {fileID: 186668040}
   - 114: {fileID: 186668039}
   m_Layer: 9
   m_Name: Cube_4
@@ -733,23 +716,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 4
   gauge: 1
   interactiveMode: 0
   serverView: {fileID: 128158941}
---- !u!114 &186668040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 186668037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateError: .100000001
-  checkTime: .100000001
 --- !u!23 &186668041
 Renderer:
   m_ObjectHideFlags: 0
@@ -1059,6 +1028,7 @@ GameObject:
   - 33: {fileID: 513887872}
   - 23: {fileID: 513887871}
   - 114: {fileID: 513887870}
+  - 95: {fileID: 513887874}
   - 111: {fileID: 513887873}
   m_Layer: 0
   m_Name: Background
@@ -1086,12 +1056,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 513887868}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  am: {fileID: 0}
+  clip: {fileID: 7400000, guid: f293a92a85a0423429588129bd4a6bfa, type: 2}
 --- !u!23 &513887871
 Renderer:
   m_ObjectHideFlags: 0
@@ -1130,11 +1100,27 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: f293a92a85a0423429588129bd4a6bfa, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
+  m_Animations:
+  - {fileID: 7400000, guid: f293a92a85a0423429588129bd4a6bfa, type: 2}
+  m_WrapMode: 1
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!95 &513887874
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 513887868}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2069a0980570f8b42b947af665b2aec8, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &731421291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,12 +1322,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 774161242}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  am: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!23 &774161245
 Renderer:
   m_ObjectHideFlags: 0
@@ -1408,12 +1394,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 821165188}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  am: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!23 &821165191
 Renderer:
   m_ObjectHideFlags: 0
@@ -1755,7 +1741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8855ace95553c4193a0a34fa8c53d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connectOnStart: 1
+  connectOnStart: 0
 --- !u!1 &1048726384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2047,7 +2033,6 @@ GameObject:
   - 33: {fileID: 1199772504}
   - 65: {fileID: 1199772503}
   - 23: {fileID: 1199772502}
-  - 114: {fileID: 1199772501}
   - 114: {fileID: 1199772500}
   m_Layer: 9
   m_Name: Cube_1
@@ -2081,23 +2066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 1
   gauge: 1
   interactiveMode: 0
   serverView: {fileID: 128158941}
---- !u!114 &1199772501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1199772498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateError: .100000001
-  checkTime: .100000001
 --- !u!23 &1199772502
 Renderer:
   m_ObjectHideFlags: 0
@@ -2178,7 +2149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  am: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!23 &1298911153
 Renderer:
   m_ObjectHideFlags: 0
@@ -2277,7 +2248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  am: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!1 &1343205466
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,7 +2260,6 @@ GameObject:
   - 33: {fileID: 1343205471}
   - 65: {fileID: 1343205470}
   - 23: {fileID: 1343205469}
-  - 114: {fileID: 1343205468}
   - 114: {fileID: 1343205467}
   m_Layer: 9
   m_Name: Cube_3
@@ -2309,23 +2279,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 3
   gauge: 1
-  interactiveMode: 2
+  interactiveMode: 0
   serverView: {fileID: 128158941}
---- !u!114 &1343205468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1343205466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateError: .100000001
-  checkTime: .100000001
 --- !u!23 &1343205469
 Renderer:
   m_ObjectHideFlags: 0
@@ -2493,10 +2449,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 1
   gauge: 1
-  interactiveMode: 2
-  serverView: {fileID: 128158941}
+  interactiveMode: 0
+  serverView: {fileID: 0}
 --- !u!23 &1469140113
 Renderer:
   m_ObjectHideFlags: 0
@@ -2856,10 +2811,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 0
   gauge: 1
   interactiveMode: 0
-  serverView: {fileID: 128158941}
+  serverView: {fileID: 0}
 --- !u!1 &1797468970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,7 +2855,6 @@ GameObject:
   - 33: {fileID: 1811094467}
   - 65: {fileID: 1811094466}
   - 23: {fileID: 1811094465}
-  - 114: {fileID: 1811094464}
   - 114: {fileID: 1811094463}
   m_Layer: 9
   m_Name: Cube_2
@@ -2921,23 +2874,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 2
   gauge: 1
   interactiveMode: 0
   serverView: {fileID: 128158941}
---- !u!114 &1811094464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1811094462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateError: .100000001
-  checkTime: .100000001
 --- !u!23 &1811094465
 Renderer:
   m_ObjectHideFlags: 0
@@ -3339,12 +3278,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2048043200}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  am: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!23 &2048043203
 Renderer:
   m_ObjectHideFlags: 0

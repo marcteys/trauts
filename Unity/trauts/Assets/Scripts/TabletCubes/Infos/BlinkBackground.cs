@@ -4,16 +4,26 @@ using System.Collections;
 public class BlinkBackground : MonoBehaviour {
 
 
-	public Animation am;
+	private Animator am;
+	public AnimationClip clip;
+
 
 	void Start()
 	{
-		am = GetComponent<Animation>();
+
+		//am = GetComponent<Animation>();
+		//am.Play(clip.name);
+
+	//Animator a = GetComponent<Animator>();/*
+		//a.Play("blinkBackground");
 	}
 
 	public void StartBlink()
 	{
-		am.Play();
+		Animation ani = this.GetComponent<Animation>();
 
+		//animation.Play();
+	//	animation.Play();
+	//	am.Play(clip.name);
 	}
 }
