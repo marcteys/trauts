@@ -20,28 +20,60 @@ public class ClientDispatch : MonoBehaviour {
 	public GameObject stuartObj;
 	public GameObject stuartObjNetwork;
 
+	private bool isReady = false;
+
+
 	void Start()
 	{
 		//debug
 		//Network.InitializeServer(200,8081,true);
 
 		cubesList = new GameObject[cubeNumber];
-		cubesListNetwork = new GameObject[cubeNumber];
 
 		for(int i= 0; i<cubeNumber; ++i)
 		{
 			cubesList[i] = GameObject.Find("Cube_"+i);
-			cubesListNetwork[i]= GameObject.Find("Cube_Network_"+i);
+		//	cubesListNetwork[i]= GameObject.Find("Cube_Network_"+i);
 		}
 		stuartObj = GameObject.Find("Stuart");
-		stuartObjNetwork = GameObject.Find("Stuart_Network");
+	//	stuartObjNetwork = GameObject.Find("Stuart_Network");
 
 	}
 
 
+	void OnServerInitialized()
+	{
+		SpawnCubes();
+	}
+	void  OnConnectedToServer()
+	{
+		SpawnCubes();
+	}
+
+	void SpawnCubes()
+	{
+		//instantiate cubes
+		cubesListNetwork = new GameObject[cubeNumber];
+		for(int i= 0; i<cubeNumber; ++i)
+		{
+			GameObject tmpCube = (GameObject)Resources.Load("Network/Cube_Network_"+i) as GameObject;
+			GameObject newCube = (GameObject)Network.Instantiate(tmpCube,this.transform.position,Quaternion.identity,1) as GameObject;
+			newCube.transform.name = tmpCube.transform.name;
+			cubesListNetwork[i] = GameObject.Find("Cube_Network_"+i);
+		}
+
+		//instantialte stuart
+		GameObject tmpStuart = (GameObject)Resources.Load("Network/Stuart_Network") as GameObject;
+		GameObject newStu = (GameObject)Network.Instantiate(tmpStuart,this.transform.position,Quaternion.identity,1) as GameObject;
+		newStu.transform.name = tmpStuart.transform.name;
+		stuartObjNetwork = GameObject.Find("Stuart_Network");
+
+		isReady = true;
+	}
+
 	void Update()
 	{
-		if(Network.isServer)
+		if(Network.isServer && isReady)
 		{
 			for(int i= 0; i<cubeNumber; ++i)
 			{

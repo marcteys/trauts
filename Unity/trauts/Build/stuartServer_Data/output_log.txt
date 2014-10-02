@@ -19,13 +19,13 @@ Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServe
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
-- Completed reload, in  0.222 seconds
+- Completed reload, in  1.694 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.Core.dll (this message is harmless)
-Scanning - Process took 110 ms to complete
+Scanning - Process took 63 ms to complete
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
@@ -70,3 +70,4 @@ NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scr
  
 (Filename: C Line: 0)
 
+Waiting for finish
