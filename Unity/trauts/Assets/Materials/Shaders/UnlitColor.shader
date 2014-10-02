@@ -4,12 +4,13 @@
     }
    
     SubShader {
-        Tags { "RenderType"="Opaque" }
+        Tags { "RenderType"="Transparent"  "Queue" = "Geometry+2"}
         LOD 100
         Pass {
             Lighting Off
             ZWrite On
             Cull Off
+            
             SetTexture[_] {
                 constantColor [_Color]
                 Combine constant
