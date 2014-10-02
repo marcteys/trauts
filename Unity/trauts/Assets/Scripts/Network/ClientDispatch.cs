@@ -113,7 +113,7 @@ public class ClientDispatch : MonoBehaviour {
 		Vector3 cubePos = cubesList[cubeID].transform.position;
 
 		GameObject wavePrefab = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
-		GameObject tmpWave = (GameObject)Instantiate(wavePrefab,cubePos,wavePrefab.transform.rotation);
+		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos,wavePrefab.transform.rotation);
 	}
 
 	[RPC]
