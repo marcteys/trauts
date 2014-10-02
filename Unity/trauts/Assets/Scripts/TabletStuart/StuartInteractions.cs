@@ -7,7 +7,7 @@ public class StuartInteractions : MonoBehaviour {
 
 	private GameObject ground;
 	private GameObject stuartObj;
-
+	
 	void Start ()
 	{
 		ground = GameObject.Find ("Ground");

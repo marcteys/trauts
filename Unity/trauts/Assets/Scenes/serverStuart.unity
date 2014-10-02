@@ -796,7 +796,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
 --- !u!1 &555204384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,7 +1610,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!114 &1092598369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2078,20 +2078,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serverView: {fileID: 1370745854}
   cubeNumber: 5
-  cubesList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  cubesListNetwork:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  stuartObj: {fileID: 0}
-  stuartObjNetwork: {fileID: 0}
 --- !u!114 &1370745856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2135,7 +2121,7 @@ Transform:
   - {fileID: 485743552}
   - {fileID: 555204385}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!1 &1552309813
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,9 +2625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d4b41b3ab72e2746be066f22369690c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 0}
-  tagObstacles: Cube
-  limit: 250
 --- !u!114 &2094874304
 MonoBehaviour:
   m_ObjectHideFlags: 0

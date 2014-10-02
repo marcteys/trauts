@@ -19,54 +19,36 @@ Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServe
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
-- Completed reload, in  1.694 seconds
+- Completed reload, in  0.117 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.Core.dll (this message is harmless)
-Scanning - Process took 63 ms to complete
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
-AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
-AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
-AstarPath:Awake() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1270)
- 
-(Filename: C Line: 0)
-
 WARNING: Shader Unsupported: 'Trauts/AlphaUnlit' - Pass '' shader state not supported
-Starting Server
+Can't send RPC function since no connection was started.
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+StuartControls:SetTarget(Vector3) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletStuart\StuartControls.cs:26)
+StuartInteractions:DetectGround() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletStuart\StuartInteractions.cs:34)
+StuartInteractions:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletStuart\StuartInteractions.cs:21)
+
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
+(Filename: C Line: 0)
+
+Connecting to server
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:19)
-NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+NetworkClient:ConnectToServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkClient.cs:43)
+NetworkClient:OnGUI() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkClient.cs:72)
  
 (Filename: C Line: 0)
 
-Server has public address : True. Will use NAT PunchThrough : False
+Connected to server !
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:20)
-NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
- 
-(Filename: C Line: 0)
-
-Server initialized !
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkServer:OnServerInitialized() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:33)
-UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:21)
-NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
- 
-(Filename: C Line: 0)
-
-Registering on MasterServer
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:22)
-NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+NetworkClient:OnConnectedToServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkClient.cs:61)
  
 (Filename: C Line: 0)
 

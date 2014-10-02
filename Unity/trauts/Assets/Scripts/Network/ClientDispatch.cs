@@ -8,35 +8,36 @@ public class ClientDispatch : MonoBehaviour {
 
 	public NetworkView serverView;
 
+	//waves 
 	public enum InteractiveMode {
 		Repulsive,
 		Attractive,
 		Emc
 	}
 
+	//cubes sync position
 	public int cubeNumber;
-	public GameObject[] cubesList;
-	public GameObject[] cubesListNetwork;
-	public GameObject stuartObj;
-	public GameObject stuartObjNetwork;
-
+	private GameObject[] cubesList;
+	private GameObject[] cubesListNetwork;
+	private GameObject stuartObj;
+	private GameObject stuartObjNetwork;
 	private bool isReady = false;
 
+	// target manager
+	private GameObject targetObj;
 
 	void Start()
 	{
 		//debug
-		//Network.InitializeServer(200,8081,true);
+	//	Network.InitializeServer(200,8081,true);
 
 		cubesList = new GameObject[cubeNumber];
-
 		for(int i= 0; i<cubeNumber; ++i)
 		{
 			cubesList[i] = GameObject.Find("Cube_"+i);
-		//	cubesListNetwork[i]= GameObject.Find("Cube_Network_"+i);
 		}
 		stuartObj = GameObject.Find("Stuart");
-	//	stuartObjNetwork = GameObject.Find("Stuart_Network");
+		targetObj = GameObject.Find ("Target");
 
 	}
 
@@ -75,6 +76,7 @@ public class ClientDispatch : MonoBehaviour {
 	{
 		if(Network.isServer && isReady)
 		{
+			//update cube position
 			for(int i= 0; i<cubeNumber; ++i)
 			{
 				cubesListNetwork[i].transform.position = cubesList[i].transform.position;
@@ -86,7 +88,11 @@ public class ClientDispatch : MonoBehaviour {
 			Vector3 stRotation = new Vector3(stuartObj.transform.eulerAngles.x, stuartObj.transform.eulerAngles.x, stuartObj.transform.eulerAngles.z);
 			stuartObjNetwork.transform.eulerAngles = stRotation;
 
-		}
+			//recalculate target in real time
+			Vector3 recalculatedTarget = targetObj.transform.position - stuartObj.transform.position;
+			serverView.RPCEx("SendStuartTarget",RPCMode.Others,recalculatedTarget.x,recalculatedTarget.y,recalculatedTarget.z);
+
+			}
 	}
 
 
@@ -150,5 +156,18 @@ public class ClientDispatch : MonoBehaviour {
 		//cubesList[i].GetComponent<CubeInteraction>().emc.
 			
 	}
+
+	[RPC]
+	void SetStuartTarget(float targetPositionX,float targetPositionY,float targetPositionZ)
+	{
+		targetObj.transform.position = new Vector3(targetPositionX,targetPositionY,targetPositionZ);
+	}
+
+	[RPC]
+	void SendStuartTarget(float targetPositionX,float targetPositionY,float targetPositionZ)
+	{
+		targetObj.transform.position = new Vector3(targetPositionX,targetPositionY,targetPositionZ);
+	}
+
 
 }
