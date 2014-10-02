@@ -149,7 +149,7 @@ public class CubeInteraction : MonoBehaviour {
 	{
 		if(gauge < 1f) gauge = gauge + Time.deltaTime * regenSpeed;
 		
-		Vector3 gaugeScale = new Vector3(1,1,gauge);
+		Vector3 gaugeScale = new Vector3(0.2f,1,gauge);
 		gaugeColor.localScale = gaugeScale;
 	}
 

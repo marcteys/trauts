@@ -16,6 +16,9 @@ public class ClientDispatch : MonoBehaviour {
 
 	public int cubeNumber;
 	public GameObject[] cubesList;
+	public GameObject[] cubesListNetwork;
+	public GameObject stuartObj;
+	public GameObject stuartObjNetwork;
 
 	void Start()
 	{
@@ -23,15 +26,37 @@ public class ClientDispatch : MonoBehaviour {
 		//Network.InitializeServer(200,8081,true);
 
 		cubesList = new GameObject[cubeNumber];
+		cubesListNetwork = new GameObject[cubeNumber];
 
 		for(int i= 0; i<cubeNumber; ++i)
 		{
 			cubesList[i] = GameObject.Find("Cube_"+i);
+			cubesListNetwork[i]= GameObject.Find("Cube_Network_"+i);
 		}
-
-
+		stuartObj = GameObject.Find("Stuart");
+		stuartObjNetwork = GameObject.Find("Stuart_Network");
 
 	}
+
+
+	void Update()
+	{
+		if(Network.isServer)
+		{
+			for(int i= 0; i<cubeNumber; ++i)
+			{
+				cubesListNetwork[i].transform.position = cubesList[i].transform.position;
+				Vector3 newRotation = new Vector3(cubesList[i].transform.eulerAngles.x, cubesList[i].transform.eulerAngles.x, cubesList[i].transform.eulerAngles.z);
+				cubesListNetwork[i].transform.eulerAngles = newRotation;
+			}
+
+			stuartObjNetwork.transform.position = stuartObj.transform.position;
+			Vector3 stRotation = new Vector3(stuartObj.transform.eulerAngles.x, stuartObj.transform.eulerAngles.x, stuartObj.transform.eulerAngles.z);
+			stuartObjNetwork.transform.eulerAngles = stRotation;
+
+		}
+	}
+
 
 	void OnGUI()
 	{
@@ -41,8 +66,7 @@ public class ClientDispatch : MonoBehaviour {
 		}
 	}
 
-
-
+	
 	[RPC]
 	protected void PrintThis(string text,string t2)
 	{
