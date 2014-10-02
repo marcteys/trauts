@@ -12,7 +12,7 @@ GameObject:
   - 23: {fileID: 2300000}
   - 95: {fileID: 9500000}
   m_Layer: 0
-  m_Name: CircleFourMain
+  m_Name: CircleMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ GameObject:
   - 23: {fileID: 2300004}
   - 95: {fileID: 9500004}
   m_Layer: 0
-  m_Name: CircleTwoThick
+  m_Name: CircleSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +185,7 @@ Animator:
   m_GameObject: {fileID: 100008}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d228d058fe891a84a8c6d3eb3cba60a4, type: 2}
+  m_Controller: {fileID: 9100000, guid: ab45fbcaf7a917c418f30815dcfadce1, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
