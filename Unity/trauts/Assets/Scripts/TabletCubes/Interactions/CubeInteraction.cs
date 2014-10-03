@@ -19,19 +19,24 @@ public class CubeInteraction : MonoBehaviour {
 
 	//visual stuff
 	private Transform gaugeColor;
-	private BlinkBackground gaugeBG;
+	private Animator cubeInfoAnimator;
+	public AnimationClip blinkBackground;
 
 	//server stuff
 	public NetworkView serverView;
+
 
 	void Start() 
 	{
 		//find the cube id
 		cubeId = int.Parse(this.transform.name.Split('_')[1]);
-		gaugeColor = this.transform.Find("CubeInfo/Color");
-		gaugeBG = this.transform.Find("CubeInfo/Background").GetComponent<BlinkBackground>();
-		ChangeColor();
 
+		//visual stuff
+		gaugeColor = this.transform.Find("CubeInfo/Color");
+		ChangeColor();
+		cubeInfoAnimator = transform.Find("CubeInfo").GetComponent<Animator>();
+
+		//network stuff
 		if(serverView == null) serverView = GameObject.Find("_NetworkDispatcher").GetComponent<NetworkView>();
 	}
 
@@ -64,7 +69,9 @@ public class CubeInteraction : MonoBehaviour {
 		}
 		else
 		{
-			gaugeBG.StartBlink();
+			//start blink
+			cubeInfoAnimator.Play(blinkBackground.name);
+			cubeInfoAnimator.StopPlayback();
 		}
 	}
 

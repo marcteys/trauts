@@ -628,7 +628,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 485743548}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
 --- !u!4 &485743552
 Transform:
   m_ObjectHideFlags: 0
@@ -636,7 +636,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 485743548}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .508251965, y: .502824783, z: .650603294}
+  m_LocalPosition: {x: .508251965, y: 0, z: .650603294}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1596273941}
@@ -669,6 +669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gauge: 1
   interactiveMode: 0
+  blinkBackground: {fileID: 0}
   serverView: {fileID: 1370745854}
 --- !u!1 &529975890
 GameObject:
@@ -824,7 +825,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 555204384}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.940192699, y: .502824664, z: 4.30226469}
+  m_LocalPosition: {x: -.940192699, y: 0, z: 4.30226469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1871639228}
@@ -869,7 +870,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 555204384}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
 --- !u!114 &555204390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -896,6 +897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gauge: 1
   interactiveMode: 0
+  blinkBackground: {fileID: 0}
   serverView: {fileID: 1370745854}
 --- !u!1 &556020572
 GameObject:
@@ -1424,7 +1426,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1076065372}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
 --- !u!4 &1076065376
 Transform:
   m_ObjectHideFlags: 0
@@ -1432,7 +1434,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1076065372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.87965631, y: .502824783, z: 2.56063271}
+  m_LocalPosition: {x: -2.87965631, y: 0, z: 2.56063271}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1664732561}
@@ -1465,6 +1467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gauge: 1
   interactiveMode: 0
+  blinkBackground: {fileID: 0}
   serverView: {fileID: 1370745854}
 --- !u!1 &1087951824
 GameObject:
@@ -2180,7 +2183,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1552309813}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
 --- !u!4 &1552309817
 Transform:
   m_ObjectHideFlags: 0
@@ -2188,7 +2191,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1552309813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.9422853, y: .502824783, z: 2.3109026}
+  m_LocalPosition: {x: 3.9422853, y: 0, z: 2.3109026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 854091001}
@@ -2221,6 +2224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gauge: 1
   interactiveMode: 0
+  blinkBackground: {fileID: 0}
   serverView: {fileID: 1370745854}
 --- !u!1 &1596273940
 GameObject:
@@ -2543,7 +2547,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2027287996}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
 --- !u!4 &2027288000
 Transform:
   m_ObjectHideFlags: 0
@@ -2551,7 +2555,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2027287996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.26973844, y: .502824783, z: -3.7979393}
+  m_LocalPosition: {x: -3.26973844, y: 0, z: -3.7979393}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 485670531}
@@ -2584,6 +2588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gauge: 1
   interactiveMode: 0
+  blinkBackground: {fileID: 0}
   serverView: {fileID: 1370745854}
 --- !u!1 &2094874301
 GameObject:

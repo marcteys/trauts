@@ -45,14 +45,17 @@ public class ClientDispatch : MonoBehaviour {
 	void OnServerInitialized()
 	{
 		SpawnCubes();
+		Debug.Log("Server init");
 	}
 	void  OnConnectedToServer()
 	{
 		SpawnCubes();
+		Debug.Log("Connected to server");
 	}
 
 	void SpawnCubes()
 	{
+		Debug.Log ("spawn cubes");
 		//instantiate cubes
 		cubesListNetwork = new GameObject[cubeNumber];
 		for(int i= 0; i<cubeNumber; ++i)
