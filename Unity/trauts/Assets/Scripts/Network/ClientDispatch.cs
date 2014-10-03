@@ -49,7 +49,7 @@ public class ClientDispatch : MonoBehaviour {
 	}
 	void  OnConnectedToServer()
 	{
-		SpawnCubes();
+	//	SpawnCubes();
 		Debug.Log("Connected to server");
 	}
 
@@ -136,7 +136,7 @@ public class ClientDispatch : MonoBehaviour {
 			
 		}
 
-		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos,wavePrefab.transform.rotation);
+		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos+new Vector3(0,0.05f,0),wavePrefab.transform.rotation);
 	}
 
 	[RPC]
