@@ -17,10 +17,6 @@ public class CubeInteraction : MonoBehaviour {
 	private float waveCost = 0.2f;
 	private float regenSpeed = 0.1f;
 
-	private GameObject repulsObj;
-	private GameObject attractObj;
-	private GameObject emcObj;
-
 	//visual stuff
 	private Transform gaugeColor;
 	private BlinkBackground gaugeBG;
@@ -32,7 +28,6 @@ public class CubeInteraction : MonoBehaviour {
 	{
 		//find the cube id
 		cubeId = int.Parse(this.transform.name.Split('_')[1]);
-		repulsObj = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		gaugeColor = this.transform.Find("CubeInfo/Color");
 		gaugeBG = this.transform.Find("CubeInfo/Background").GetComponent<BlinkBackground>();
 		ChangeColor();
@@ -49,6 +44,7 @@ public class CubeInteraction : MonoBehaviour {
 	{
 		if(gauge > waveCost)
 		{
+			/*
 			switch(interactiveMode)
 			{
 			case InteractiveMode.Repulsive :
@@ -62,7 +58,8 @@ public class CubeInteraction : MonoBehaviour {
 			case InteractiveMode.Emc : 
 				EmcWave();
 				break;
-			}
+			}*/
+			CreateNewWave();
 			gauge -= waveCost;
 		}
 		else
@@ -75,7 +72,13 @@ public class CubeInteraction : MonoBehaviour {
 	{
 		ApplyGauge();
 	}
-	
+
+	void CreateNewWave() 
+	{
+		serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
+
+	}
+	/*
 	void RepulsiveWave()
 	{
 		//Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
@@ -84,13 +87,13 @@ public class CubeInteraction : MonoBehaviour {
 
 	void AttractiveWave()
 	{
-		Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
+		serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
 	}
 
 	void EmcWave() 
 	{
 		serverView.RPCEx("CreateEmc", RPCMode.Server, cubeId);
-	}
+	}*/
 
 	public void SwipteType(bool slideRight)
 	{

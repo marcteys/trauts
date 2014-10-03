@@ -10,6 +10,7 @@ public class SetChildColor : MonoBehaviour {
 	{
 		mb = new MaterialPropertyBlock();
 		mb.AddColor("_Color",newColor);
+		mb.AddColor("_TintColor",newColor);
 
 		foreach (Transform child in transform)
 		{

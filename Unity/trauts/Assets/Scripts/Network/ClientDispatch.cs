@@ -117,8 +117,22 @@ public class ClientDispatch : MonoBehaviour {
 	void CreateWave(int cubeID, int intMode)
 	{
 		Vector3 cubePos = cubesList[cubeID].transform.position;
+		InteractiveMode waveType =  (InteractiveMode)intMode;
+		GameObject repulsiveWave = (GameObject)Resources.Load ("Tablet/RepulsiveWave") as GameObject;
+		GameObject attractiveWave = (GameObject)Resources.Load ("Tablet/AttractiveWave") as GameObject;
+		GameObject wavePrefab  = attractiveWave;
+		switch(waveType)
+		{
+		case InteractiveMode.Repulsive :
+			wavePrefab  = repulsiveWave;
+			break;
+			
+		case InteractiveMode.Attractive : 
+			wavePrefab  = attractiveWave;
+			break;
+			
+		}
 
-		GameObject wavePrefab = (GameObject)Resources.Load ("Tablet/Repulsive") as GameObject;
 		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos,wavePrefab.transform.rotation);
 	}
 

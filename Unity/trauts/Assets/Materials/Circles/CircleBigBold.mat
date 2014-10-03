@@ -90,10 +90,6 @@ Material:
         second: .464285702
       data:
         first:
-          name: _InvFade
-        second: 3
-      data:
-        first:
           name: _Emission
         second: 1
       data:
@@ -104,6 +100,10 @@ Material:
         first:
           name: _Parallax
         second: .0199999996
+      data:
+        first:
+          name: _InvFade
+        second: 3
       data:
         first:
           name: _Shininess
@@ -124,15 +124,15 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .992156863, g: .572549045, b: 0, a: .324894756}
-      data:
-        first:
-          name: _TintColor
-        second: {r: 1, g: .144827545, b: 0, a: 1}
+        second: {r: .992156863, g: .572549045, b: 0, a: 0}
       data:
         first:
           name: _Emission
         second: {r: 0, g: .503448009, b: 1, a: 0}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 1, g: .144827545, b: 0, a: 1}
       data:
         first:
           name: _SpecColor
