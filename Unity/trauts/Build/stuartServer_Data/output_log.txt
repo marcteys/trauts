@@ -235,3 +235,4 @@ ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\S
 [C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
 (Filename: C Line: 0)
 
+Waiting for finish
