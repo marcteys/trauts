@@ -83,6 +83,8 @@ public class SavePropretyBlock : MonoBehaviour {
 	}
 
 	public void Display() {
+		Debug.Log ("display object " + transform.name ); 
+		
 		goToColor = true;
 		animate = true;
 	}

@@ -53,7 +53,7 @@ public class GaugeInfo : MonoBehaviour {
 
 	void ApplyPosition()
 	{
-		this.transform.localPosition = Vector3.Lerp(this.transform.localPosition,targetPosition,Time.deltaTime * 4.0f); 
+		this.transform.localPosition = Vector3.Lerp(this.transform.localPosition,targetPosition,Time.deltaTime * 10f); 
 	}
 
 	public void CreateWave()
@@ -83,25 +83,33 @@ public class GaugeInfo : MonoBehaviour {
 	{
 		--position;
 		targetPosition = new Vector3(positionVal*position + positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
-		if(position == 0)
-		{
-			position = 3;
-			SwitchPos(new Vector3(positionVal*4f + positionVal,this.transform.localPosition.y, this.transform.localPosition.z));
-		}
+		Invoke("SwitchPos", 0.2f);
+		globalDisplay();
 	}
-
-	IEnumerator SwitchPos(Vector3 position)
-	{
-		this.transform.localPosition = position;
-		//faire augmenter l'opacité
-		//targetPosition = new Vector3(positionVal*position, this.transform.localPosition.y, this.transform.localPosition.z);
-		yield return true;
-	}
-
+	
 	public void GoToRight()
 	{
 		++position;
-		targetPosition = new Vector3(positionVal*position +positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
+		targetPosition = new Vector3(positionVal*position + positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
+		Invoke("SwitchPos", 0.2f);
+		globalFade();
+	}
+	
+	void SwitchPos()
+	{
+		if(position <= 0){
+			position =3;
+			Vector3 posPlace = new Vector3(positionVal*(position+2),this.transform.localPosition.y, this.transform.localPosition.z);
+			this.transform.localPosition = posPlace;
+			targetPosition = new Vector3(positionVal*(position+1),this.transform.localPosition.y, this.transform.localPosition.z);
+		 }
+		 else if(position >=4)
+		 {
+			position = 1;
+			Vector3 posPlace = new Vector3(positionVal,this.transform.localPosition.y, this.transform.localPosition.z);
+			this.transform.localPosition = posPlace;
+			targetPosition = new Vector3(positionVal*(position+1),this.transform.localPosition.y, this.transform.localPosition.z);
+		 }
 	}
 
 	void globalFade()
