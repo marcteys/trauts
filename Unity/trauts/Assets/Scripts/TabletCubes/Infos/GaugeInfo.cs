@@ -35,6 +35,13 @@ public class GaugeInfo : MonoBehaviour {
 		colorBG = this.transform.Find("Color");	
 		parentCube = this.transform.parent.GetComponent<CubeInteraction>();
 		targetPosition  = this.transform.localPosition;
+		
+		
+	}
+	
+	void Awake()
+	{
+		if(position != 1) globalHalf();
 	}
 	
 	void Update ()
@@ -83,24 +90,24 @@ public class GaugeInfo : MonoBehaviour {
 	{
 		--position;
 		targetPosition = new Vector3(positionVal*position + positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
-		
-		if(position <= 0) globalFade();
-		if(position != 1) globalHalf();
+		//if(position <= 0) globalFade();
 		Invoke("SwitchPos", 0.2f);
+		globalHalf();
 	}
 	
 	public void GoToRight()
 	{
 		++position;
-		
 		targetPosition = new Vector3(positionVal*position + positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
+		//if(position >= 4) globalFade();
 		Invoke("SwitchPos", 0.2f);
-		if(position >= 4) globalFade();
-		if(position != 1) globalHalf();
+		globalHalf();
+		
 	}
 	
 	void SwitchPos()
 	{
+
 		if(position <= 0){
 			position =3;
 			Vector3 posPlace = new Vector3(positionVal*(position+2),this.transform.localPosition.y, this.transform.localPosition.z);
@@ -114,6 +121,9 @@ public class GaugeInfo : MonoBehaviour {
 			this.transform.localPosition = posPlace;
 			targetPosition = new Vector3(positionVal*(position+1),this.transform.localPosition.y, this.transform.localPosition.z);
 		 }
+		 
+		if(position == 1) globalDisplay();
+		else globalHalf();
 	}
 
 	void globalHalf()

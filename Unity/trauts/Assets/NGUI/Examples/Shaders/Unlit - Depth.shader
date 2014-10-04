@@ -2,7 +2,7 @@ Shader "Unlit/Depth"
 {
 	SubShader
 	{
-		Lod 100
+		Lod 200
 
 		Tags
 		{

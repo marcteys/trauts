@@ -8,7 +8,7 @@
 		Tags { "RenderType"="Transparent" "Queue"="Transparent" "AllowProjectors"="False" }
  
 		blend SrcAlpha OneMinusSrcAlpha
- 
+ 		cull Off
 		CGPROGRAM
 		#pragma surface surf NoLighting
  

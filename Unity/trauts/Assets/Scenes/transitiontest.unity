@@ -118,6 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &15291005
@@ -193,6 +194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &53314892
@@ -352,6 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &271968236
@@ -447,7 +450,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 297728434}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .699939311, y: -.165067315, z: .466988802}
+  m_LocalPosition: {x: .699939311, y: -.165067315, z: 4.33452129}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -496,6 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &316171297
@@ -571,6 +575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &376513763
@@ -807,6 +812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &578201658
@@ -882,6 +888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &612380086
@@ -957,6 +964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &786736865
@@ -1032,6 +1040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &927610628
@@ -1108,6 +1117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &948305199
@@ -1254,6 +1264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1016608671
@@ -1402,6 +1413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1060122267
@@ -1490,6 +1502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1236499403
@@ -1565,6 +1578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1322606991
@@ -1640,6 +1654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1519186422
@@ -1715,6 +1730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1556205273
@@ -1790,6 +1806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1590199122
@@ -1853,6 +1870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1625876001
@@ -1940,6 +1958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1784691147
@@ -2161,6 +2180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1965639084
@@ -2249,6 +2269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &2108731695

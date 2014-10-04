@@ -37,12 +37,18 @@ public class SavePropretyBlock : MonoBehaviour {
 				currentColor = this.renderer.material.GetColor(colorType);
 				targetColor = originalColor;
 				
-				if(goToHalf)
-				{
-					targetColor.a = originalColor.a *0.01f;
-				}
+				if(goToHalf) targetColor.a = originalColor.a *0.2f;
+
 				newColor = Color.Lerp(currentColor,targetColor,Time.deltaTime * speed/5f);
-				if(newColor.a > targetColor.a-0.005f) animate = false;
+				if(newColor.a > targetColor.a-0.005f && newColor.a < targetColor.a+0.005f)
+				{
+					 animate = false;
+					 if(this.transform.name == "Color" )
+					 {
+						Debug.Log ("target col " + targetColor.a);
+						Debug.Log ("o col " + originalColor.a);
+					 }
+				}
 			}
 			else
 			{
@@ -76,5 +82,6 @@ public class SavePropretyBlock : MonoBehaviour {
 		animate = true;
 		goToColor = true;
 		goToHalf = true;
+		Debug.Log ("ezry");
 	}
 }
