@@ -18,13 +18,14 @@ public class CubeInteraction : MonoBehaviour {
 	private float regenSpeed = 0.1f;
 
 	//visual stuff
-	private Transform gaugeColor;
-	private Animator cubeInfoAnimator;
-	public AnimationClip blinkBackground;
+	private GaugeInfo gaugeRepuls;
+	private GaugeInfo gaugeAttract;
+	private GaugeInfo gaugeEmc;
+
+	private GaugeInfo activeGauge;
 
 	//server stuff
 	public NetworkView serverView;
-
 
 	void Start() 
 	{
@@ -32,9 +33,10 @@ public class CubeInteraction : MonoBehaviour {
 		cubeId = int.Parse(this.transform.name.Split('_')[1]);
 
 		//visual stuff
-		gaugeColor = this.transform.Find("CubeInfo/Color");
-		ChangeColor();
-		cubeInfoAnimator = transform.Find("CubeInfo").GetComponent<Animator>();
+		gaugeRepuls = transform.Find("CubeInfoRepuls").GetComponent<GaugeInfo>();
+		gaugeAttract = transform.Find("CubeInfoAttract").GetComponent<GaugeInfo>();
+		gaugeEmc = transform.Find("CubeInfoEmc").GetComponent<GaugeInfo>();
+
 
 		//network stuff
 		if(serverView == null) serverView = GameObject.Find("_NetworkDispatcher").GetComponent<NetworkView>();
@@ -42,65 +44,19 @@ public class CubeInteraction : MonoBehaviour {
 
 	void OnConnectedToServer()
 	{
-		ChangeColor();
+		activeGauge = gaugeRepuls;
+
 	}
 
 	public void CreateWave()
 	{
-		if(gauge > waveCost)
-		{
-			/*
-			switch(interactiveMode)
-			{
-			case InteractiveMode.Repulsive :
-				RepulsiveWave();
-				break;
-				
-			case InteractiveMode.Attractive : 
-				AttractiveWave ();
-				break;
-				
-			case InteractiveMode.Emc : 
-				EmcWave();
-				break;
-			}*/
-			CreateNewWave();
-			gauge -= waveCost;
-		}
-		else
-		{
-			//start blink
-			cubeInfoAnimator.Play(blinkBackground.name);
-			cubeInfoAnimator.StopPlayback();
-		}
+		activeGauge.CreateWave();
 	}
 
-	void Update()
-	{
-		ApplyGauge();
-	}
-
-	void CreateNewWave() 
-	{
-		serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
-
-	}
-	/*
-	void RepulsiveWave()
-	{
-		//Instantiate(repulsObj,this.transform.position,repulsObj.transform.rotation);
-		serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
-	}
-
-	void AttractiveWave()
+	public void CreateNewWave() 
 	{
 		serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
 	}
-
-	void EmcWave() 
-	{
-		serverView.RPCEx("CreateEmc", RPCMode.Server, cubeId);
-	}*/
 
 	public void SwipteType(bool slideRight)
 	{
@@ -113,13 +69,18 @@ public class CubeInteraction : MonoBehaviour {
 			{
 			case InteractiveMode.Repulsive :
 				interactiveMode = InteractiveMode.Attractive;
+				activeGauge = gaugeAttract;
+				GaugeToRight();
 				break;
 				
 			case InteractiveMode.Attractive : 
 				interactiveMode = InteractiveMode.Emc;
+				activeGauge = gaugeEmc;
+				GaugeToRight ();
 				break;
 				
 			case InteractiveMode.Emc : 
+				GaugeToRight ();
 				break;
 			}
 		}
@@ -129,64 +90,46 @@ public class CubeInteraction : MonoBehaviour {
 			switch(interactiveMode)
 			{
 			case InteractiveMode.Repulsive :
+				GaugeToLeft ();
 				break;
 				
 			case InteractiveMode.Attractive : 
 				interactiveMode = InteractiveMode.Repulsive;
+				activeGauge = gaugeRepuls;
+				GaugeToLeft ();
+
 				break;
 
 			case InteractiveMode.Emc : 
 				interactiveMode = InteractiveMode.Attractive;
+				activeGauge = gaugeAttract;
+				GaugeToLeft ();
 				break;
 			}
 		}
 
 		serverView.RPCEx("ChangeMode", RPCMode.All, cubeId, (int)interactiveMode);
-
-		ChangeColor();
 	}
 
 	public void SetNewType(int newType)
 	{
 		interactiveMode = (InteractiveMode)newType;
-		ChangeColor();
 	}
 
-
-	// other visual tools 
-
-	void ApplyGauge()
+	void GaugeToLeft()
 	{
-		if(gauge < 1f) gauge = gauge + Time.deltaTime * regenSpeed;
-		
-		Vector3 gaugeScale = new Vector3(0.2f,1,gauge);
-		gaugeColor.localScale = gaugeScale;
+		gaugeAttract.GoToLeft();
+		gaugeRepuls.GoToLeft();
+		gaugeEmc.GoToLeft();
 	}
 
-	void ChangeColor()
+	void GaugeToRight()
 	{
-
-		Color targetColor = new Color(1,1,1,1);
-
-		switch(interactiveMode)
-		{
-		case InteractiveMode.Repulsive :
-			targetColor = GameData.repulsiveColor;
-			break;
-			
-		case InteractiveMode.Attractive : 
-			targetColor = GameData.attractiveColor;
-			break;
-			
-		case InteractiveMode.Emc : 
-			targetColor = GameData.emcColor;
-			break;
-		}
-
-		MaterialPropertyBlock mb = new MaterialPropertyBlock();
-		mb.AddColor("_Color",targetColor);
-		gaugeColor.transform.renderer.SetPropertyBlock(mb);
-
+		gaugeAttract.GoToRight();
+		gaugeRepuls.GoToRight();
+		gaugeEmc.GoToRight();
 	}
+
+
 
 }
