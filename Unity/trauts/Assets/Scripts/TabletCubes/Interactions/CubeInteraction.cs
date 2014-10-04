@@ -37,7 +37,6 @@ public class CubeInteraction : MonoBehaviour {
 		gaugeAttract = transform.Find("CubeInfoAttract").GetComponent<GaugeInfo>();
 		gaugeEmc = transform.Find("CubeInfoEmc").GetComponent<GaugeInfo>();
 
-
 		//network stuff
 		if(serverView == null) serverView = GameObject.Find("_NetworkDispatcher").GetComponent<NetworkView>();
 	}

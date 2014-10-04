@@ -33,6 +33,6 @@
 		}
 		ENDCG
 	} 
-	FallBack "Unlit"
+	FallBack "Diffuse"
 
 }
