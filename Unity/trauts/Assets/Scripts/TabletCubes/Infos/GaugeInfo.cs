@@ -83,16 +83,20 @@ public class GaugeInfo : MonoBehaviour {
 	{
 		--position;
 		targetPosition = new Vector3(positionVal*position + positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
+		
+		if(position <= 0) globalFade();
+		if(position != 1) globalHalf();
 		Invoke("SwitchPos", 0.2f);
-		globalDisplay();
 	}
 	
 	public void GoToRight()
 	{
 		++position;
+		
 		targetPosition = new Vector3(positionVal*position + positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
 		Invoke("SwitchPos", 0.2f);
-		globalFade();
+		if(position >= 4) globalFade();
+		if(position != 1) globalHalf();
 	}
 	
 	void SwitchPos()
@@ -112,6 +116,15 @@ public class GaugeInfo : MonoBehaviour {
 		 }
 	}
 
+	void globalHalf()
+	{
+		foreach (Transform child in transform)
+		{
+			child.GetComponent<SavePropretyBlock>().HalfTransparency();
+		}
+	}
+	
+	
 	void globalFade()
 	{
 		foreach (Transform child in transform)

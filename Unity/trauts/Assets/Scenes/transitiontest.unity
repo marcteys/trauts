@@ -119,6 +119,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &15291005
 Renderer:
   m_ObjectHideFlags: 0
@@ -193,6 +194,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &53314892
 Renderer:
   m_ObjectHideFlags: 0
@@ -301,7 +303,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 102226119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 1, z: -3.57181454}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -351,6 +353,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &271968236
 Renderer:
   m_ObjectHideFlags: 0
@@ -380,6 +383,75 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 271968233}
   m_Mesh: {fileID: 4300000, guid: 12122e3f665148248bf0036cde18c636, type: 2}
+--- !u!1 &297728434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 297728438}
+  - 33: {fileID: 297728437}
+  - 65: {fileID: 297728436}
+  - 23: {fileID: 297728435}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &297728435
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297728434}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &297728436
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297728434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &297728437
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297728434}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &297728438
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297728434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .699939311, y: -.165067315, z: .466988802}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1 &316171294
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +497,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &316171297
 Renderer:
   m_ObjectHideFlags: 0
@@ -499,6 +572,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &376513763
 Renderer:
   m_ObjectHideFlags: 0
@@ -544,7 +618,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &491627067
 Transform:
   m_ObjectHideFlags: 0
@@ -734,6 +808,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &578201658
 Renderer:
   m_ObjectHideFlags: 0
@@ -808,6 +883,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &612380086
 Renderer:
   m_ObjectHideFlags: 0
@@ -882,6 +958,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &786736865
 Renderer:
   m_ObjectHideFlags: 0
@@ -956,6 +1033,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &927610628
 Renderer:
   m_ObjectHideFlags: 0
@@ -1031,6 +1109,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &948305199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,6 +1255,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1016608671
 Renderer:
   m_ObjectHideFlags: 0
@@ -1221,7 +1301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1037512539
 Transform:
   m_ObjectHideFlags: 0
@@ -1323,6 +1403,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1060122267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1410,6 +1491,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1236499403
 Renderer:
   m_ObjectHideFlags: 0
@@ -1484,6 +1566,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1322606991
 Renderer:
   m_ObjectHideFlags: 0
@@ -1558,6 +1641,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1519186422
 Renderer:
   m_ObjectHideFlags: 0
@@ -1632,6 +1716,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1556205273
 Renderer:
   m_ObjectHideFlags: 0
@@ -1706,6 +1791,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1590199122
 Renderer:
   m_ObjectHideFlags: 0
@@ -1768,6 +1854,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1625876001
 Renderer:
   m_ObjectHideFlags: 0
@@ -1854,6 +1941,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1784691147
 Renderer:
   m_ObjectHideFlags: 0
@@ -2074,6 +2162,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1965639084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2161,6 +2250,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &2108731695
 Renderer:
   m_ObjectHideFlags: 0

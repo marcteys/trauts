@@ -7,16 +7,17 @@ public class SavePropretyBlock : MonoBehaviour {
 
 	public bool animate = false;
 	public bool goToColor = false;
-
+	public bool goToHalf = false;
+	
 	private Color originalColor;
-	private float speed = 0.02f;
+	private float speed = 20f;
 
 	public bool useTint = true;
-
+	public Color newColor;
+	
 	void Awake ()
 	{
 		mb = new MaterialPropertyBlock();
-
 		if( !useTint)
 		{
 			originalColor = this.renderer.material.color;
@@ -25,42 +26,40 @@ public class SavePropretyBlock : MonoBehaviour {
 		{
 			originalColor = this.renderer.material.GetColor("_TintColor");
 		}
-
-		/*
-		mb.AddColor("_Color",this.renderer.material.color);
-		mb.AddColor("_TintColor",this.renderer.material.color);*/
 	}
 
+	
 	void Update()
 	{
 		if(animate)
-		{
-			Color newColor = new Color();
-			Color currentColor ;
-
+		{	
+			Color currentColor;
+			Color targetColor;
+			
 			if(goToColor)
 			{
 				if( !useTint) currentColor = this.renderer.material.color;
 				else  currentColor = this.renderer.material.GetColor("_TintColor");
 
-				newColor = Color.Lerp(currentColor,originalColor,Time.deltaTime);
-				if(newColor.a > originalColor.a-0.005f)
+				targetColor = originalColor;
+				
+				if(goToHalf)
 				{
-					Debug.Log ("lol");
-					animate = false;
+					targetColor.a = originalColor.a *0.01f;
 				}
+
+				newColor = Color.Lerp(currentColor,targetColor,Time.deltaTime * speed/5f);
+				if(newColor.a > targetColor.a-0.005f) animate = false;
+
 			}
-			else 
+			else
 			{
 				if( !useTint) currentColor = this.renderer.material.color;
 				else  currentColor = this.renderer.material.GetColor("_TintColor");
 
-				Color targetColor = new Color(originalColor.r,originalColor.g,originalColor.b,0);
+				targetColor = new Color(originalColor.r,originalColor.g,originalColor.b,0);
 				newColor = Color.Lerp(currentColor,targetColor,Time.deltaTime * speed);
-				if(newColor.a < 0.005f){
-					Debug.Log (newColor.a);
-					animate = false;
-				}
+				if(newColor.a < 0.005f)	animate = false;
 
 			}
 
@@ -68,7 +67,7 @@ public class SavePropretyBlock : MonoBehaviour {
 			if( !useTint) mb.AddColor("_Color",newColor);
 			if( useTint) mb.AddColor("_TintColor",newColor);
 			if( !useTint)currentColor = this.renderer.material.color = newColor;
-				if( useTint) this.renderer.material.SetColor("_TintColor",newColor);
+			if( useTint) this.renderer.material.SetColor("_TintColor",newColor);
 
 			this.renderer.SetPropertyBlock(mb);
 
@@ -77,15 +76,20 @@ public class SavePropretyBlock : MonoBehaviour {
 
 	public void Fade()
 	{
-		Debug.Log ("fade object " + transform.name ); 
 		animate = true;
 		goToColor = false;
 	}
 
 	public void Display() {
-		Debug.Log ("display object " + transform.name ); 
-		
 		goToColor = true;
 		animate = true;
+		goToHalf = false;
+	}
+	
+	public void HalfTransparency()
+	{
+		animate = true;
+		goToColor = true;
+		goToHalf = true;
 	}
 }
