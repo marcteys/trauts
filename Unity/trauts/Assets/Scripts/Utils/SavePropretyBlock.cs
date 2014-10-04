@@ -15,19 +15,15 @@ public class SavePropretyBlock : MonoBehaviour {
 	public bool useTint = true;
 	public Color newColor;
 	
+	private string colorType = "_Color";
+	
 	void Awake ()
 	{
 		mb = new MaterialPropertyBlock();
-		if( !useTint)
-		{
-			originalColor = this.renderer.material.color;
-		}
-		else
-		{
-			originalColor = this.renderer.material.GetColor("_TintColor");
-		}
+		
+		if( useTint) colorType = "_TintColor";
+		originalColor = this.renderer.material.GetColor(colorType);
 	}
-
 	
 	void Update()
 	{
@@ -38,39 +34,28 @@ public class SavePropretyBlock : MonoBehaviour {
 			
 			if(goToColor)
 			{
-				if( !useTint) currentColor = this.renderer.material.color;
-				else  currentColor = this.renderer.material.GetColor("_TintColor");
-
+				currentColor = this.renderer.material.GetColor(colorType);
 				targetColor = originalColor;
 				
 				if(goToHalf)
 				{
 					targetColor.a = originalColor.a *0.01f;
 				}
-
 				newColor = Color.Lerp(currentColor,targetColor,Time.deltaTime * speed/5f);
 				if(newColor.a > targetColor.a-0.005f) animate = false;
-
 			}
 			else
 			{
-				if( !useTint) currentColor = this.renderer.material.color;
-				else  currentColor = this.renderer.material.GetColor("_TintColor");
+				currentColor = this.renderer.material.GetColor(colorType);
 
 				targetColor = new Color(originalColor.r,originalColor.g,originalColor.b,0);
 				newColor = Color.Lerp(currentColor,targetColor,Time.deltaTime * speed);
 				if(newColor.a < 0.005f)	animate = false;
-
 			}
 
-
-			if( !useTint) mb.AddColor("_Color",newColor);
-			if( useTint) mb.AddColor("_TintColor",newColor);
-			if( !useTint)currentColor = this.renderer.material.color = newColor;
-			if( useTint) this.renderer.material.SetColor("_TintColor",newColor);
-
+			mb.AddColor(colorType,newColor);
+			this.renderer.material.SetColor(colorType,newColor);
 			this.renderer.SetPropertyBlock(mb);
-
 		}
 	}
 
