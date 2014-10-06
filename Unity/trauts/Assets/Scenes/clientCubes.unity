@@ -214,6 +214,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &6313275
@@ -304,6 +305,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &14113748
@@ -380,6 +382,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &16830934
@@ -456,6 +459,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &28939517
@@ -532,6 +536,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &34795593
@@ -814,6 +819,10 @@ Prefab:
       propertyPath: serverView
       value: 
       objectReference: {fileID: 128158941}
+    - target: {fileID: 400012, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 1037103409}
@@ -893,6 +902,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &62422318
@@ -969,6 +979,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &88045177
@@ -1131,6 +1142,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &128158939
@@ -1226,7 +1238,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 177808380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .126965851, y: .669307709, z: -1.87701511}
+  m_LocalPosition: {x: -3.08294535, y: .669307709, z: -11.2153387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1332,6 +1344,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &198074190
@@ -1422,6 +1435,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &205984546
@@ -1498,6 +1512,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &233341770
@@ -1574,6 +1589,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &236506176
@@ -1723,6 +1739,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &254955491
@@ -1799,6 +1816,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &263658661
@@ -1875,6 +1893,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &276223302
@@ -1951,6 +1970,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &295388149
@@ -2027,6 +2047,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &306752523
@@ -2175,6 +2196,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &346515465
@@ -2251,6 +2273,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &358972870
@@ -2327,6 +2350,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &377996120
@@ -2403,6 +2427,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &408574001
@@ -2448,6 +2473,10 @@ Prefab:
       propertyPath: serverView
       value: 
       objectReference: {fileID: 128158941}
+    - target: {fileID: 400012, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 672113343}
@@ -2527,6 +2556,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &445729358
@@ -2603,6 +2633,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &453699509
@@ -2679,6 +2710,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &455068108
@@ -2755,6 +2787,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &458223199
@@ -2845,6 +2878,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &537001306
@@ -3029,6 +3063,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &565697845
@@ -3105,6 +3140,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &568178833
@@ -3157,6 +3193,10 @@ Prefab:
     - target: {fileID: 11400014, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
       propertyPath: position
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
@@ -3237,6 +3277,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &593577219
@@ -3313,6 +3354,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &613596345
@@ -3389,6 +3431,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!43 &663707898
@@ -3622,6 +3665,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &665947401
@@ -3698,6 +3742,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &672113343
@@ -3836,6 +3881,10 @@ Prefab:
       propertyPath: serverView
       value: 
       objectReference: {fileID: 128158941}
+    - target: {fileID: 400012, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 1847354960}
@@ -3915,6 +3964,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &745754066
@@ -3991,6 +4041,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &758498367
@@ -4129,6 +4180,10 @@ Prefab:
       propertyPath: serverView
       value: 
       objectReference: {fileID: 128158941}
+    - target: {fileID: 400012, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 37721910}
@@ -4280,6 +4335,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &821165188
@@ -4370,6 +4426,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &823924904
@@ -4583,6 +4640,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &928812036
@@ -4659,6 +4717,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &929725298
@@ -4749,6 +4808,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &947520561
@@ -4825,6 +4885,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &951914530
@@ -5149,6 +5210,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1004184706
@@ -5225,6 +5287,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1006801763
@@ -5315,6 +5378,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1007766437
@@ -5636,6 +5700,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1036338986
@@ -5877,6 +5942,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1044095883
@@ -5953,6 +6019,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1066161543
@@ -6029,6 +6096,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1080814284
@@ -6201,6 +6269,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1083368844
@@ -6277,6 +6346,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1085899230
@@ -6380,6 +6450,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1118047095
@@ -6456,6 +6527,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1122407379
@@ -6532,6 +6604,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1156268628
@@ -6608,6 +6681,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1160712557
@@ -6756,6 +6830,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1191703566
@@ -6832,6 +6907,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1199214029
@@ -6980,6 +7056,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1211488597
@@ -7056,6 +7133,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1225003944
@@ -7132,6 +7210,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!21 &1232760403
@@ -7234,6 +7313,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1264779616
@@ -7310,6 +7390,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1268138017
@@ -7458,6 +7539,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1314224672
@@ -7592,6 +7674,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1319033751
@@ -7827,6 +7910,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1365342423
@@ -7903,6 +7987,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1370854075
@@ -8051,6 +8136,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1387209978
@@ -8127,6 +8213,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1388059999
@@ -8203,6 +8290,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1397257868
@@ -8351,6 +8439,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1415016939
@@ -8427,6 +8516,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1434715066
@@ -8752,6 +8842,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1535333379
@@ -8828,6 +8919,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1536223786
@@ -8904,6 +8996,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1554888401
@@ -8980,6 +9073,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1562115428
@@ -9056,6 +9150,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1566247589
@@ -9132,6 +9227,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1568427565
@@ -9396,6 +9492,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1661668529
@@ -9472,6 +9569,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1666303121
@@ -9548,6 +9646,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1669701083
@@ -9638,6 +9737,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1701034543
@@ -9714,6 +9814,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1701999226
@@ -9804,6 +9905,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1753741730
@@ -9943,6 +10045,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1786653362
@@ -10019,6 +10122,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1786675286
@@ -10095,6 +10199,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1789042083
@@ -10171,6 +10276,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1796687636
@@ -10261,6 +10367,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1813845227
@@ -10337,6 +10444,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1823283226
@@ -10413,6 +10521,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1847354960
@@ -10525,7 +10634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1859941183
 Renderer:
   m_ObjectHideFlags: 0
@@ -10652,6 +10761,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1909453124
@@ -10801,6 +10911,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1936292657
@@ -10877,6 +10988,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1943619351
@@ -10953,6 +11065,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1944521028
@@ -11029,6 +11142,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1956805235
@@ -11105,6 +11219,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1965863411
@@ -11297,6 +11412,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2005061602
@@ -11373,6 +11489,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2005496001
@@ -11522,6 +11639,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2017214313
@@ -11598,6 +11716,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2024054075
@@ -11674,6 +11793,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2039822136
@@ -11750,6 +11870,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2048309136
@@ -11826,6 +11947,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2073425352
@@ -11974,6 +12096,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2093997216
@@ -12050,6 +12173,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2104151076
@@ -12126,5 +12250,6 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}

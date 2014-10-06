@@ -8,6 +8,7 @@ public class SavePropretyBlock : MonoBehaviour {
 	public bool animate = false;
 	public bool goToColor = false;
 	public bool goToHalf = false;
+	public bool goToZero = false;
 	
 	private Color originalColor;
 	private float speed = 20f;
@@ -31,7 +32,16 @@ public class SavePropretyBlock : MonoBehaviour {
 		{	
 			Color currentColor;
 			Color targetColor;
-			
+			if(goToZero)
+			{
+				newColor = originalColor;
+				newColor.a = 0;
+				mb.AddColor(colorType,newColor);
+				this.renderer.material.SetColor(colorType,newColor);
+				this.renderer.SetPropertyBlock(mb);
+				animate = false;
+				goToZero = false;
+			}
 			if(goToColor)
 			{
 				currentColor = this.renderer.material.GetColor(colorType);
@@ -75,6 +85,8 @@ public class SavePropretyBlock : MonoBehaviour {
 		goToColor = true;
 		animate = true;
 		goToHalf = false;
+		goToZero = false;
+		
 	}
 	
 	public void HalfTransparency()
@@ -82,6 +94,14 @@ public class SavePropretyBlock : MonoBehaviour {
 		animate = true;
 		goToColor = true;
 		goToHalf = true;
-		Debug.Log ("ezry");
+		goToZero = false;
+	}
+	
+	public void Zero()
+	{
+		animate = true;
+		goToColor = false;
+		goToHalf = false;
+		goToZero = true;
 	}
 }

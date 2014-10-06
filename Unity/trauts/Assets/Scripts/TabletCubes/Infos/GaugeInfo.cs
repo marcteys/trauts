@@ -60,19 +60,15 @@ public class GaugeInfo : MonoBehaviour {
 
 	void ApplyPosition()
 	{
-		this.transform.localPosition = Vector3.Lerp(this.transform.localPosition,targetPosition,Time.deltaTime * 10f); 
+		this.transform.localPosition = Vector3.Lerp(this.transform.localPosition,targetPosition,Time.deltaTime * 4f); 
 	}
 
 	public void CreateWave()
 	{
 		if(gauge > waveCost)
 		{
-		//	Handheld.Vibrate();
+			Handheld.Vibrate();
 			parentCube.CreateNewWave();
-			foreach (Transform child in transform)
-			{
-				child.GetComponent<SavePropretyBlock>().Fade();
-			}
 			gauge -= waveCost;
 		}
 		else
@@ -134,6 +130,13 @@ public class GaugeInfo : MonoBehaviour {
 		}
 	}
 	
+	void globalZero()
+	{
+		foreach (Transform child in transform)
+		{
+			child.GetComponent<SavePropretyBlock>().Zero();
+		}
+	}
 	
 	void globalFade()
 	{

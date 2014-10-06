@@ -1,38 +1,52 @@
 ﻿Shader "Trauts/UnlitColor" {
-   	Properties {
-		_MainTex ("Main Texture", 2D) = "white" {}
-		_Color ("Color", Color) = (1,1,1,1)
-	}
- 
-	SubShader {
-		Tags { "RenderType"="Transparent" "Queue"="Transparent" "AllowProjectors"="False" }
- 
-		blend SrcAlpha OneMinusSrcAlpha
- 		cull Off
-		CGPROGRAM
-		#pragma surface surf NoLighting
- 
-		fixed4 LightingNoLighting(SurfaceOutput s, fixed3 lightDir, fixed atten)
-		{
-			return fixed4(s.Albedo, s.Alpha);
-		}
- 
-		sampler2D _MainTex;
- 
-		struct Input
-		{
-			float2 uv_MainTex;
-		};
- 
-		float4 _Color;
+Properties {
+   _Color ("Color", Color) = (1,1,1,1)
 
-		void surf (Input IN, inout SurfaceOutput o)
-		{
-			o.Albedo = _Color.rgb ;
-			o.Alpha =_Color.a;
-		}
-		ENDCG
-	} 
-	FallBack "Diffuse"
+}
+
+SubShader {
+    Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
+    LOD 100
+    		cull off
+
+    ZWrite Off
+    Blend SrcAlpha OneMinusSrcAlpha 
+    
+    Pass {  
+        CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            
+            #include "UnityCG.cginc"
+            struct appdata_t {
+                float4 vertex : POSITION;
+                float2 texcoord : TEXCOORD0;
+            };
+
+            struct v2f {
+                float4 vertex : SV_POSITION;
+                half2 texcoord : TEXCOORD0;
+            };
+
+            float4 _Color;
+            
+            float4 _MainTex_ST;
+            
+            v2f vert (appdata_t v)
+            {
+                v2f o;
+                o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+                return o;
+            }
+            
+            fixed4 frag (v2f i) : SV_Target
+            {
+                return fixed4(_Color.r, _Color.g, _Color.b, _Color.a);
+            }
+        ENDCG
+    }
+
+
+}
 
 }
