@@ -27,6 +27,10 @@ public class UDPReceive : MonoBehaviour {
 	// start from shell
 	private static void Main()
 	{
+	}
+	// start from unity3d
+	public void Start()
+	{
 		UDPReceive receiveObj=new UDPReceive();
 		receiveObj.init();
 		
@@ -36,11 +40,7 @@ public class UDPReceive : MonoBehaviour {
 			text = Console.ReadLine();
 		}
 		while(!text.Equals("exit"));
-	}
-	// start from unity3d
-	public void Start()
-	{
-		
+
 		init();
 	}
 	
