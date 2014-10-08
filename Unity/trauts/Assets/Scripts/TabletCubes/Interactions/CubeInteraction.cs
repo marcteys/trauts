@@ -73,7 +73,7 @@ public class CubeInteraction : MonoBehaviour {
 				
 			case InteractiveMode.Attractive : 
 				interactiveMode = InteractiveMode.Repulsive;
-				activeGauge = gaugeEmc;
+				activeGauge = gaugeRepuls;
 				GaugeToRight ();
 				break;
 				
@@ -92,21 +92,21 @@ public class CubeInteraction : MonoBehaviour {
 			{
 			case InteractiveMode.Repulsive :
 				interactiveMode = InteractiveMode.Attractive;
-				activeGauge = gaugeRepuls;
+				activeGauge = gaugeAttract;
 				
 				GaugeToLeft ();
 				break;
 				
 			case InteractiveMode.Attractive : 
 				interactiveMode = InteractiveMode.Emc;
-				activeGauge = gaugeRepuls;
+				activeGauge = gaugeEmc;
 				GaugeToLeft ();
 
 				break;
 
 			case InteractiveMode.Emc : 
 				interactiveMode = InteractiveMode.Repulsive;
-				activeGauge = gaugeAttract;
+				activeGauge = gaugeRepuls;
 				GaugeToLeft ();
 				break;
 			}

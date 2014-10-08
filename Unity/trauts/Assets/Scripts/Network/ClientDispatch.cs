@@ -123,6 +123,7 @@ public class ClientDispatch : MonoBehaviour {
 		InteractiveMode waveType =  (InteractiveMode)intMode;
 		GameObject repulsiveWave = (GameObject)Resources.Load ("Tablet/RepulsiveWave") as GameObject;
 		GameObject attractiveWave = (GameObject)Resources.Load ("Tablet/AttractiveWave") as GameObject;
+		GameObject emcWave = (GameObject)Resources.Load ("Tablet/EmcWave") as GameObject;
 		GameObject wavePrefab  = attractiveWave;
 		switch(waveType)
 		{
@@ -135,7 +136,7 @@ public class ClientDispatch : MonoBehaviour {
 			break;
 
 		case InteractiveMode.Emc : 
-			wavePrefab  = attractiveWave;
+			wavePrefab  = emcWave;
 			CreateEmc(cubeID);
 			break;
 		}

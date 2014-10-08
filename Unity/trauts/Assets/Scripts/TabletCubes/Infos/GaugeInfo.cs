@@ -10,12 +10,12 @@ public class GaugeInfo : MonoBehaviour {
 		Emc
 	}
 	public InteractiveMode type;
-	public CubeInteraction parentCube;
+	private CubeInteraction parentCube;
 
 	//stats for nerd
 	public float gauge = 1f;
-	private float waveCost = 0.2f;
-	private float regenSpeed = 0.1f;
+	public float waveCost = 0.2f;
+	public float regenSpeed = 0.1f;
 
 	private Transform colorBG;
 	private Animator anim;
@@ -25,7 +25,7 @@ public class GaugeInfo : MonoBehaviour {
 	public bool goRight = false;
 	public bool goLeft = false;
 	public float positionVal = 0.3f;
-	public Vector3 targetPosition;
+	private Vector3 targetPosition;
 
 	//visual styff
 	private MaterialPropertyBlock targetMB;

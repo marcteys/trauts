@@ -565,7 +565,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.974002242, y: 0, z: .332210541}
+  m_LocalPosition: {x: -13.8202572, y: .0108048143, z: -1.8752985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400046}
@@ -1667,13 +1667,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  parentCube: {fileID: 0}
   gauge: 1
-  position: 2
-  goRight: 0
-  goLeft: 0
-  positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
+  waveCost: .200000003
+  regenSpeed: .100000001
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1754,13 +1750,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  parentCube: {fileID: 0}
   gauge: 1
-  position: 1
-  goRight: 0
-  goLeft: 0
-  positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
+  waveCost: .200000003
+  regenSpeed: .100000001
 --- !u!114 &11400026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1824,13 +1816,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  parentCube: {fileID: 0}
   gauge: 1
-  position: 3
-  goRight: 0
-  goLeft: 0
-  positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
+  waveCost: 1
+  regenSpeed: .100000001
 --- !u!114 &11400034
 MonoBehaviour:
   m_ObjectHideFlags: 1
