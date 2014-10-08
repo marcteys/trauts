@@ -130,8 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   serverView: {fileID: 128158941}
-  cubeNumber: 3
-  cubesList: []
+  cubeNumber: 5
 --- !u!114 &128158943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,13 +722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c0a33e5a7ba3694881af0c5a09938b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blinkTime: 8
-  blinkSpeed: 1
-  blink: 0
-  maxAlpha: .600000024
-  col: {r: 0, g: 0, b: 0, a: 0}
-  tmpBlink: 0
-  blinkOn: 0
+  clip: {fileID: 0}
 --- !u!1 &1493928301
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,7 +821,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emcOrigin: {fileID: 1595413614}
+  destroyAfter: 2
   emcTarget: {fileID: 883039740}
+  depth: {fileID: 0}
 --- !u!1 &1753741730
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,7 +969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69f0e22c0275924b965be547a7bc211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeId: 0
   gauge: 1
   interactiveMode: 0
   serverView: {fileID: 128158941}

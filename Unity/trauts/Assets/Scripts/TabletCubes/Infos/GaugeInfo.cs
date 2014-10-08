@@ -35,8 +35,6 @@ public class GaugeInfo : MonoBehaviour {
 		colorBG = this.transform.Find("Color");	
 		parentCube = this.transform.parent.GetComponent<CubeInteraction>();
 		targetPosition  = this.transform.localPosition;
-		
-		
 	}
 	
 	void Awake()
@@ -60,14 +58,16 @@ public class GaugeInfo : MonoBehaviour {
 
 	void ApplyPosition()
 	{
-		this.transform.localPosition = Vector3.Lerp(this.transform.localPosition,targetPosition,Time.deltaTime * 4f); 
+		this.transform.localPosition = Vector3.Lerp(this.transform.localPosition,targetPosition,Time.deltaTime * 6f); 
 	}
 
 	public void CreateWave()
 	{
 		if(gauge > waveCost)
 		{
+			#if UNITY_ANDROID
 			Handheld.Vibrate();
+			#endif
 			parentCube.CreateNewWave();
 			gauge -= waveCost;
 		}

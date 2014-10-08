@@ -351,7 +351,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!33 &37721916
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -462,7 +462,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &128158939
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +579,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &171002834
 Renderer:
   m_ObjectHideFlags: 0
@@ -864,7 +870,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &225759033
 Renderer:
   m_ObjectHideFlags: 0
@@ -1046,7 +1055,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &460319245
 Renderer:
   m_ObjectHideFlags: 0
@@ -1282,7 +1294,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &531031834
 Renderer:
   m_ObjectHideFlags: 0
@@ -1385,7 +1400,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &628691302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,7 +1448,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &628691305
 Renderer:
   m_ObjectHideFlags: 0
@@ -1533,7 +1554,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &746289535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,7 +1773,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &823924904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,7 +1909,7 @@ MonoBehaviour:
   type: 2
   parentCube: {fileID: 0}
   gauge: 1
-  position: 2
+  position: 3
   goRight: 0
   goLeft: 0
   positionVal: .300000012
@@ -2008,7 +2035,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &870810015
 Renderer:
   m_ObjectHideFlags: 0
@@ -2313,7 +2343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1118027544
 Transform:
   m_ObjectHideFlags: 0
@@ -2340,7 +2370,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1118027546
 Renderer:
   m_ObjectHideFlags: 0
@@ -2529,7 +2562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1205731073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2544,7 +2577,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1205731074
 Renderer:
   m_ObjectHideFlags: 0
@@ -2630,7 +2666,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1287834132
 Renderer:
   m_ObjectHideFlags: 0
@@ -2705,7 +2744,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1296514497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2952,7 +2994,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1359349216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3012,7 +3057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1387209979
 Transform:
   m_ObjectHideFlags: 0
@@ -3068,7 +3113,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1388059999
 GameObject:
   m_ObjectHideFlags: 0
@@ -3142,7 +3190,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1429540217
 GameObject:
   m_ObjectHideFlags: 0
@@ -3194,7 +3245,7 @@ MonoBehaviour:
   type: 0
   parentCube: {fileID: 0}
   gauge: 1
-  position: 0
+  position: 1
   goRight: 0
   goLeft: 0
   positionVal: .300000012
@@ -3266,7 +3317,7 @@ MonoBehaviour:
   type: 1
   parentCube: {fileID: 0}
   gauge: 1
-  position: 1
+  position: 2
   goRight: 0
   goLeft: 0
   positionVal: .300000012
@@ -3389,7 +3440,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1593332906
 Renderer:
   m_ObjectHideFlags: 0
@@ -3699,7 +3753,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1837397742
 GameObject:
   m_ObjectHideFlags: 0
@@ -3955,7 +4012,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1969110324
 Renderer:
   m_ObjectHideFlags: 0
@@ -4157,7 +4217,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animate: 0
   goToColor: 0
+  goToHalf: 0
+  goToZero: 0
   useTint: 1
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &2129608189
 Renderer:
   m_ObjectHideFlags: 0

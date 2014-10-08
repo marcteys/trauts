@@ -8,14 +8,16 @@ public class EmcCreator : MonoBehaviour {
 	public float destroyAfter = 2f;
 	//test
 	public GameObject emcTarget;
+	public Material depth;
 
-	private 
 	void Awake()
 	{
 		//LaunchEmc(emcOrigin,emcTarget);
 	}
 
 	public void LaunchEmc(Vector3 origin, GameObject targetObj) {
+
+		depth = (Material)Resources.Load("Materials/DepthCutout") as Material;
 
 
 		origin = targetObj.transform.position + origin;
@@ -73,7 +75,7 @@ public class EmcCreator : MonoBehaviour {
 					MeshFilter meshFilter = (MeshFilter)plane.AddComponent(typeof(MeshFilter));
 					meshFilter.mesh = CreateMesh(planeVertices);
 					MeshRenderer renderer = plane.AddComponent(typeof(MeshRenderer)) as MeshRenderer;
-					renderer.material.shader = Shader.Find ("Particles/Additive");
+					renderer.material = depth;
 					plane.transform.parent = targetObj.transform;
 					Autodestroy ad = plane.AddComponent<Autodestroy>();
 					ad.destroyDelay = destroyAfter;

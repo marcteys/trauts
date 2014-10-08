@@ -133,7 +133,11 @@ public class ClientDispatch : MonoBehaviour {
 		case InteractiveMode.Attractive : 
 			wavePrefab  = attractiveWave;
 			break;
-			
+
+		case InteractiveMode.Emc : 
+			wavePrefab  = attractiveWave;
+			CreateEmc(cubeID);
+			break;
 		}
 
 		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos+new Vector3(0,0.05f,0),wavePrefab.transform.rotation);
@@ -155,8 +159,9 @@ public class ClientDispatch : MonoBehaviour {
 		{
 			if(i != cubeID)
 			{
-				Vector3 diffVector =   cubesList[cubeID].transform.position - cubesList[i].transform.position;
+				Vector3 diffVector =  cubesList[cubeID].transform.position - cubesList[i].transform.position;
 				serverView.RPCEx("ApplyEmC", RPCMode.All, i, diffVector.x,diffVector.y,diffVector.z);
+				Debug.Log ("we create a emc from cube_" + cubeID );
 			}
 		}
 	}

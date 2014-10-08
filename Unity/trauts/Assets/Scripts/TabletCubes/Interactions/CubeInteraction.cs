@@ -44,7 +44,6 @@ public class CubeInteraction : MonoBehaviour {
 	void OnConnectedToServer()
 	{
 		activeGauge = gaugeRepuls;
-
 	}
 
 	public void CreateWave()
