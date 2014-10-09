@@ -1,5 +1,5 @@
 ﻿/*==============================================================================
-Copyright (c) 2013-2014 Qualcomm Connected Experiences, Inc.
+Copyright (c) 2013 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
 Confidential and Proprietary - Qualcomm Connected Experiences, Inc.
 ==============================================================================*/
@@ -46,7 +46,7 @@ class AndroidUnityPlayer : IAndroidUnityPlayer
     {
         if (Application.platform == RuntimePlatform.Android)
         {
-            if (SurfaceUtilities.HasSurfaceBeenRecreated())
+            if (QCARWrapper.Instance.HasSurfaceBeenRecreated())
             {
                 InitializeSurface();
             }
@@ -63,7 +63,7 @@ class AndroidUnityPlayer : IAndroidUnityPlayer
                 {
                     mScreenWidth = Screen.width;
                     mScreenHeight = Screen.height;
-                    SurfaceUtilities.OnSurfaceChanged(mScreenWidth, mScreenHeight);
+                    QCARWrapper.Instance.OnSurfaceChanged(mScreenWidth, mScreenHeight);
                 }
             }
 
@@ -93,7 +93,7 @@ class AndroidUnityPlayer : IAndroidUnityPlayer
 
     private void InitializeSurface()
     {
-        SurfaceUtilities.OnSurfaceCreated();
+        QCARWrapper.Instance.OnSurfaceCreated();
 
         AndroidJavaClass javaUnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         mCurrentActivity = javaUnityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
@@ -107,7 +107,7 @@ class AndroidUnityPlayer : IAndroidUnityPlayer
 
         mScreenWidth = Screen.width;
         mScreenHeight = Screen.height;
-        SurfaceUtilities.OnSurfaceChanged(mScreenWidth, mScreenHeight);
+        QCARWrapper.Instance.OnSurfaceChanged(mScreenWidth, mScreenHeight);
     }
 
     private void ResetUnityScreenOrientation()
@@ -134,7 +134,7 @@ class AndroidUnityPlayer : IAndroidUnityPlayer
                     correctScreenOrientation = activityOrientation;
             }
 
-            SurfaceUtilities.SetSurfaceOrientation(correctScreenOrientation);
+            QCARWrapper.Instance.SetSurfaceOrientation(correctScreenOrientation);
         }
     }
 

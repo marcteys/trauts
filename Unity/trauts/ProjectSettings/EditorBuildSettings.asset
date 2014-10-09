@@ -11,3 +11,7 @@ EditorBuildSettings:
     path: Assets/Scenes/clientCubes.unity
   - enabled: 0
     path: Assets/Scenes/clientStuart.unity
+  - enabled: 0
+    path: Assets/Scenes/artest.unity
+  - enabled: 0
+    path: Assets/Scenes/artest.unity
