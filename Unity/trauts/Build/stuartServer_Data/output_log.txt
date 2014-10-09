@@ -19,13 +19,13 @@ Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServe
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
-- Completed reload, in  0.161 seconds
+- Completed reload, in  0.258 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.Core.dll (this message is harmless)
-Scanning - Process took 81 ms to complete
+Scanning - Process took 112 ms to complete
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
@@ -230,26 +230,6 @@ SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Asset
  
 (Filename: C Line: 0)
 
-Couldn't send RPC function 'PerformRPCCall'
-
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
-ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:96)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
-(Filename: C Line: 0)
-
-Couldn't send RPC function 'PerformRPCCall'
-
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
-ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:96)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
-(Filename: C Line: 0)
-
 WARNING: Shader Unsupported: 'Trauts/AlphaUnlit' - Pass '' shader state not supported
 we create a emc from cube_2
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
@@ -395,7 +375,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_2
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -407,7 +387,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_2
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -419,7 +399,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_2
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -431,7 +411,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_2
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -443,7 +423,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_2
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -455,7 +435,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_2
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -467,7 +447,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_2
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -479,7 +459,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_2
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -491,7 +471,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -503,7 +483,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -515,7 +495,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -527,7 +507,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -539,7 +519,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -551,7 +531,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -563,7 +543,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -575,7 +555,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -587,7 +567,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -599,7 +579,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -611,7 +591,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -623,7 +603,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -635,7 +615,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -647,7 +627,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -659,7 +639,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -671,7 +651,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -683,7 +663,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -695,7 +675,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -707,7 +687,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -719,7 +699,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -731,7 +711,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -743,7 +723,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -755,7 +735,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -767,7 +747,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -779,7 +759,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -791,7 +771,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -803,7 +783,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -815,7 +795,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -827,7 +807,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -839,7 +819,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -851,7 +831,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -863,7 +843,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -875,7 +855,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -887,7 +867,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -899,7 +879,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -911,7 +891,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -923,7 +903,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -935,7 +915,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -947,7 +927,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -959,7 +939,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -971,7 +951,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -983,7 +963,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -995,7 +975,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -1007,7 +987,7 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
+we create a emc from cube_3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
@@ -1019,1075 +999,3 @@ InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts
  
 (Filename: C Line: 0)
 
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-Couldn't send RPC function 'PerformRPCCall'
-
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
-ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:96)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
-(Filename: C Line: 0)
-
-Connection lost to NAT facilitator, reconnecting.
-
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 725)
-
-The connection request to 67.225.180.24:50005 failed. Are you sure the server can be connected to?
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 650)
-
-Failed to connect to master server at 67.225.180.24:23466
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/MasterServerInterface.cpp Line: 231)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-Couldn't send RPC function 'PerformRPCCall'
-
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
-ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:96)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-Couldn't send RPC function 'PerformRPCCall'
-
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
-ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:96)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
-(Filename: C Line: 0)
-
-Couldn't send RPC function 'PerformRPCCall'
-
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
-ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:96)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-we create a emc from cube_1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:165)
-ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:140)
-System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
-System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
-System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
-InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
- 
-(Filename: C Line: 0)
-
-Couldn't send RPC function 'PerformRPCCall'
-
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
-InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
-ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:96)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
-(Filename: C Line: 0)
-
-Waiting for finish

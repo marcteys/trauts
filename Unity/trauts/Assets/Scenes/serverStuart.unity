@@ -1425,13 +1425,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 1
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &228344095
 Animator:
   serializedVersion: 3
@@ -1497,13 +1497,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: 1
+  regenSpeed: .100000001
   position: 3
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &265816042
 Animator:
   serializedVersion: 3
@@ -1704,13 +1704,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 1
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &302915704
 Animator:
   serializedVersion: 3
@@ -1930,13 +1930,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: 1
+  regenSpeed: .100000001
   position: 3
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &327499007
 Animator:
   serializedVersion: 3
@@ -2383,13 +2383,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 1
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &450454648
 Animator:
   serializedVersion: 3
@@ -2526,6 +2526,22 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a0a8b5ac07f58a840bbaefccae9d2549, type: 2}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 1918658009}
@@ -2935,6 +2951,7 @@ GameObject:
   - 23: {fileID: 607425037}
   - 114: {fileID: 607425036}
   - 114: {fileID: 607425035}
+  - 135: {fileID: 607425040}
   m_Layer: 9
   m_Name: Cube_1
   m_TagString: Cube
@@ -3019,7 +3036,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0, y: .5, z: 0}
 --- !u!33 &607425039
 MeshFilter:
@@ -3029,6 +3046,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1504104097}
   m_GameObject: {fileID: 607425033}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &607425040
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 607425033}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.20000005
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &616573629
 GameObject:
   m_ObjectHideFlags: 0
@@ -3761,13 +3790,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: 1
+  regenSpeed: .100000001
   position: 3
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &806445311
 Animator:
   serializedVersion: 3
@@ -5516,13 +5545,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 1
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1004723736
 Animator:
   serializedVersion: 3
@@ -5898,10 +5927,10 @@ CapsuleCollider:
   m_GameObject: {fileID: 1092598364}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: .5
   m_Height: 2
-  m_Direction: 1
+  m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1092598367
 MeshFilter:
@@ -5909,7 +5938,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1092598364}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1092598368
 Transform:
   m_ObjectHideFlags: 0
@@ -6390,6 +6419,7 @@ GameObject:
   - 23: {fileID: 1182861550}
   - 114: {fileID: 1182861549}
   - 114: {fileID: 1182861548}
+  - 135: {fileID: 1182861553}
   m_Layer: 9
   m_Name: Cube_2
   m_TagString: Cube
@@ -6474,7 +6504,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0, y: .5, z: 0}
 --- !u!33 &1182861552
 MeshFilter:
@@ -6484,6 +6514,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1205538244}
   m_GameObject: {fileID: 1182861546}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &1182861553
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1182861546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.20000005
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &1186768246
 GameObject:
   m_ObjectHideFlags: 0
@@ -6607,6 +6649,18 @@ Prefab:
     - target: {fileID: 100012, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
       propertyPath: m_Name
       value: Cube_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.z
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
@@ -7449,6 +7503,7 @@ GameObject:
   - 23: {fileID: 1342871189}
   - 114: {fileID: 1342871188}
   - 114: {fileID: 1342871187}
+  - 135: {fileID: 1342871192}
   m_Layer: 9
   m_Name: Cube_3
   m_TagString: Cube
@@ -7533,7 +7588,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0, y: .5, z: 0}
 --- !u!33 &1342871191
 MeshFilter:
@@ -7543,6 +7598,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1359971122}
   m_GameObject: {fileID: 1342871185}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &1342871192
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1342871185}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.20000005
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1001 &1359971122
 Prefab:
   m_ObjectHideFlags: 0
@@ -7589,6 +7656,18 @@ Prefab:
     - target: {fileID: 100012, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
       propertyPath: m_Name
       value: Cube_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.z
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
@@ -8112,13 +8191,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 2
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1405259974
 Animator:
   serializedVersion: 3
@@ -8521,6 +8600,18 @@ Prefab:
       propertyPath: m_Name
       value: Cube_1
       objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.z
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 607425033}
@@ -8727,6 +8818,18 @@ Prefab:
       propertyPath: m_Name
       value: Cube_4
       objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Size.z
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 1805794913}
@@ -8931,13 +9034,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 1
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1556458457
 Animator:
   serializedVersion: 3
@@ -9710,13 +9813,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: 1
+  regenSpeed: .100000001
   position: 3
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1758931769
 Animator:
   serializedVersion: 3
@@ -9987,6 +10090,7 @@ GameObject:
   - 23: {fileID: 1805794917}
   - 114: {fileID: 1805794916}
   - 114: {fileID: 1805794915}
+  - 135: {fileID: 1805794920}
   m_Layer: 9
   m_Name: Cube_4
   m_TagString: Cube
@@ -10071,7 +10175,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0, y: .5, z: 0}
 --- !u!33 &1805794919
 MeshFilter:
@@ -10081,6 +10185,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1518595137}
   m_GameObject: {fileID: 1805794913}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &1805794920
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1805794913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.20000005
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &1816530874
 GameObject:
   m_ObjectHideFlags: 0
@@ -10130,13 +10246,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 2
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1816530877
 Animator:
   serializedVersion: 3
@@ -10433,13 +10549,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 2
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1842488968
 Animator:
   serializedVersion: 3
@@ -10582,13 +10698,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 2
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1877123818
 Animator:
   serializedVersion: 3
@@ -10731,6 +10847,7 @@ GameObject:
   - 23: {fileID: 1918658013}
   - 114: {fileID: 1918658012}
   - 114: {fileID: 1918658011}
+  - 135: {fileID: 1918658016}
   m_Layer: 9
   m_Name: Cube_0
   m_TagString: Cube
@@ -10813,9 +10930,9 @@ BoxCollider:
   m_GameObject: {fileID: 1918658009}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0, y: .5, z: 0}
 --- !u!33 &1918658015
 MeshFilter:
@@ -10825,6 +10942,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 478330928}
   m_GameObject: {fileID: 1918658009}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &1918658016
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1918658009}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.20000005
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &1928687916
 GameObject:
   m_ObjectHideFlags: 0
@@ -10874,13 +11003,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 2
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1928687919
 Animator:
   serializedVersion: 3
@@ -11023,13 +11152,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: 1
+  regenSpeed: .100000001
   position: 3
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1934224555
 Animator:
   serializedVersion: 3
