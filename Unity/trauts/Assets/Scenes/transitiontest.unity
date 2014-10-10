@@ -119,6 +119,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &15291005
@@ -195,6 +196,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &53314892
@@ -355,6 +357,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &271968236
@@ -500,6 +503,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &316171297
@@ -576,6 +580,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &376513763
@@ -656,13 +661,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 3
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &491627069
 Animator:
   serializedVersion: 3
@@ -813,6 +818,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &578201658
@@ -889,6 +895,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &612380086
@@ -965,6 +972,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &786736865
@@ -1041,6 +1049,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &927610628
@@ -1118,6 +1127,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &948305199
@@ -1265,6 +1275,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1016608671
@@ -1345,13 +1356,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 2
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1037512541
 Animator:
   serializedVersion: 3
@@ -1414,6 +1425,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1060122267
@@ -1503,6 +1515,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1236499403
@@ -1579,6 +1592,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1322606991
@@ -1655,6 +1669,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1519186422
@@ -1731,6 +1746,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1556205273
@@ -1807,6 +1823,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1590199122
@@ -1871,6 +1888,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1625876001
@@ -1959,6 +1977,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1784691147
@@ -2112,13 +2131,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  parentCube: {fileID: 0}
   gauge: 1
+  waveCost: .200000003
+  regenSpeed: .100000001
   position: 1
   goRight: 0
   goLeft: 0
   positionVal: .300000012
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1899225400
 Animator:
   serializedVersion: 3
@@ -2181,6 +2200,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1965639084
@@ -2270,6 +2290,7 @@ MonoBehaviour:
   animate: 0
   goToColor: 0
   goToHalf: 0
+  goToZero: 0
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &2108731695

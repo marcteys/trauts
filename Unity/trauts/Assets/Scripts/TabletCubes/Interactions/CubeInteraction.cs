@@ -57,17 +57,14 @@ public class CubeInteraction : MonoBehaviour {
 		{
 		case InteractiveMode.Repulsive :
 			serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
-
 			break;
 			
 		case InteractiveMode.Attractive : 
 			serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
-
 			break;
 			
 		case InteractiveMode.Emc : 
 			serverView.RPCEx("CreateWave", RPCMode.Server, cubeId, (int)interactiveMode);
-
 			break;
 		}
 

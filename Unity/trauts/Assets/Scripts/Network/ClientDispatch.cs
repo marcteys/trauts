@@ -26,6 +26,8 @@ public class ClientDispatch : MonoBehaviour {
 	// target manager
 	private GameObject targetObj;
 
+	private SoundManager soundManager;
+
 	void Start()
 	{
 		//debug
@@ -39,6 +41,7 @@ public class ClientDispatch : MonoBehaviour {
 		stuartObj = GameObject.Find("Stuart");
 		targetObj = GameObject.Find ("Target");
 
+		soundManager = new SoundManager();
 	}
 
 
@@ -96,25 +99,12 @@ public class ClientDispatch : MonoBehaviour {
 			serverView.RPCEx("SendStuartTarget",RPCMode.Others,recalculatedTarget.x,recalculatedTarget.y,recalculatedTarget.z);
 
 			}
+
+
+		if (Input.GetMouseButtonDown(0))
+			soundManager.Trigger(SoundManager.SoundType.click);
+
 	}
-
-
-	void OnGUI()
-	{
-		if(GUILayout.Button("Call Print"))
-		{
-			serverView.RPCEx("PrintThis", RPCMode.All, "Hello World","Not lol");
-		}
-	}
-
-	
-	[RPC]
-	protected void PrintThis(string text,string t2)
-	{
-		Debug.Log(text);
-		Debug.Log (t2);
-	}
-
 
 	[RPC]
 	void CreateWave(int cubeID, int intMode)
@@ -129,14 +119,17 @@ public class ClientDispatch : MonoBehaviour {
 		{
 		case InteractiveMode.Repulsive :
 			wavePrefab  = repulsiveWave;
+			soundManager.Trigger(SoundManager.SoundType.repulsive);
 			break;
 			
 		case InteractiveMode.Attractive : 
 			wavePrefab  = attractiveWave;
+			soundManager.Trigger(SoundManager.SoundType.attractive);
 			break;
 
 		case InteractiveMode.Emc : 
 			wavePrefab  = emcWave;
+			soundManager.Trigger(SoundManager.SoundType.emc);
 			CreateEmc(cubeID);
 			break;
 		}
@@ -148,6 +141,7 @@ public class ClientDispatch : MonoBehaviour {
 	void ChangeMode(int cubeID, int newMode)
 	{
 		cubesList[cubeID].GetComponent<CubeInteraction>().SetNewType(newMode);
+		soundManager.Trigger(SoundManager.SoundType.slide);
 	}
 
 	[RPC]
@@ -190,6 +184,7 @@ public class ClientDispatch : MonoBehaviour {
 	void SendStuartTarget(float targetPositionX,float targetPositionY,float targetPositionZ)
 	{
 		targetObj.transform.position = new Vector3(targetPositionX,targetPositionY,targetPositionZ);
+		soundManager.Trigger(SoundManager.SoundType.stuartReact);
 	}
 
 

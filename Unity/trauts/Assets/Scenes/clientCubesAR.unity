@@ -10674,10 +10674,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67cbfb9153674e84d894cc7d53ffe720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mDataSetsToActivate:
-  - Trauts
-  mDataSetsToLoad:
-  - Trauts
+  mDataSetsToActivate: []
+  mDataSetsToLoad: []
 --- !u!114 &1730841550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10702,12 +10700,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4114ca95ba12f394a8ad43abfc86745c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraDeviceModeSetting: -2
+  CameraDeviceModeSetting: -1
   MaxSimultaneousImageTargets: 8
   SynchronousVideo: 0
   mWorldCenterMode: 1
   mWorldCenter: {fileID: 0}
-  CameraDirection: 1
+  CameraDirection: 0
   MirrorVideoBackground: 0
 --- !u!81 &1730841552
 AudioListener:
@@ -10750,8 +10748,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .100000001
-  far clip plane: 500
+  near clip plane: 2
+  far clip plane: 5000
   field of view: 51.2700005
   orthographic: 0
   orthographic size: 100

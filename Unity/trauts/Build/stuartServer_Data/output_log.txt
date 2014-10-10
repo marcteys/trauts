@@ -19,13 +19,13 @@ Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServe
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
-- Completed reload, in  0.128 seconds
+- Completed reload, in  0.104 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.Core.dll (this message is harmless)
-Scanning - Process took 60 ms to complete
+Scanning
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
@@ -38,15 +38,7 @@ AstarPath:Awake() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPa
 Starting Server
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:19)
-NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
- 
-(Filename: C Line: 0)
-
-Server has public address : False. Will use NAT PunchThrough : True
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:20)
+NetworkServer:StartServer2() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:27)
 NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
  
 (Filename: C Line: 0)
@@ -56,177 +48,901 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 NetworkServer:OnServerInitialized() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:33)
 UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:21)
+NetworkServer:StartServer2() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:28)
 NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
  
 (Filename: C Line: 0)
 
-spawn cubes
+No registration on MasterServer
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-ClientDispatch:SpawnCubes() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:58)
-ClientDispatch:OnServerInitialized() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:47)
-UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:21)
+NetworkServer:StartServer2() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:29)
 NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
  
 (Filename: C Line: 0)
 
-Server init
+ReceiveUDP.cs : listening UDP port 11999
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-ClientDispatch:OnServerInitialized() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:48)
-UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:21)
-NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+ReceiveUDP:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\UDP\ReceiveUDP.cs:30)
  
 (Filename: C Line: 0)
 
-Registering on MasterServer
+AutoScanAStar.cs : Auto scan fixed to 1 seconds. (0 = disabled) 
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkServer:StartServer() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:22)
-NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+AutoScanAStar:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:13)
  
 (Filename: C Line: 0)
 
-target col 0.2
+Scanning
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
  
 (Filename: C Line: 0)
 
-o col 1
+Scanning
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
  
 (Filename: C Line: 0)
 
-target col 0.2
+Scanning
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
  
 (Filename: C Line: 0)
 
-o col 1
+WARNING: Shader Unsupported: 'Trauts/AlphaUnlit' - Pass '' shader state not supported
+SoundManager.cs : Play sound repulsive
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
  
 (Filename: C Line: 0)
 
-target col 0.2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
  
 (Filename: C Line: 0)
 
-o col 1
+Scanning
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
  
 (Filename: C Line: 0)
 
-target col 0.2
+SoundManager.cs : Play sound repulsive
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
  
 (Filename: C Line: 0)
 
-o col 1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
  
 (Filename: C Line: 0)
 
-target col 0.2
+Scanning
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
  
 (Filename: C Line: 0)
 
-o col 1
+SoundManager.cs : Play sound repulsive
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
  
 (Filename: C Line: 0)
 
-target col 0.2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
  
 (Filename: C Line: 0)
 
-o col 1
+SoundManager.cs : Play sound repulsive
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
  
 (Filename: C Line: 0)
 
-target col 0.2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
  
 (Filename: C Line: 0)
 
-o col 1
+Scanning
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
  
 (Filename: C Line: 0)
 
-target col 0.2
+SoundManager.cs : Play sound repulsive
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
  
 (Filename: C Line: 0)
 
-o col 1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
  
 (Filename: C Line: 0)
 
-target col 0.2
+SoundManager.cs : Play sound repulsive
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
  
 (Filename: C Line: 0)
 
-o col 1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
  
 (Filename: C Line: 0)
 
-target col 0.2
+Scanning
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:58)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
  
 (Filename: C Line: 0)
 
-o col 1
+SoundManager.cs : Play sound repulsive
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-SavePropretyBlock:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\SavePropretyBlock.cs:59)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+SoundManager.cs : Play sound repulsive
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SoundManager:Trigger(SoundType) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:41)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SoundManager.Trigger (SoundType type) [0x00072] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\SoundManager\SoundManager.cs:44 
+  at ClientDispatch.CreateWave (Int32 cubeID, Int32 intMode) [0x00067] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:135 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000c0] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000e3] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at InheritableRPC.PerformRPCCall (System.String routineName, System.String parameters) [0x000bc] in C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39 
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Couldn't send RPC function 'PerformRPCCall'
+
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:99)
+
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:23)
  
 (Filename: C Line: 0)
 

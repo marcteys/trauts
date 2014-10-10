@@ -22,31 +22,20 @@ public class SoundManager : MonoBehaviour {
 		stuartReact
 	};
 
-	void Awake()
-	{
-		audioS = GetComponent<AudioSource>();
-	}
-
-	void FixedUpdate()
-	{
-		if (Input.GetMouseButtonDown(0))
-			Trigger(SoundType.click);
-	}
-
 	public void Trigger (SoundType type)
 	{
 	 	List<AudioClip> audioList = new List<AudioClip>();
 		string soundType = type.ToString(); 
-		Debug.Log ("lll");
 
 		foreach(AudioClip g in Resources.LoadAll("Sounds/"+soundType, typeof(AudioClip)))
 		{
-			Debug.Log("prefab found: " + g.name);
 			audioList.Add(g);
 		}
+		Debug.Log ("SoundManager.cs : Play sound " + soundType);
 
-		audioS.clip = audioList[Random.Range(0, audioList.Count)];
-		audioS.Play();
+		AudioSource audioSource = Camera.main.GetComponent<AudioSource>();
+		audioSource.clip = audioList[Random.Range(0, audioList.Count)];
+		audioSource.Play();
 
 	}
 }
