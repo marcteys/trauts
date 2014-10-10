@@ -18,7 +18,6 @@ public class AutoScanAStar : MonoBehaviour {
 
 		if(frequency > 0) {
 			currentTime += Time.deltaTime;
-			
 			if(currentTime >= frequency)
 			{
 				AstarPath.active.Scan();
