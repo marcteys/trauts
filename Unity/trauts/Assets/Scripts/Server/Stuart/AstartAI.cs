@@ -31,6 +31,8 @@ public class AstartAI : MonoBehaviour {
 	//custom values
 	public Vector3 targetVector =  Vector3.zero;
 
+
+
 	public void Start ()
 	{
 		//Get a reference to the Seeker component we added earlier
@@ -162,14 +164,6 @@ public class AstartAI : MonoBehaviour {
 		//	___________ Pas touche Astar
 	}
 
-
-	void OnGUI ()
-	{
-		if (GUI.Button (new Rect (10,10,40,20), "Scan"))
-		{
-			AstarPath.active.Scan();
-		}
-	}
 
 	
 	public virtual void ReachedEndOfPath ()

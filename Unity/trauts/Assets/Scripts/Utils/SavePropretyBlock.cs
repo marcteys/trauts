@@ -52,12 +52,12 @@ public class SavePropretyBlock : MonoBehaviour {
 				newColor = Color.Lerp(currentColor,targetColor,Time.deltaTime * speed/5f);
 				if(newColor.a > targetColor.a-0.005f && newColor.a < targetColor.a+0.005f)
 				{
-					 animate = false;
+					 animate = false;/*
 					 if(this.transform.name == "Color" )
 					 {
 						Debug.Log ("target col " + targetColor.a);
 						Debug.Log ("o col " + originalColor.a);
-					 }
+					 }*/
 				}
 			}
 			else

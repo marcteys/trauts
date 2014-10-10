@@ -45,17 +45,17 @@ public class ClientDispatch : MonoBehaviour {
 	void OnServerInitialized()
 	{
 		SpawnCubes();
-		Debug.Log("Server init");
+		//Debug.Log("Server init");
 	}
 	void  OnConnectedToServer()
 	{
 	//	SpawnCubes();
-		Debug.Log("Connected to server");
+		//Debug.Log("Connected to server");
 	}
 
 	void SpawnCubes()
 	{
-		Debug.Log ("spawn cubes");
+		//Debug.Log ("spawn cubes");
 		//instantiate cubes
 		cubesListNetwork = new GameObject[cubeNumber];
 		for(int i= 0; i<cubeNumber; ++i)
@@ -172,7 +172,7 @@ public class ClientDispatch : MonoBehaviour {
 	{
 		Vector3 cubeOrigin = new Vector3( cubeOriginX, cubeOriginY, cubeOriginZ);
 
-		Debug.DrawRay(cubeOrigin,Vector3.up, Color.black,50f);
+		//Debug.DrawRay(cubeOrigin,Vector3.up, Color.black,50f);
 
 		EmcCreator emc = new EmcCreator();
 		emc.LaunchEmc(cubeOrigin,cubesList[cubeID]);

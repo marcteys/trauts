@@ -7,7 +7,7 @@ public class NetworkServer : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		StartServer();
+		StartServer2();
 	}
 	
 	// Update is called once per frame

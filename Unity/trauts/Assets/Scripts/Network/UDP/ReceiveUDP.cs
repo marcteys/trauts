@@ -16,14 +16,19 @@ public class ReceiveUDP : MonoBehaviour
 	private Regex regexParse;
 	private Thread t_udp;
 	public string datas =""; 
+
+	public bool isAlive = false;
+
 	void Start()
 	{
 		client = new UdpClient(port);
 		RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
 		regexParse = new Regex(@"\d*$");
 		t_udp = new Thread(new ThreadStart(UDPRead));
-		t_udp.Name = "Mindtuner UDP thread";
+		t_udp.Name = "UDP thread";
 		t_udp.Start();
+		Debug.Log("ReceiveUDP.cs : listening UDP port " + port);
+
 	}
 	
 	public void UDPRead()
@@ -32,7 +37,6 @@ public class ReceiveUDP : MonoBehaviour
 		{
 			try
 			{
-				Debug.Log("listening UDP port " + port);
 				byte[] receiveBytes = client.Receive(ref RemoteIpEndPoint);
 				string returnData = Encoding.ASCII.GetString(receiveBytes);
 				// parsing
@@ -42,7 +46,7 @@ public class ReceiveUDP : MonoBehaviour
 			}
 			catch (Exception e)
 			{
-				Debug.Log("Not so good " + e.ToString());
+				Debug.Log("ReceiveUDP.cs : Not so good " + e.ToString());
 			}
 			Thread.Sleep(20);
 		}
@@ -50,7 +54,7 @@ public class ReceiveUDP : MonoBehaviour
 	
 	void Update()
 	{
-		if (t_udp != null) Debug.Log(t_udp.IsAlive);
+		if (t_udp != null) isAlive = true;
 		Vector3 scale = transform.localScale;
 		scale.x = (float)UDPValue;
 	}
