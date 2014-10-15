@@ -26,6 +26,8 @@ public class GaugeInfo : MonoBehaviour {
 	public bool goLeft = false;
 	public float positionVal = 0.3f;
 	private Vector3 targetPosition;
+	private Vector3 targetScale;
+	private Vector3 halfScale = new Vector3(0.5f,0.5f,0.5f);
 
 	//visual styff
 	private MaterialPropertyBlock targetMB;
@@ -35,11 +37,16 @@ public class GaugeInfo : MonoBehaviour {
 		colorBG = this.transform.Find("Color");	
 		parentCube = this.transform.parent.GetComponent<CubeInteraction>();
 		targetPosition  = this.transform.localPosition;
+		targetScale = Vector3.one;
 	}
 	
 	void Awake()
 	{
-		if(position != 1) globalHalf();
+		if(position != 1)
+		{
+			globalHalf();
+			targetScale =halfScale;
+		}
 	}
 	
 	void Update ()
@@ -59,6 +66,8 @@ public class GaugeInfo : MonoBehaviour {
 	void ApplyPosition()
 	{
 		this.transform.localPosition = Vector3.Lerp(this.transform.localPosition,targetPosition,Time.deltaTime * 6f); 
+		this.transform.localScale = Vector3.Lerp(this.transform.localScale,targetScale,Time.deltaTime * 6f); 
+		Debug.Log (targetScale.x);
 	}
 
 	public void CreateWave()
@@ -108,6 +117,8 @@ public class GaugeInfo : MonoBehaviour {
 			position =3;
 			Vector3 posPlace = new Vector3(positionVal*(position+2),this.transform.localPosition.y, this.transform.localPosition.z);
 			this.transform.localPosition = posPlace;
+			this.transform.localScale = halfScale;
+
 			targetPosition = new Vector3(positionVal*(position+1),this.transform.localPosition.y, this.transform.localPosition.z);
 		 }
 		 else if(position >=4)
@@ -115,11 +126,21 @@ public class GaugeInfo : MonoBehaviour {
 			position = 1;
 			Vector3 posPlace = new Vector3(positionVal,this.transform.localPosition.y, this.transform.localPosition.z);
 			this.transform.localPosition = posPlace;
+			this.transform.localScale = halfScale;
 			targetPosition = new Vector3(positionVal*(position+1),this.transform.localPosition.y, this.transform.localPosition.z);
 		 }
 		 
-		if(position == 1) globalDisplay();
-		else globalHalf();
+		// s'il est en avant
+		if(position == 1)
+		{
+			globalDisplay();
+			targetScale = Vector3.one;
+		}
+		else
+		{
+			globalHalf();
+			targetScale = halfScale;
+		}
 	}
 
 	void globalHalf()
