@@ -14,8 +14,8 @@ public class SwipeDetector : MonoBehaviour {
 	
 	public enum SwipeDirection {
 		None,
-		Up,
-		Down
+		Left,
+		Right
 	}
 		
 	public SwipeDirection lastSwipe = SwipeDetector.SwipeDirection.None;
@@ -47,10 +47,10 @@ public class SwipeDetector : MonoBehaviour {
 				break;
 				
 			case TouchPhase.Moved:
-				if (Mathf.Abs(touch.position.x - startPos.x) > comfortZone)
+				if (Mathf.Abs(touch.position.y - startPos.y) > comfortZone)
 				{
-					Debug.Log("Not a swipe. Swipe strayed " + (int)Mathf.Abs(touch.position.x - startPos.x) +
-					          "px which is " + (int)(Mathf.Abs(touch.position.x - startPos.x) - comfortZone) +
+					Debug.Log("Not a swipe. Swipe strayed " + (int)Mathf.Abs(touch.position.y - startPos.y) +
+					          "px which is " + (int)(Mathf.Abs(touch.position.y - startPos.y) - comfortZone) +
 					          "px outside the comfort zone.");
 					couldBeSwipe = false;
 				}
@@ -60,23 +60,23 @@ public class SwipeDetector : MonoBehaviour {
 				if (couldBeSwipe)
 				{
 					float swipeTime = Time.time - startTime;
-					float swipeDist = (new Vector3(0, touch.position.y, 0) - new Vector3(0, startPos.y, 0)).magnitude;
+					float swipeDist = (new Vector3(0, touch.position.x, 0) - new Vector3(0, startPos.x, 0)).magnitude;
 					
 					if ((swipeTime < maxSwipeTime) && /*||*/ (swipeDist > minSwipeDist))
 					{
 						// It's a swiiiiiiiiiiiipe!
-						float swipeValue = Mathf.Sign(touch.position.y - startPos.y);
+						float swipeValue = Mathf.Sign(touch.position.x - startPos.x);
 						
 						// If the swipe direction is positive, it was an upward swipe.
 						// If the swipe direction is negative, it was a downward swipe.
 						if (swipeValue > 0)
 						{
-							lastSwipe = SwipeDetector.SwipeDirection.Up;
+							lastSwipe = SwipeDetector.SwipeDirection.Left;
 							clickedCube.SwipteType(true);
 						}
 						else if (swipeValue < 0)
 						{
-							lastSwipe = SwipeDetector.SwipeDirection.Down;
+							lastSwipe = SwipeDetector.SwipeDirection.Right;
 							clickedCube.SwipteType(false);
 						}
 						
