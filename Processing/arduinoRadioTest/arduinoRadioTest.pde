@@ -18,10 +18,10 @@ void setup()
 
 void draw(){
 int o=parseInt(map(mouseX,0,width,0,255));
-  msg[0]=0; // moteur droite, vers l'avant
-   msg[1]=(byte) o;
-    msg[2]=0; //moteur de gauche, vers l'avant
-     msg[3]=0; //moteur de gauche , vers l'arriere
+  msg[0]=(byte) o; // moteur gauche, vers l'avant
+   msg[1]=0; //moteur de gauche , vers l'arriere
+    msg[2]=0; //moteur de droite, vers l'arriere
+     msg[3]=0; //moteur de droite, vers l'avant
   if ( millis() - lastTime > 100 ) {
    myPort.write(msg); 
    lastTime = millis();
