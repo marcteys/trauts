@@ -56,11 +56,10 @@ public class PositionCalcul : MonoBehaviour {
 		Vector3 center = Vector3.Lerp(farDistance,nearDistance,0.5f);
 		stuartObj.transform.position = center;
 
-		stuartObj.transform.rotation = Quaternion.Euler(direction);
+		stuartObj.transform.rotation = Quaternion.LookRotation(direction);
 
 		Debug.DrawRay(nearDistance,direction,Color.red);
 		Debug.DrawRay(center,Vector3.up,Color.green);
-		//Debug.Log (MinValue(dist));
 
 	}
 
