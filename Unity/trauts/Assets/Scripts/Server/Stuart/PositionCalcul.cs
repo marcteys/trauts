@@ -52,8 +52,9 @@ public class PositionCalcul : MonoBehaviour {
 			break;
 
 		}
-		Vector3 direction = farDistance - nearDistance;
+		Vector3 direction =  nearDistance - farDistance;
 		Vector3 center = Vector3.Lerp(farDistance,nearDistance,0.5f);
+		//Debug.Log (center);
 		stuartObj.transform.position = center;
 
 		stuartObj.transform.rotation = Quaternion.LookRotation(direction);

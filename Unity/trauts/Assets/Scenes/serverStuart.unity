@@ -86,6 +86,7 @@ GameObject:
   - 65: {fileID: 981282}
   - 23: {fileID: 981281}
   - 114: {fileID: 981280}
+  - 135: {fileID: 981284}
   m_Layer: 9
   m_Name: Cube_0
   m_TagString: Cube
@@ -155,7 +156,7 @@ BoxCollider:
   m_GameObject: {fileID: 981278}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: .5, z: 0}
@@ -167,6 +168,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2067402000}
   m_GameObject: {fileID: 981278}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &981284
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 981278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.23000002
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &4108926
 GameObject:
   m_ObjectHideFlags: 0
@@ -6276,6 +6289,50 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &720286436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 720286437}
+  - 114: {fileID: 720286438}
+  m_Layer: 0
+  m_Name: StuartControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &720286437
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 720286436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 858350475}
+  - {fileID: 2111491436}
+  - {fileID: 1317947459}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+--- !u!114 &720286438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 720286436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64bc48465db14214a82aab6104952b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stuartObj: {fileID: 0}
+  receivedPoints: []
 --- !u!1 &738915233
 GameObject:
   m_ObjectHideFlags: 0
@@ -6592,6 +6649,7 @@ GameObject:
   - 65: {fileID: 771529031}
   - 23: {fileID: 771529030}
   - 114: {fileID: 771529029}
+  - 135: {fileID: 771529033}
   m_Layer: 9
   m_Name: Cube_2
   m_TagString: Cube
@@ -6661,7 +6719,7 @@ BoxCollider:
   m_GameObject: {fileID: 771529027}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: .5, z: 0}
@@ -6673,6 +6731,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1002844534}
   m_GameObject: {fileID: 771529027}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &771529033
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771529027}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.23000002
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &785461092
 GameObject:
   m_ObjectHideFlags: 0
@@ -7267,6 +7337,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1002844534}
   m_GameObject: {fileID: 842326500}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &858350474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 858350475}
+  m_Layer: 0
+  m_Name: stuPos0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &858350475
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858350474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 720286437}
+  m_RootOrder: 0
 --- !u!1 &875986695
 GameObject:
   m_ObjectHideFlags: 0
@@ -7833,6 +7930,10 @@ Prefab:
       propertyPath: m_Name
       value: Cube_1
       objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 1997180796}
@@ -8366,6 +8467,10 @@ Prefab:
     - target: {fileID: 100044, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
       propertyPath: m_Name
       value: Cube_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
@@ -9495,7 +9600,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1092598364}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: .5
   m_Height: 2
   m_Direction: 2
@@ -9600,7 +9705,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1092598364}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b1e602d8f2406a4e860719d53e7dbcf, type: 3}
   m_Name: 
@@ -9868,6 +9973,10 @@ Prefab:
       propertyPath: m_Name
       value: Cube_4
       objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 1301651963}
@@ -9992,6 +10101,10 @@ Prefab:
     - target: {fileID: 100044, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
       propertyPath: m_Name
       value: Cube_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
@@ -10493,6 +10606,7 @@ GameObject:
   - 65: {fileID: 1236807575}
   - 23: {fileID: 1236807574}
   - 114: {fileID: 1236807573}
+  - 135: {fileID: 1236807577}
   m_Layer: 9
   m_Name: Cube_3
   m_TagString: Cube
@@ -10562,7 +10676,7 @@ BoxCollider:
   m_GameObject: {fileID: 1236807571}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: .5, z: 0}
@@ -10574,6 +10688,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1183833432}
   m_GameObject: {fileID: 1236807571}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &1236807577
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236807571}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.23000002
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &1238167211
 GameObject:
   m_ObjectHideFlags: 0
@@ -11434,6 +11560,7 @@ GameObject:
   - 65: {fileID: 1301651967}
   - 23: {fileID: 1301651966}
   - 114: {fileID: 1301651965}
+  - 135: {fileID: 1301651969}
   m_Layer: 9
   m_Name: Cube_4
   m_TagString: Cube
@@ -11503,7 +11630,7 @@ BoxCollider:
   m_GameObject: {fileID: 1301651963}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: .5, z: 0}
@@ -11515,6 +11642,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1130850866}
   m_GameObject: {fileID: 1301651963}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &1301651969
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1301651963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.23000002
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &1308584712
 GameObject:
   m_ObjectHideFlags: 0
@@ -11704,6 +11843,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d84737105b935c9438e6a76b41107e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1317947458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1317947459}
+  m_Layer: 0
+  m_Name: stuPos2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317947459
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1317947458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 720286437}
+  m_RootOrder: 2
 --- !u!1 &1320964748
 GameObject:
   m_ObjectHideFlags: 0
@@ -12822,6 +12988,7 @@ MonoBehaviour:
     \     \"visible\" : true,\r\n      x: 5.55,\r\n      y : 5.2233\r\n    }\r\n  },\r\n
     \ \"stuart\": {\r\n    \"x\": 10,\r\n    \"y\": 5.2224\r\n  } }"
   cubeNumber: 5
+  stuPos: []
   divisionValue: 41
   substractX: 50
   substractY: 60
@@ -16254,7 +16421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   astarData:
     hasBeenReverted: 0
-    data: 504b0304140000080800f0624a45faac0324f0010000f10300000b0024006772617068302e6a736f6e0a0020000000000001001800e962d93d74e4cf01e962d93d74e4cf01e962d93d74e4cf017553cb6edb3010fc958267c79014b8b57d4becc62d903641dca287a28735b9b20853a4c047633bf0bf77493d1205a80508d4cc72677648bfb07d90822d5fd85f5001d992ed66f0891e9e8b3c9f1799b85a64b332dbe135886c515e0bce2e1306ae41ee9fc04bc396f98449676af456f21bbd57d4259b306b7ca475ec7d4cc829bdcff4a60e1cb547fb1f3268aea06e506ce519bb9aa22d2a22af8dc096caa605f5324a49d769f95313c75841e3025999302181bc452d2aad50ee2b9f96c3ae87b274e85bd3705a4b4ba3a566ecd6f88a3ad4e00e6f229ae5c5a5eff46d4c15b38f4495d6d45f3aa13ca3b6be92fcf004270e8ea01294c331b81e3c5298a119c592bf66d63b5e55c849d6db80bd911114f433a803ec14feaa507f371b6b821603ebb05877362e71bae34ac97a97f4fa8f9ba374499a80ad3231d205d16829f9af64341dad4b5b088b9e7e3afc017b378cd7c177d23a4f446a06c19b7ba90f1b2bc56b658faea5f3f7b29629353ae438d7ce044b95ec734a9322087e65acc608b6d334a841f9d323a9f9f161be6306bd77f81d706fdae43ba6bbc4e3f2040eb5f154a5a6fda01e5b3e495250ba37a6e948c9799cf5c3c642136f92b0f0bc91e7da0cf6a52ecd965b44fd90f676a235d0bfe938dc2c2aff9d4df345facde793ac7bf2613566af16d3f66bb4ceff5c2eff00504b0304140000080800f0624a45287e18aa4300000048000000120024006772617068305f656469746f722e6a736f6e0a00200000000000010018000a8ad93d74e4cf010a8ad93d74e4cf010a8ad93d74e4cf01ab56cac94fce4e4d51b22a292a4dd5512acec82f77ad28294a54b24a4bcc29068a94a456949416a58665166726e5a4c2d4156496e59728592939a7e695a41629d50200504b0304140000080800f0624a45177edccf7600000083000000090024006d6574612e6a736f6e0a00200000000000010018000a8ad93d74e4cf010a8ad93d74e4cf010a8ad93d74e4cf011d8c310f82301046ffcbcdd8b4348dc2eac066dc0dc3c15da18357528a8931fe775bf32d6f78effbc08bd31ea2400f5639d542034bc26ddda137058f40851e30393c97cd868cb9b49a4e9d765e4f6c9174e72dcd303690df1bdff0c9ffe28e79f54128c8a2861468a8afd592487c8d87e4aae9f1fb03504b01022d00140000080800f0624a45faac0324f0010000f10300000b00240000000000000000000000000000006772617068302e6a736f6e0a0020000000000001001800e962d93d74e4cf01e962d93d74e4cf01e962d93d74e4cf01504b01022d00140000080800f0624a45287e18aa430000004800000012002400000000000000000000003d0200006772617068305f656469746f722e6a736f6e0a00200000000000010018000a8ad93d74e4cf010a8ad93d74e4cf010a8ad93d74e4cf01504b01022d00140000080800f0624a45177edccf76000000830000000900240000000000000000000000d40200006d6574612e6a736f6e0a00200000000000010018000a8ad93d74e4cf010a8ad93d74e4cf010a8ad93d74e4cf01504b050600000000030003001c010000950300000000
+    data: 504b030414000008080044965045faac0324f0010000f10300000b0024006772617068302e6a736f6e0a002000000000000100180096fd283f61e9cf0196fd283f61e9cf0196fd283f61e9cf017553cb6edb3010fc958267c79014b8b57d4becc62d903641dca287a28735b9b20853a4c047633bf0bf77493d1205a80508d4cc72677648bfb07d90822d5fd85f5001d992ed66f0891e9e8b3c9f1799b85a64b332dbe135886c515e0bce2e1306ae41ee9fc04bc396f98449676af456f21bbd57d4259b306b7ca475ec7d4cc829bdcff4a60e1cb547fb1f3268aea06e506ce519bb9aa22d2a22af8dc096caa605f5324a49d769f95313c75841e3025999302181bc452d2aad50ee2b9f96c3ae87b274e85bd3705a4b4ba3a566ecd6f88a3ad4e00e6f229ae5c5a5eff46d4c15b38f4495d6d45f3aa13ca3b6be92fcf004270e8ea01294c331b81e3c5298a119c592bf66d63b5e55c849d6db80bd911114f433a803ec14feaa507f371b6b821603ebb05877362e71bae34ac97a97f4fa8f9ba374499a80ad3231d205d16829f9af64341dad4b5b088b9e7e3afc017b378cd7c177d23a4f446a06c19b7ba90f1b2bc56b658faea5f3f7b29629353ae438d7ce044b95ec734a9322087e65acc608b6d334a841f9d323a9f9f161be6306bd77f81d706fdae43ba6bbc4e3f2040eb5f154a5a6fda01e5b3e495250ba37a6e948c9799cf5c3c642136f92b0f0bc91e7da0cf6a52ecd965b44fd90f676a235d0bfe938dc2c2aff9d4df345facde793ac7bf2613566af16d3f66bb4ceff5c2eff00504b030414000008080044965045287e18aa4300000048000000120024006772617068305f656469746f722e6a736f6e0a002000000000000100180096fd283f61e9cf0196fd283f61e9cf0196fd283f61e9cf01ab56cac94fce4e4d51b22a292a4dd5512acec82f77ad28294a54b24a4bcc29068a94a456949416a58665166726e5a4c2d4156496e59728592939a7e695a41629d50200504b030414000008080044965045177edccf7600000083000000090024006d6574612e6a736f6e0a002000000000000100180096fd283f61e9cf0196fd283f61e9cf0196fd283f61e9cf011d8c310f82301046ffcbcdd8b4348dc2eac066dc0dc3c15da18357528a8931fe775bf32d6f78effbc08bd31ea2400f5639d542034bc26ddda137058f40851e30393c97cd868cb9b49a4e9d765e4f6c9174e72dcd303690df1bdff0c9ffe28e79f54128c8a2861468a8afd592487c8d87e4aae9f1fb03504b01022d0014000008080044965045faac0324f0010000f10300000b00240000000000000000000000000000006772617068302e6a736f6e0a002000000000000100180096fd283f61e9cf0196fd283f61e9cf0196fd283f61e9cf01504b01022d0014000008080044965045287e18aa430000004800000012002400000000000000000000003d0200006772617068305f656469746f722e6a736f6e0a002000000000000100180096fd283f61e9cf0196fd283f61e9cf0196fd283f61e9cf01504b01022d0014000008080044965045177edccf76000000830000000900240000000000000000000000d40200006d6574612e6a736f6e0a002000000000000100180096fd283f61e9cf0196fd283f61e9cf0196fd283f61e9cf01504b050600000000030003001c010000950300000000
     data_backup: 
     data_cachedStartup: 
     revertData: 
@@ -16322,7 +16489,7 @@ MonoBehaviour:
   minAreaSize: 10
   limitGraphUpdates: 1
   maxGraphUpdateFreq: .200000003
-  lastScanTime: .051005099
+  lastScanTime: .0510005988
   inGameDebugPath: 
   isScanning: 0
   showGraphs: 0
@@ -17021,6 +17188,7 @@ GameObject:
   - 65: {fileID: 1997180800}
   - 23: {fileID: 1997180799}
   - 114: {fileID: 1997180798}
+  - 135: {fileID: 1997180802}
   m_Layer: 9
   m_Name: Cube_1
   m_TagString: Cube
@@ -17090,7 +17258,7 @@ BoxCollider:
   m_GameObject: {fileID: 1997180796}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: .5, z: 0}
@@ -17102,6 +17270,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 896626275}
   m_GameObject: {fileID: 1997180796}
   m_Mesh: {fileID: 4300002, guid: 587022fa04713364cb55f9a482cb383f, type: 3}
+--- !u!135 &1997180802
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997180796}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.23000002
+  m_Center: {x: 0, y: .5, z: 0}
 --- !u!1 &2006766488
 GameObject:
   m_ObjectHideFlags: 0
@@ -17899,6 +18079,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a311fd6a63d5b9e478354f359cdde8d9, type: 2}
   m_RootGameObject: {fileID: 981278}
@@ -18288,6 +18472,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1130850866}
   m_GameObject: {fileID: 2111222914}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2111491435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2111491436}
+  m_Layer: 0
+  m_Name: stuPos1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2111491436
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2111491435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 720286437}
+  m_RootOrder: 1
 --- !u!1 &2112715633
 GameObject:
   m_ObjectHideFlags: 0
