@@ -2823,7 +2823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25b91914c5072a4383ad63156ece9d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texture: {fileID: 2800000, guid: c15ad37aa1b007d43b01fad1d280df6e, type: 3}
+  texture: {fileID: 2800000, guid: c14e71772f6c9604b93e890c7e969f55, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1

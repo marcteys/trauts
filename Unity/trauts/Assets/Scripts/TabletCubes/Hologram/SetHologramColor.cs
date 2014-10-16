@@ -27,17 +27,19 @@ public class SetHologramColor : MonoBehaviour {
 		}
 	}
 
-	void SetColor()
+	public void SetColor(Color col)
 	{
 		mb = new MaterialPropertyBlock();
-/*		mb.AddColor("_Color",newColor);
-		mb.AddColor("_TintColor",newColor);
-		
-		foreach (Transform child in transform)
-		{
-			child.renderer.SetPropertyBlock(mb);
-		}*/
 
+		foreach (Transform child in transform)
+		{	
+			col.a = (1-child.localPosition.y*5)/2f;
+			
+			mb.AddColor("_Color",col);
+			mb.AddColor("_TintColor",col);
+
+			child.renderer.SetPropertyBlock(mb);
+		}
 	}
 
 
