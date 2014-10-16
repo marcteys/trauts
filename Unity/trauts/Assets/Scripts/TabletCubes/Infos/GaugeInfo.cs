@@ -38,6 +38,12 @@ public class GaugeInfo : MonoBehaviour {
 		parentCube = this.transform.parent.GetComponent<CubeInteraction>();
 		targetPosition  = this.transform.localPosition;
 		targetScale = Vector3.one;
+		if(position != 1)
+		{
+			targetScale = halfScale;
+			targetPosition  = new Vector3(this.transform.localPosition.x,0.5f,this.transform.localPosition.z);
+
+		}
 	}
 	
 	void Awake()
@@ -45,7 +51,7 @@ public class GaugeInfo : MonoBehaviour {
 		if(position != 1)
 		{
 			globalHalf();
-			targetScale =halfScale;
+			targetScale = halfScale;
 		}
 	}
 	
@@ -57,7 +63,8 @@ public class GaugeInfo : MonoBehaviour {
 
 	void ApplyGauge()
 	{
-		if(gauge < 1f) gauge = gauge + Time.deltaTime * regenSpeed;
+		if(gauge < 1f)
+			gauge = gauge + Time.deltaTime * regenSpeed;
 		
 		Vector3 gaugeScale = new Vector3(0.2f,1,gauge);
 		colorBG.localScale = gaugeScale;
@@ -67,7 +74,6 @@ public class GaugeInfo : MonoBehaviour {
 	{
 		this.transform.localPosition = Vector3.Lerp(this.transform.localPosition,targetPosition,Time.deltaTime * 6f); 
 		this.transform.localScale = Vector3.Lerp(this.transform.localScale,targetScale,Time.deltaTime * 6f); 
-		Debug.Log (targetScale.x);
 	}
 
 	public void CreateWave()
@@ -94,7 +100,7 @@ public class GaugeInfo : MonoBehaviour {
 	public void GoToLeft()
 	{
 		--position;
-		targetPosition = new Vector3(positionVal*position + positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
+		targetPosition = new Vector3(positionVal*position + positionVal, 0.5f, this.transform.localPosition.z);
 		//if(position <= 0) globalFade();
 		Invoke("SwitchPos", 0.2f);
 		globalHalf();
@@ -103,7 +109,7 @@ public class GaugeInfo : MonoBehaviour {
 	public void GoToRight()
 	{
 		++position;
-		targetPosition = new Vector3(positionVal*position + positionVal, this.transform.localPosition.y, this.transform.localPosition.z);
+		targetPosition = new Vector3(positionVal*position + positionVal, 0.5f, this.transform.localPosition.z);
 		//if(position >= 4) globalFade();
 		Invoke("SwitchPos", 0.2f);
 		globalHalf();
@@ -115,19 +121,18 @@ public class GaugeInfo : MonoBehaviour {
 
 		if(position <= 0){
 			position =3;
-			Vector3 posPlace = new Vector3(positionVal*(position+2),this.transform.localPosition.y, this.transform.localPosition.z);
+			Vector3 posPlace = new Vector3(positionVal*(position+2),0.5f, this.transform.localPosition.z);
 			this.transform.localPosition = posPlace;
 			this.transform.localScale = halfScale;
-
-			targetPosition = new Vector3(positionVal*(position+1),this.transform.localPosition.y, this.transform.localPosition.z);
+			targetPosition = new Vector3(positionVal*(position+1),0.5f, this.transform.localPosition.z);
 		 }
 		 else if(position >=4)
 		 {
 			position = 1;
-			Vector3 posPlace = new Vector3(positionVal,this.transform.localPosition.y, this.transform.localPosition.z);
+			Vector3 posPlace = new Vector3(positionVal,0.5f, this.transform.localPosition.z);
 			this.transform.localPosition = posPlace;
 			this.transform.localScale = halfScale;
-			targetPosition = new Vector3(positionVal*(position+1),this.transform.localPosition.y, this.transform.localPosition.z);
+			targetPosition = new Vector3(positionVal*(position+1),0.5f, this.transform.localPosition.z);
 		 }
 		 
 		// s'il est en avant
@@ -135,11 +140,11 @@ public class GaugeInfo : MonoBehaviour {
 		{
 			globalDisplay();
 			targetScale = Vector3.one;
+			targetPosition = new Vector3(positionVal*position + positionVal, 0f, this.transform.localPosition.z);
 		}
 		else
 		{
 			globalHalf();
-			targetScale = halfScale;
 		}
 	}
 
@@ -149,6 +154,7 @@ public class GaugeInfo : MonoBehaviour {
 		{
 			child.GetComponent<SavePropretyBlock>().HalfTransparency();
 		}
+		targetScale = halfScale;
 	}
 	
 	void globalZero()

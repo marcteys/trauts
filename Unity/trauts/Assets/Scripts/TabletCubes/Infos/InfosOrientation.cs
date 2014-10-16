@@ -6,7 +6,7 @@ public class InfosOrientation : MonoBehaviour {
 
 	private Transform mainCam;
 	private Transform parent;
-	private float speed = 10f;
+	private float speed = 5f;
 
 	private float degree;
 	private float angle;
