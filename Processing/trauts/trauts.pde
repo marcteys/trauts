@@ -31,7 +31,7 @@ void setup() {
   //arduino
  // String portName = Serial.list()[0]; //change the 0 to a 1 or 2 etc. to match your port
 //  println(portName);
-  myPort = new Serial(this, "COM3", 9600);
+  myPort = new Serial(this, "COM5", 9600);
 }
 
 

@@ -16,10 +16,22 @@ public class ForceCalculation : MonoBehaviour {
 	//force
 	public Vector3 counterForce = Vector3.zero;
 
+	//sendViaOSC
+	private OSCSendStuart oscStuart;
+
+	/*
+	  Just remember...
+
+	msg[0]=(byte) o; // moteur gauche, vers l'avant
+	msg[1]=0; //moteur de gauche , vers l'arriere
+	msg[2]=0; //moteur de droite, vers l'arriere
+	msg[3]=0; //moteur de droite, vers l'avant
+*/
 
 	void Start ()
 	{
 		astarVehicle = this.GetComponent<AstartAI>();
+		oscStuart = GetComponent<OSCSendStuart>();
 	}
 	
 	void FixedUpdate ()
@@ -42,14 +54,6 @@ public class ForceCalculation : MonoBehaviour {
 		Vector3 cross= Vector3.Cross(targetVector, transform.forward);
 		if (cross.y < 0) angle = -angle;
 
-		/*
-		byte leftMotorPower = 0;
-		bool leftMotorDirection = true; // true = forward, false = backward;
-
-		byte rightMotorPower = 0;
-		bool rightMotorDirection = true; // true = forward, false = backward;
-		*/
-	
 		if(angle < 50 && angle> -50)
 		{
 			//tout droit
@@ -81,6 +85,29 @@ public class ForceCalculation : MonoBehaviour {
 				rightMotorPower  = (byte)Remap(angle,-50,-180,100,255);
 			}
 		} // end left/right
+
+
+
+		/*
+	  Just remember...
+
+	msg[0]=(byte) o; // moteur gauche, vers l'avant
+	msg[1]=0; //moteur de gauche , vers l'arriere
+	msg[2]=0; //moteur de droite, vers l'arriere
+	msg[3]=0; //moteur de droite, vers l'avant
+*/
+		oscStuart.m1_1 = (byte)0;
+		oscStuart.m1_2 = (byte)0;
+		oscStuart.m2_1 = (byte)0;
+		oscStuart.m2_2 = (byte)0;
+
+		if(leftMotorDirection) oscStuart.m1_1 = (byte)leftMotorPower;
+		else oscStuart.m1_2 = (byte)leftMotorPower;
+
+		if(rightMotorDirection) oscStuart.m2_1 = (byte)rightMotorPower;
+		else oscStuart.m2_2 = (byte)rightMotorPower;
+
+		//oscStuart.
 
 	}
 
