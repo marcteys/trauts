@@ -37,6 +37,7 @@ void loop(){
 //Radio 
 uint8_t buf[VW_MAX_MESSAGE_LEN]; // Tableau qui va contenir le message reçu (de taille maximum VW_MAX_MESSAGE_LEN)
 uint8_t buflen = VW_MAX_MESSAGE_LEN; // Taille maximum de notre tableau
+
   if (vw_wait_rx_max(200)) // Si un message est reçu dans les 200ms qui viennent
   {
       if (vw_get_message(buf, &buflen)) // On copie le message, qu'il soit corrompu ou non

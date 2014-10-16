@@ -60,15 +60,19 @@ void oscEvent(OscMessage theOscMessage) {
  //  println(messData);
 
      sendMessage(A_TAG,
-     int(motors[0]),
-     int(motors[1]),
-     int(motors[2]),
-     int(motors[3]));
+     int(motors[0]), // celui de droite vers l'arrière
+     int(motors[1]),// celui de droite vers l'avant
+     int(motors[2]),// celui de gauche vers l'avant
+     int(motors[3]));// celui de gauche vers l'arrière
     
 }
     
 void mousePressed() {
-
+  sendMessage(A_TAG,
+     0,
+     0,
+     255,
+     0);
 }
 
 void sendMessage(char tag, int a, int b, int c, int d){

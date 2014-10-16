@@ -12,6 +12,7 @@ public class ForceCalculation : MonoBehaviour {
 	public bool leftMotorDirection = true; // true = forward, false = backward;
 	public byte rightMotorPower = 0;
 	public bool rightMotorDirection = true; // true = forward, false = backward;
+	float maxSpeed = 220;
 
 	//force
 	public Vector3 counterForce = Vector3.zero;
@@ -60,8 +61,8 @@ public class ForceCalculation : MonoBehaviour {
 			leftMotorDirection = true;
 			rightMotorDirection = true;
 
-			leftMotorPower = (byte)Remap(angle,-50,50,255,0);
-			rightMotorPower  = (byte)Remap(angle,-50,50,0,255);
+			leftMotorPower = (byte)Remap(angle,-50,50,maxSpeed,0);
+			rightMotorPower  = (byte)Remap(angle,-50,50,0,maxSpeed);
 		} 
 		else
 		{
@@ -72,8 +73,8 @@ public class ForceCalculation : MonoBehaviour {
 				leftMotorDirection = false;
 				rightMotorDirection = true;
 				
-				leftMotorPower = (byte)Remap(angle,50,-180,100,255);
-				rightMotorPower  = (byte)Remap(angle,50,-180,100,255);
+				leftMotorPower = (byte)Remap(angle,50,-180,0,maxSpeed);
+				rightMotorPower  = (byte)Remap(angle,50,-180,0,maxSpeed);
 			} 
 			else
 			{
@@ -81,8 +82,8 @@ public class ForceCalculation : MonoBehaviour {
 				leftMotorDirection = true;
 				rightMotorDirection = false;
 				
-				leftMotorPower = (byte)Remap(angle,-50,-180,100,255);
-				rightMotorPower  = (byte)Remap(angle,-50,-180,100,255);
+				leftMotorPower = (byte)Remap(angle,-50,-180,0,maxSpeed);
+				rightMotorPower  = (byte)Remap(angle,-50,-180,0,maxSpeed);
 			}
 		} // end left/right
 
@@ -90,22 +91,22 @@ public class ForceCalculation : MonoBehaviour {
 
 		/*
 	  Just remember...
-
-	msg[0]=(byte) o; // moteur gauche, vers l'avant
-	msg[1]=0; //moteur de gauche , vers l'arriere
-	msg[2]=0; //moteur de droite, vers l'arriere
-	msg[3]=0; //moteur de droite, vers l'avant
+	  
+    int(motors[0]), // celui de droite vers l'arrière
+     int(motors[1]),// celui de droite vers l'avant
+     int(motors[2]),// celui de gauche vers l'avant
+     int(motors[3]));// celui de gauche vers l'arrière
 */
 		oscStuart.m1_1 = (byte)0;
 		oscStuart.m1_2 = (byte)0;
 		oscStuart.m2_1 = (byte)0;
 		oscStuart.m2_2 = (byte)0;
 
-		if(leftMotorDirection) oscStuart.m1_1 = (byte)leftMotorPower;
-		else oscStuart.m1_2 = (byte)leftMotorPower;
+		if(leftMotorDirection) oscStuart.m2_1 = (byte)leftMotorPower;
+		else oscStuart.m2_2 = (byte)leftMotorPower;
 
-		if(rightMotorDirection) oscStuart.m2_1 = (byte)rightMotorPower;
-		else oscStuart.m2_2 = (byte)rightMotorPower;
+		if(rightMotorDirection) oscStuart.m1_2 = (byte)rightMotorPower;
+		else oscStuart.m1_1 = (byte)rightMotorPower;
 
 		//oscStuart.
 
@@ -141,6 +142,14 @@ public class ForceCalculation : MonoBehaviour {
 		return low2 + (value - low1) * (high2 - low2) / (high1 - low1);
 	}
 
+
+	void OnApplicationQuit()
+	{
+		oscStuart.m1_1 = (byte)0;
+		oscStuart.m1_2 = (byte)0;
+		oscStuart.m2_1 = (byte)0;
+		oscStuart.m2_2 = (byte)0;
+	}
 	
 }
 
