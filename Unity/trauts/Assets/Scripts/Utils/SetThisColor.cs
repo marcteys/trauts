@@ -15,4 +15,12 @@ public class SetThisColor : MonoBehaviour {
 		this.transform.renderer.SetPropertyBlock(mb);
 	}
 
+
+	public void SetColor(Color col)
+	{
+		mb.AddColor("_Color",col);
+		mb.AddColor("_TintColor",col);
+		
+		this.transform.renderer.SetPropertyBlock(mb);
+	}
 }

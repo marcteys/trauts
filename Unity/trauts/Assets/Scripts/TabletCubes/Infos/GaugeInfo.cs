@@ -35,14 +35,13 @@ public class GaugeInfo : MonoBehaviour {
 	void Start ()
 	{
 		colorBG = this.transform.Find("Color");	
-		parentCube = this.transform.parent.GetComponent<CubeInteraction>();
+		parentCube = this.transform.parent.transform.parent.GetComponent<CubeInteraction>();
 		targetPosition  = this.transform.localPosition;
 		targetScale = Vector3.one;
 		if(position != 1)
 		{
 			targetScale = halfScale;
 			targetPosition  = new Vector3(this.transform.localPosition.x,0.5f,this.transform.localPosition.z);
-
 		}
 	}
 	
@@ -90,11 +89,6 @@ public class GaugeInfo : MonoBehaviour {
 		{
 
 		}
-	}
-
-	void ImpossibleToCreate()
-	{
-
 	}
 
 	public void GoToLeft()

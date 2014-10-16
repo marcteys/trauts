@@ -21,8 +21,9 @@ public class CubeInteraction : MonoBehaviour {
 	private GaugeInfo gaugeRepuls;
 	private GaugeInfo gaugeAttract;
 	private GaugeInfo gaugeEmc;
-
 	private GaugeInfo activeGauge;
+
+	public TextMesh percentText;
 
 	//server stuff
 	public NetworkView serverView;
@@ -37,10 +38,24 @@ public class CubeInteraction : MonoBehaviour {
 		gaugeAttract = transform.Find("Infos/CubeInfoAttract").GetComponent<GaugeInfo>();
 		gaugeEmc = transform.Find("Infos/CubeInfoEmc").GetComponent<GaugeInfo>();
 
+		activeGauge = gaugeRepuls;
+
 		//network stuff
 		if(serverView == null) serverView = GameObject.Find("_NetworkDispatcher").GetComponent<NetworkView>();
 		NewDeco();
 	}
+
+	void FixedUpdate()
+	{
+		percentText.text = "kj";
+		if(activeGauge != null) percentText.text = GetGaugePercent(activeGauge);
+	}
+	
+	string GetGaugePercent(GaugeInfo gi)
+	{
+		return Mathf.Floor(gi.gauge*100f) + "%";
+	}
+
 
 	void OnConnectedToServer()
 	{
@@ -50,6 +65,7 @@ public class CubeInteraction : MonoBehaviour {
 
 	public void CreateWave()
 	{
+		Debug.Log (activeGauge.transform.name);
 		activeGauge.CreateWave();
 	}
 
