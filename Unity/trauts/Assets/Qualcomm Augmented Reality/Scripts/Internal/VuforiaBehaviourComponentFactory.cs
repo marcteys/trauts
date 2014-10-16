@@ -1,5 +1,5 @@
-﻿/*==============================================================================
-Copyright (c) 2013 Qualcomm Connected Experiences, Inc.
+/*==============================================================================
+Copyright (c) 2013-2014 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
 Qualcomm Confidential and Proprietary
 ==============================================================================*/
@@ -51,6 +51,11 @@ public class VuforiaBehaviourComponentFactory : IBehaviourComponentFactory
     public WordAbstractBehaviour AddWordBehaviour(GameObject gameObject)
     {
         return gameObject.AddComponent<WordBehaviour>();
+    }
+
+    public TextRecoAbstractBehaviour AddTextRecoBehaviour(GameObject gameObject)
+    {
+        return gameObject.AddComponent<TextRecoBehaviour>();
     }
 
     #endregion // PUBLIC_METHODS

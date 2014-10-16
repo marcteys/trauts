@@ -1,5 +1,5 @@
 /*============================================================================
-Copyright (c) 2010-2013 Qualcomm Connected Experiences, Inc.
+Copyright (c) 2010-2014 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
 ============================================================================*/
 
@@ -14,6 +14,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import java.lang.reflect.Method;
 
 import com.unity3d.player.UnityPlayer;
 
@@ -55,9 +56,17 @@ public class QCARPlayerNativeActivity extends NativeActivity
 	{
 		public void InitializeUnity()
 		{
-			int glesMode = mUnityPlayer.getSettings().getInt("gles_mode", 1);
-			boolean trueColor8888 = false;
-			mUnityPlayer.init(glesMode, trueColor8888);
+			// Test for init method to see if this is 4.5 or earlier
+			try
+			{
+				Class<?> cls = Class.forName("com.unity3d.player.UnityPlayer");
+				Method method = cls.getMethod("init", Integer.TYPE, Boolean.TYPE);
+				
+				int glesMode = mUnityPlayer.getSettings().getInt("gles_mode", 1);
+				boolean trueColor8888 = false;
+				method.invoke(mUnityPlayer, glesMode, trueColor8888);
+			}
+			catch (Exception e) { }
 
 			View playerView = mUnityPlayer.getView();
 			setContentView(playerView);

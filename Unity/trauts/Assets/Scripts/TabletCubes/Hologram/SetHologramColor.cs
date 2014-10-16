@@ -18,7 +18,7 @@ public class SetHologramColor : MonoBehaviour {
 
 
 			Color newColor = defaultColor;
-			newColor.a = (1-child.localPosition.y*5)/2f;
+			newColor.a = (1-child.localPosition.y*6)/2f;
 			mb.AddColor("_Color",newColor);
 			mb.AddColor("_TintColor",newColor);
 
@@ -33,7 +33,7 @@ public class SetHologramColor : MonoBehaviour {
 
 		foreach (Transform child in transform)
 		{	
-			col.a = (1-child.localPosition.y*5)/2f;
+			col.a = (1-child.localPosition.y*6)/2f;
 			
 			mb.AddColor("_Color",col);
 			mb.AddColor("_TintColor",col);
