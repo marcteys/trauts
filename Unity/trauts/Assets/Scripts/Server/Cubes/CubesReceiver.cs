@@ -41,7 +41,7 @@ public class CubesReceiver : MonoBehaviour {
 	//{{"cubes": {"cube_0":{"visible" : false,"x":-1,"y":-1},"cube_1":{"visible" : true,"x":158,"y":348},"cube_2":{"visible" : false,"x":-1,"y":-1},"cube_3":{"visible" : true,"x":226,"y":348},"cube_4":{"visible" : true,"x":125,"y":261}},"stuart": {"stuPos0": {"x":244.936,"y":346.103,},"stuPos1": {"x":243.17,"y":313.533,},"stuPos2": {"x":224.74,"y":320.732,}}}
 	void FixedUpdate()
 	{
-		if(udpR.isAlive && jsonObject != "")
+		if(udpR.isAlive && jsonObject != "" && jsonObject != null)
 		{
 			jsonObject = udpR.datas;
 			positionCubes();
