@@ -1,37 +1,71 @@
-///radio
+//radio
 #include <VirtualWire.h> 
 byte msg[4];
 byte data[4];
 
+// BinaryDataFromProcessing
+// These defines must mirror the sending program:
+const char HEADER       = 'H';
+const char A_TAG    = 'M';
+const char B_TAG    = 'X';
+const int  TOTAL_BYTES  = 10  ; // the total bytes in a message
 
-void setup() // Fonction setup()
+
+void setup()
 {
- //unity
- Serial.begin(9600); 
- //radio
-  vw_setup(2400);   
-    
+  Serial.begin(9600);
+   vw_setup(2400);   
 }
 
-void loop() // Fonction loop()
-{
+void loop(){
+  if ( Serial.available() >= TOTAL_BYTES)
+  {
+     if( Serial.read() == HEADER)
+    {
+      char tag = Serial.read();
+      if(tag == A_TAG)
+      {
+        //Collect integers
+        int a = Serial.read() * 256; 
+        a = a + Serial.read();
+        int b = Serial.read() * 256;
+        b = b + Serial.read();
+        int c = Serial.read() * 256;
+        c = c + Serial.read();
+        int d = Serial.read() * 256;
+        d = d + Serial.read();
+        
+        
+        //radio 
 
-//radio 
-
- 
- 
- while (Serial.available()<4) {} // Wait 'till there are 9 Bytes waiting
-for(int n=0; n<4; n++){
-  msg[n] = Serial.read();
-  
-}
-  
- vw_send((uint8_t *)msg, sizeof(msg)); // On envoie le message 
+        msg[0] = byte(a);
+        msg[1] = byte(b);
+        msg[2] = byte(c);
+        msg[3] = byte(d);
 
 
-   vw_wait_tx(); // On attend la fin de l'envoi
-   Serial.println("Done !"); // On signal la fin de l'envoi
-   delay(10); // Et on attend 1s pour pas flooder
-   
-   
+      vw_send((uint8_t *)msg, sizeof(msg)); // On envoie le message 
+      
+      
+       vw_wait_tx(); // On attend la fin de l'envoi
+
+        
+        Serial.print("Received integers | a:");
+        Serial.print(byte(a));
+        Serial.print(", b:");
+        Serial.println(byte(b));
+        Serial.print(", c:");
+        Serial.println(byte(c));
+        Serial.print(", d:");
+        Serial.println(byte(d));
+        
+        
+
+      }
+      else {
+        Serial.print("got message with unknown tag ");
+        Serial.write(tag);
+      }
+    }
+  }
 }
