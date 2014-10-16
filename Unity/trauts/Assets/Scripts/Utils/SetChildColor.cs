@@ -18,4 +18,17 @@ public class SetChildColor : MonoBehaviour {
 		}
 	}
 
+
+	public void SetColor(Color col)
+	{
+		mb = new MaterialPropertyBlock();
+		mb.AddColor("_Color",col);
+		mb.AddColor("_TintColor",col);
+		
+		foreach (Transform child in transform)
+		{
+			child.renderer.SetPropertyBlock(mb);
+		}
+	}
+
 }

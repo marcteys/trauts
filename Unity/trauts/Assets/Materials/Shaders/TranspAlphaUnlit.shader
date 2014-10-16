@@ -9,7 +9,7 @@ Category {
     Tags {"Queue"="Transparent" "IgnoreProjector"="True"}
     ZWrite Off
     Blend SrcAlpha OneMinusSrcAlpha
- 
+ 	Cull off
     SubShader {Pass {
         GLSLPROGRAM
         varying mediump vec2 uv;

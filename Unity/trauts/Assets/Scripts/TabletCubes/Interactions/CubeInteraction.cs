@@ -39,11 +39,13 @@ public class CubeInteraction : MonoBehaviour {
 
 		//network stuff
 		if(serverView == null) serverView = GameObject.Find("_NetworkDispatcher").GetComponent<NetworkView>();
+		NewDeco();
 	}
 
 	void OnConnectedToServer()
 	{
 		activeGauge = gaugeRepuls;
+		NewDeco();
 	}
 
 	public void CreateWave()
@@ -126,6 +128,7 @@ public class CubeInteraction : MonoBehaviour {
 				break;
 			}
 		}
+		NewDeco();
 
 		serverView.RPCEx("ChangeMode", RPCMode.All, cubeId, (int)interactiveMode);
 	}
@@ -147,6 +150,44 @@ public class CubeInteraction : MonoBehaviour {
 		gaugeAttract.GoToRight();
 		gaugeRepuls.GoToRight();
 		gaugeEmc.GoToRight();
+	}
+
+
+	void NewDeco()
+	{
+
+
+		switch(interactiveMode)
+		{
+		case InteractiveMode.Repulsive :
+			transform.Find("BottomDeco/SelectedRPS01").gameObject.SetActive(true);
+			transform.Find("BottomDeco/SelectedRPS02").gameObject.SetActive(true);
+			transform.Find("BottomDeco/SelectedEMC01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedEMC02").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
+			break;
+			
+		case InteractiveMode.Attractive : 
+			transform.Find("BottomDeco/SelectedRPS01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedRPS02").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedEMC01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedEMC02").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(true);
+			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(true);
+
+			break;
+			
+		case InteractiveMode.Emc : 
+			transform.Find("BottomDeco/SelectedRPS01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedRPS02").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedEMC01").gameObject.SetActive(true);
+			transform.Find("BottomDeco/SelectedEMC02").gameObject.SetActive(true);
+			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
+
+			break;
+		}
 	}
 
 
