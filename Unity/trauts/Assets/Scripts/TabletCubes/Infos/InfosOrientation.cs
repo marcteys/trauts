@@ -36,8 +36,8 @@ public class InfosOrientation : MonoBehaviour {
 
     void RotateGauge()
     {
-        float gauche = AngleDir(new Vector3(1, 0, 1), mainCam.position, this.transform.root.up);
-        float face = AngleDir(new Vector3(-1, 0, 1), mainCam.position, this.transform.root.up);
+		float gauche = AngleDir(new Vector3(1, 0, 1), mainCam.position, Vector3.up);
+		float face = AngleDir(new Vector3(-1, 0, 1), mainCam.position, Vector3.up);
 
         if (gauche == 1)
         {
@@ -63,7 +63,7 @@ public class InfosOrientation : MonoBehaviour {
         }
 
         angle = Mathf.LerpAngle(transform.rotation.y, degree, Time.deltaTime);
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(parent.localEulerAngles.x, degree, parent.localEulerAngles.z), Time.deltaTime * speed);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, degree, 0), Time.deltaTime * speed);
 
     }
 

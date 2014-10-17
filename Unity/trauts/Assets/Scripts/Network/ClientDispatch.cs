@@ -113,37 +113,37 @@ public class ClientDispatch : MonoBehaviour {
 	{
 		Vector3 cubePos = cubesList[cubeID].transform.position;
 		InteractiveMode waveType =  (InteractiveMode)intMode;
-		GameObject repulsiveWave = (GameObject)Resources.Load ("Tablet/RepulsiveWave") as GameObject;
-		GameObject attractiveWave = (GameObject)Resources.Load ("Tablet/AttractiveWave") as GameObject;
-		GameObject emcWave = (GameObject)Resources.Load ("Tablet/EmcWave") as GameObject;
+		GameObject repulsiveWave = (GameObject)Resources.Load ("Tablet/StuartWaveRepulsive") as GameObject;
+		GameObject attractiveWave = (GameObject)Resources.Load ("Tablet/StuartWaveAttractive") as GameObject;
+		GameObject emcWave = (GameObject)Resources.Load ("Tablet/StuartWaveEmc") as GameObject;
 		GameObject wavePrefab  = attractiveWave;
 		switch(waveType)
 		{
 		case InteractiveMode.Repulsive :
 			wavePrefab  = repulsiveWave;
-			soundManager.Trigger(SoundManager.SoundType.repulsive);
+			if(Network.isServer) soundManager.Trigger(SoundManager.SoundType.repulsive);
 			break;
 			
 		case InteractiveMode.Attractive : 
 			wavePrefab  = attractiveWave;
-			soundManager.Trigger(SoundManager.SoundType.attractive);
+			if(Network.isServer) soundManager.Trigger(SoundManager.SoundType.attractive);
 			break;
 
 		case InteractiveMode.Emc : 
 			wavePrefab  = emcWave;
-			soundManager.Trigger(SoundManager.SoundType.emc);
+			if(Network.isServer) soundManager.Trigger(SoundManager.SoundType.emc);
 			CreateEmc(cubeID);
 			break;
 		}
 
-		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos+wavePrefab.transform.position,wavePrefab.transform.rotation);
+		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos+wavePrefab.transform.position,cubesList[cubeID].transform.rotation);
 	}
 
 	[RPC]
 	void ChangeMode(int cubeID, int newMode)
 	{
 		cubesList[cubeID].GetComponent<CubeInteraction>().SetNewType(newMode);
-		soundManager.Trigger(SoundManager.SoundType.slide);
+		if(!Network.isServer) soundManager.Trigger(SoundManager.SoundType.slide);
 	}
 
 	[RPC]
