@@ -23,9 +23,9 @@ public class StuartInteractions : MonoBehaviour {
 	void Update ()
 	{
 		if(Input.GetMouseButtonUp(0)) // is active seulement si stuart est actif
-		{
+		{	
 			if(defEvent.isActive) DetectGround();
-			else cd.soundManager.Trigger(SoundManager.SoundType.error);
+			else cd.soundManager.Trigger(SoundManager.SoundType.click);
 		}	
 		
 	}

@@ -114,7 +114,7 @@ public class ForceCalculation : MonoBehaviour {
      int(motors[3]));// celui de gauche vers l'arrière
 */
 
-		if(Vector3.Distance(targetObj.position, transform.position) < 1.0f)
+		if(Vector3.Distance(targetObj.position, transform.position) < 0.6f)
 		{
 			StopStuart();
 		}
