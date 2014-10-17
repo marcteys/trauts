@@ -7,6 +7,8 @@ NetAddress myRemoteLocation;
 
 String ip = "127.0.0.1";
 int port = 57131;
+float countMax = 10000;
+float currentCount = 0;
 
 
 //arduino stuff
@@ -36,7 +38,15 @@ void setup()
 
 }
 
-void draw(){
+void draw()
+{
+  currentCount += millis();
+  
+  if(currentCount > countMax)
+  {
+    //sendMessage(A_TAG,0,0,0,0);
+  }
+    
 }
 
 void serialEvent(Serial p) {
@@ -64,7 +74,7 @@ void oscEvent(OscMessage theOscMessage) {
      int(motors[1]),// celui de droite vers l'avant
      int(motors[2]),// celui de gauche vers l'avant
      int(motors[3]));// celui de gauche vers l'arrière
-    
+    currentCount = 0;
 }
     
 void mousePressed() {
