@@ -1178,7 +1178,7 @@ Transform:
   m_GameObject: {fileID: 100046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .970000029, y: .970000029, z: .970000029}
   m_Children:
   - {fileID: 400060}
   - {fileID: 400002}
@@ -1276,7 +1276,7 @@ Transform:
   m_GameObject: {fileID: 100060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.02999997, y: 1.02999997, z: 1.02999997}
   m_Children:
   - {fileID: 400092}
   - {fileID: 400000}
@@ -2865,6 +2865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a87f27bd7bd0e440adb712af982af30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isStuart: 1
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2913,6 +2914,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400008
@@ -2930,6 +2932,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400010
@@ -2947,6 +2950,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400012
@@ -2983,6 +2987,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400016
@@ -3012,6 +3017,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400020
@@ -3029,6 +3035,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400022
@@ -3065,6 +3072,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400026
@@ -3082,6 +3090,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400028
@@ -3111,6 +3120,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400032
@@ -3140,6 +3150,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400036
@@ -3223,6 +3234,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400046
@@ -3240,6 +3252,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400048
@@ -3269,6 +3282,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400052
@@ -3286,6 +3300,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400054
@@ -3303,6 +3318,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400056
@@ -3320,6 +3336,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400058
@@ -3337,6 +3354,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400060
@@ -3366,6 +3384,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400064
@@ -3383,6 +3402,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400066
@@ -3400,6 +3420,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400068
@@ -3417,6 +3438,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &100100000
