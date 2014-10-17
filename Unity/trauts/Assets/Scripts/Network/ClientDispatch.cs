@@ -22,6 +22,7 @@ public class ClientDispatch : MonoBehaviour {
 	private GameObject stuartObj;
 	private GameObject stuartObjNetwork;
 	private bool isReady = false;
+	public string activeImageTarget;
 
 	// target manager
 	private GameObject targetObj;

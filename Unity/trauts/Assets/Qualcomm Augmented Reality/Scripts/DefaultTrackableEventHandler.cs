@@ -82,7 +82,15 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
         }
 
         Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+		if(this.transform.position.z == 0f) SetAsActiveGameObject();
+
     }
+
+	private void SetAsActiveGameObject()
+	{
+		Debug.Log ("Set as active object");
+		GameObject.Find ("_NetworkDispatcher").GetComponent<ClientDispatch>().activeImageTarget = transform.name.Substring(transform.name.Length - 1); // s2=="docs";
+	}
 
 
     private void OnTrackingLost()
@@ -103,7 +111,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
         }
 
         Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
-    }
+		if(this.transform.position.z == 0f)  GameObject.Find ("_NetworkDispatcher").GetComponent<ClientDispatch>().activeImageTarget = null; // s2=="docs";
+
+	}
 
     #endregion // PRIVATE_METHODS
 }
