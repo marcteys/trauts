@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyDelay: 2.5
-  fadeAfter: 1.5
+  fadeAfter: .5
   fade: 1
 --- !u!114 &11400002
 MonoBehaviour:

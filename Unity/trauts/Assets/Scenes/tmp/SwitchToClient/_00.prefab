@@ -2920,6 +2920,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400008
@@ -2937,6 +2938,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400010
@@ -2954,6 +2956,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400012
@@ -2971,6 +2974,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400014
@@ -2988,6 +2992,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400016
@@ -3017,6 +3022,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400020
@@ -3034,6 +3040,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400022
@@ -3070,6 +3077,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400026
@@ -3087,6 +3095,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400028
@@ -3104,6 +3113,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400030
@@ -3121,6 +3131,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400032
@@ -3184,6 +3195,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400040
@@ -3197,6 +3209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a87f27bd7bd0e440adb712af982af30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isStuart: 0
 --- !u!114 &11400042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3212,6 +3225,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400044
@@ -3229,6 +3243,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400046
@@ -3258,6 +3273,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400050
@@ -3275,6 +3291,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400052
@@ -3304,6 +3321,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400056
@@ -3366,6 +3384,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400064
@@ -3383,6 +3402,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400066
@@ -3400,6 +3420,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11400068
@@ -3417,6 +3438,7 @@ MonoBehaviour:
   goToColor: 0
   goToHalf: 0
   goToZero: 0
+  speed: 20
   useTint: 1
   newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &100100000

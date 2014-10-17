@@ -6,6 +6,7 @@ public class Autodestroy : MonoBehaviour {
 
 	public float destroyDelay = 1f;
 	public float fadeAfter = 1f;
+	public float fadeSpeed= 8f;
 	public bool fade = false;
 
 	void Awake()
@@ -33,7 +34,7 @@ public class Autodestroy : MonoBehaviour {
 		foreach(Transform child in this.transform)
 		{
 			SavePropretyBlock pb = child.gameObject.GetComponent<SavePropretyBlock>();
-			pb.speed = 8f;
+			pb.speed = fadeSpeed;
 			pb.Fade();
 		}
 	}
