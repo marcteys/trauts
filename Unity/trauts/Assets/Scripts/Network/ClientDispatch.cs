@@ -130,7 +130,22 @@ public class ClientDispatch : MonoBehaviour {
 	void CreateWave(int cubeID, int intMode)
 	{
 		Vector3 cubePos = cubesList[cubeID].transform.position;
-		if(isStuartTablet) cubePos = cubesListNetwork[cubeID].transform.position - stuartObjNetwork.transform.position;
+		if(isStuartTablet)
+		{
+			if(cubesList[cubeID].transform.parent.GetComponent<DefaultTrackableEventHandler>().isActive == true  )
+			{
+				//si le cube sur lequel on lance la vague est actif
+				cubePos = cubesList[cubeID].transform.position;
+			}
+			else if(stuartObj.GetComponent<DefaultTrackableEventHandler>().isActive)
+			{
+				cubePos = Quaternion.Inverse(stuartObjNetwork.transform.rotation) * (cubesListNetwork[cubeID].transform.position - stuartObjNetwork.transform.position);
+			}
+			else
+			{
+				cubePos = new Vector3(1000,1000,1000);
+			}
+		}
 
 		InteractiveMode waveType =  (InteractiveMode)intMode;
 

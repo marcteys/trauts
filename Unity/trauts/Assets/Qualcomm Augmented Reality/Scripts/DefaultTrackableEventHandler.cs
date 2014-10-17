@@ -81,6 +81,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
         {
             component.enabled = true;
         }
+		isActive = true;
 
         Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
 		if(this.transform.position.z == 0f) SetAsActiveGameObject();
@@ -90,7 +91,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
 	private void SetAsActiveGameObject()
 	{
 		Debug.Log ("Set as active object");
-		isActive = true;
 		GameObject.Find ("_NetworkDispatcher").GetComponent<ClientDispatch>().activeImageTarget = transform.name.Substring(transform.name.Length - 1); // s2=="docs";
 	}
 
