@@ -11,45 +11,61 @@ public class InfosOrientation : MonoBehaviour {
 	private float degree;
 	private float angle;
 
+    public bool isStuart = false;
+
 	void Start ()
 	{
 		parent = this.transform.parent;
 		mainCam = Camera.main.transform;
+        Debug.Log("root for " + this.transform.name + " ; " + this.transform.root);
+
+       
 	}
 	
 	void Update ()
 	{
-
-		float gauche = AngleDir(new Vector3(1,0,1),mainCam.position,this.transform.root.up);
-        float face = AngleDir(new Vector3(-1, 0, 1), mainCam.position, this.transform.root.up);
-	
-		if(gauche == 1)
-		{
-			if(face == 1)
-			{
-				degree = 270;
-			}
-			else
-			{
-				degree = 0;
-			}
-		}
-		else
-		{
-			if(face == 1)
-			{
-				degree = 180;
-			}
-			else
-			{
-				degree = 90;
-			}
-		}
-
-		angle = Mathf.LerpAngle(transform.rotation.y, degree, Time.deltaTime);
-		transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, degree,0 ), Time.deltaTime * speed );
+        if (isStuart && this.gameObject.activeInHierarchy == true)
+        {
+            this.gameObject.SetActive(false);
+        } else
+        {
+            RotateGauge();
+        }
 
 	}
+
+    void RotateGauge()
+    {
+        float gauche = AngleDir(new Vector3(1, 0, 1), mainCam.position, this.transform.root.up);
+        float face = AngleDir(new Vector3(-1, 0, 1), mainCam.position, this.transform.root.up);
+
+        if (gauche == 1)
+        {
+            if (face == 1)
+            {
+                degree = 270;
+            }
+            else
+            {
+                degree = 0;
+            }
+        }
+        else
+        {
+            if (face == 1)
+            {
+                degree = 180;
+            }
+            else
+            {
+                degree = 90;
+            }
+        }
+
+        angle = Mathf.LerpAngle(transform.rotation.y, degree, Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(parent.localEulerAngles.x, degree, parent.localEulerAngles.z), Time.deltaTime * speed);
+
+    }
 
 	float AngleDir (Vector3 fwd, Vector3 targetDir, Vector3 up) {
 		Vector3 perp = Vector3.Cross(fwd, targetDir);
