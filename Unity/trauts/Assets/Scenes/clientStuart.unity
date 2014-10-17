@@ -2725,7 +2725,7 @@ GameObject:
   - 4: {fileID: 236506178}
   - 114: {fileID: 236506177}
   m_Layer: 0
-  m_Name: _StuartInteractions
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2886,6 +2886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActive: 0
 --- !u!33 &249690753
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7361,6 +7362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActive: 0
 --- !u!33 &653631972
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9929,6 +9931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActive: 0
 --- !u!33 &905427562
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10785,6 +10788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActive: 0
 --- !u!33 &955259716
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18617,6 +18621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActive: 0
 --- !u!33 &1710389963
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -20075,6 +20080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActive: 0
 --- !u!33 &1869683624
 MeshFilter:
   m_ObjectHideFlags: 0

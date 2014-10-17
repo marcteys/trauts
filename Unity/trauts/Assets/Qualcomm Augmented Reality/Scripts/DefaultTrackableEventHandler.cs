@@ -15,7 +15,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
     #region PRIVATE_MEMBER_VARIABLES
  
     private TrackableBehaviour mTrackableBehaviour;
-    
+	public bool isActive = false;
+
     #endregion // PRIVATE_MEMBER_VARIABLES
 
 
@@ -89,6 +90,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
 	private void SetAsActiveGameObject()
 	{
 		Debug.Log ("Set as active object");
+		isActive = true;
 		GameObject.Find ("_NetworkDispatcher").GetComponent<ClientDispatch>().activeImageTarget = transform.name.Substring(transform.name.Length - 1); // s2=="docs";
 	}
 
@@ -109,7 +111,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour,
         {
             component.enabled = false;
         }
-
+		isActive = false;
         Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 		if(this.transform.position.z == 0f)  GameObject.Find ("_NetworkDispatcher").GetComponent<ClientDispatch>().activeImageTarget = null; // s2=="docs";
 

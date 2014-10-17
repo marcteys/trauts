@@ -8,18 +8,24 @@ public class StuartInteractions : MonoBehaviour {
 	private GameObject ground;
 	private GameObject stuartObj;
     private ClientDispatch cd;
+
+	//temp
+	private DefaultTrackableEventHandler defEvent;
+
 	void Start ()
 	{
 		ground = GameObject.Find ("Ground");
 		stuartObj = GameObject.Find("Stuart");
         cd = GameObject.Find("_NetworkDispatcher").GetComponent<ClientDispatch>();
+		defEvent = stuartObj.GetComponent<DefaultTrackableEventHandler>();
 	}
 	
 	void Update ()
 	{
-		if(Input.GetMouseButtonUp(0))
+		if(Input.GetMouseButtonUp(0)) // is active seulement si stuart est actif
 		{
-			DetectGround();
+			if(defEvent.isActive) DetectGround();
+			else cd.soundManager.Trigger(SoundManager.SoundType.error);
 		}	
 		
 	}
