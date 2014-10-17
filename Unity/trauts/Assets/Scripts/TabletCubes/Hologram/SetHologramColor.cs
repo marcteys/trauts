@@ -9,7 +9,6 @@ public class SetHologramColor : MonoBehaviour {
 	
 	void Awake()
 	{
-
 		mb = new MaterialPropertyBlock();
 		mb.AddTexture("_MainTex",texture);
 

@@ -152,6 +152,7 @@ public class CubeInteraction : MonoBehaviour {
 	public void SetNewType(int newType)
 	{
 		interactiveMode = (InteractiveMode)newType;
+		NewDeco ();
 	}
 
 	void GaugeToLeft()
