@@ -102,7 +102,9 @@ public class ClientDispatch : MonoBehaviour {
 
 
 		if (Input.GetMouseButtonDown(0))
-			soundManager.Trigger(SoundManager.SoundType.click);
+        {
+            //soundManager.Trigger(SoundManager.SoundType.click);
+        }
 
 	}
 
