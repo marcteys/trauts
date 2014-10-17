@@ -11258,6 +11258,7 @@ MonoBehaviour:
   leftMotorDirection: 1
   rightMotorPower: 0
   rightMotorDirection: 1
+  stopStuart: 0
   counterForce: {x: 0, y: 0, z: 0}
 --- !u!114 &1092598371
 MonoBehaviour:
@@ -22107,6 +22108,7 @@ GameObject:
   - 4: {fileID: 2119694040}
   - 33: {fileID: 2119694042}
   - 23: {fileID: 2119694041}
+  - 114: {fileID: 2119694043}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -22158,6 +22160,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2119694039}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2119694043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2119694039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246cfe6d8d0a79e4c9d3d53ea72e50f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2124726344
 GameObject:
   m_ObjectHideFlags: 0

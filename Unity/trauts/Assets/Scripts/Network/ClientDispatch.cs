@@ -18,9 +18,9 @@ public class ClientDispatch : MonoBehaviour {
 	//cubes sync position
 	public int cubeNumber;
 	private GameObject[] cubesList;
-	private GameObject[] cubesListNetwork;
+	public GameObject[] cubesListNetwork;
 	private GameObject stuartObj;
-	private GameObject stuartObjNetwork;
+	public GameObject stuartObjNetwork;
 	private bool isReady = false;
 	public string activeImageTarget;
 
@@ -56,7 +56,21 @@ public class ClientDispatch : MonoBehaviour {
 	{
 	//	SpawnCubes();
 		//Debug.Log("Connected to server");
+		StartCoroutine(GetObjects());
+
+
 	}
+
+	IEnumerator GetObjects() {
+		yield return new WaitForSeconds(2.0f);
+		cubesListNetwork = new GameObject[cubeNumber];
+		for(int i= 0; i<cubeNumber; ++i)
+		{
+			cubesListNetwork[i] = GameObject.Find("Cube_Network_"+i +"(Clone)");
+		}
+		stuartObjNetwork = GameObject.Find("Stuart_Network(Clone)");
+	}
+
 
 	void SpawnCubes()
 	{
@@ -66,14 +80,14 @@ public class ClientDispatch : MonoBehaviour {
 		for(int i= 0; i<cubeNumber; ++i)
 		{
 			GameObject tmpCube = (GameObject)Resources.Load("Network/Cube_Network_"+i) as GameObject;
-			GameObject newCube = (GameObject)Network.Instantiate(tmpCube,this.transform.position,Quaternion.identity,1) as GameObject;
+			GameObject newCube = (GameObject)Network.Instantiate(tmpCube,this.transform.position,Quaternion.identity,0) as GameObject;
 			newCube.transform.name = tmpCube.transform.name;
 			cubesListNetwork[i] = GameObject.Find("Cube_Network_"+i);
 		}
 
 		//instantialte stuart
 		GameObject tmpStuart = (GameObject)Resources.Load("Network/Stuart_Network") as GameObject;
-		GameObject newStu = (GameObject)Network.Instantiate(tmpStuart,this.transform.position,Quaternion.identity,1) as GameObject;
+		GameObject newStu = (GameObject)Network.Instantiate(tmpStuart,this.transform.position,Quaternion.identity,0) as GameObject;
 		newStu.transform.name = tmpStuart.transform.name;
 		stuartObjNetwork = GameObject.Find("Stuart_Network");
 
@@ -90,7 +104,6 @@ public class ClientDispatch : MonoBehaviour {
 				cubesListNetwork[i].transform.position = cubesList[i].transform.position;
 				Vector3 newRotation = new Vector3(cubesList[i].transform.eulerAngles.x, cubesList[i].transform.eulerAngles.x, cubesList[i].transform.eulerAngles.z);
 				cubesListNetwork[i].transform.eulerAngles = newRotation;
-				cubesListNetwork[i].transform.parent =cubesList[i].transform;
 			}
 
 			stuartObjNetwork.transform.position = stuartObj.transform.position;
@@ -115,7 +128,7 @@ public class ClientDispatch : MonoBehaviour {
 	void CreateWave(int cubeID, int intMode)
 	{
 		Vector3 cubePos = cubesList[cubeID].transform.position;
-		if(isStuartTablet) cubePos = cubesListNetwork[cubeID].transform.position;
+		if(isStuartTablet) cubePos = cubesListNetwork[cubeID].transform.position - stuartObjNetwork.transform.position;
 
 		InteractiveMode waveType =  (InteractiveMode)intMode;
 

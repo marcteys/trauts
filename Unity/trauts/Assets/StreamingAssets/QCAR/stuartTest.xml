@@ -2,5 +2,10 @@
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
     <ImageTarget name="stu06" size="1.000000 1.415906" />
+    <ImageTarget name="stu02" size="1.000000 1.415906" />
+    <ImageTarget name="stu01" size="1.000000 1.415906" />
+    <ImageTarget name="stu05" size="1.000000 1.415906" />
+    <ImageTarget name="stu04" size="1.000000 1.415906" />
+    <ImageTarget name="stu03" size="1.000000 1.415906" />
   </Tracking>
 </QCARConfig>

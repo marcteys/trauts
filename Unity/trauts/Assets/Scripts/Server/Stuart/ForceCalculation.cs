@@ -6,7 +6,7 @@ public class ForceCalculation : MonoBehaviour {
 
 	public Vector3 targetVector = Vector3.zero;
 	private AstartAI astarVehicle = null;
-
+	private Transform targetObj;
 	//motors
 	public byte leftMotorPower = 0;
 	public bool leftMotorDirection = true; // true = forward, false = backward;
@@ -22,19 +22,12 @@ public class ForceCalculation : MonoBehaviour {
 	//sendViaOSC
 	private OSCSendStuart oscStuart;
 
-	/*
-	  Just remember...
-
-	msg[0]=(byte) o; // moteur gauche, vers l'avant
-	msg[1]=0; //moteur de gauche , vers l'arriere
-	msg[2]=0; //moteur de droite, vers l'arriere
-	msg[3]=0; //moteur de droite, vers l'avant
-*/
 
 	void Start ()
 	{
 		astarVehicle = this.GetComponent<AstartAI>();
 		oscStuart = GetComponent<OSCSendStuart>();
+		targetObj = GameObject.Find ("Target").transform;
 	}
 	
 	void Update ()
@@ -57,7 +50,6 @@ public class ForceCalculation : MonoBehaviour {
 			oscStuart.m1_2 = (byte)0;
 			oscStuart.m2_1 = (byte)0;
 			oscStuart.m2_2 = (byte)0;
-	
 	}
 
 	void WheelAngle()
@@ -117,20 +109,21 @@ public class ForceCalculation : MonoBehaviour {
      int(motors[2]),// celui de gauche vers l'avant
      int(motors[3]));// celui de gauche vers l'arrière
 */
-		oscStuart.m1_1 = (byte)0;
-		oscStuart.m1_2 = (byte)0;
-		oscStuart.m2_1 = (byte)0;
-		oscStuart.m2_2 = (byte)0;
 
-		if(leftMotorDirection) oscStuart.m2_1 = (byte)leftMotorPower;
-		else oscStuart.m2_2 = (byte)leftMotorPower;
-
-		if(rightMotorDirection) oscStuart.m1_2 = (byte)rightMotorPower;
-		else oscStuart.m1_1 = (byte)rightMotorPower;
-
-
+		if(Vector3.Distance(targetObj.position, transform.position) < 0.5f)
+		{
+			StopStuart();
+		}
+		else
+		{
+			if(leftMotorDirection) oscStuart.m2_1 = (byte)leftMotorPower;
+			else oscStuart.m2_2 = (byte)leftMotorPower;
+			
+			if(rightMotorDirection) oscStuart.m1_2 = (byte)rightMotorPower;
+			else oscStuart.m1_1 = (byte)rightMotorPower;
+		}
+	
 	}
-
 
 	void GetCubesForce()
 	{
