@@ -85,7 +85,8 @@ public class CubesReceiver : MonoBehaviour {
 				json["stuart"]["stuPos"+i]["x"].AsFloat - substractX,
 					0,
 				json["stuart"]["stuPos"+i]["y"].AsFloat - substractY);
-			stuPos[i].transform.position = Vector3.Lerp (stuPos[i].transform.position,newPos/divisionValue,Time.deltaTime * smoothSpeed);
+			// stuPos[i].transform.position = Vector3.Lerp (stuPos[i].transform.position,newPos/divisionValue,Time.deltaTime * smoothSpeed);
+			stuPos[i].transform.position = newPos/divisionValue;
 		}
 	}
 

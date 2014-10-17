@@ -4,7 +4,7 @@ using System.Collections;
 public class ForceCalculation : MonoBehaviour {
 
 
-	private Vector3 targetVector = Vector3.zero;
+	public Vector3 targetVector = Vector3.zero;
 	private AstartAI astarVehicle = null;
 
 	//motors
@@ -12,7 +12,9 @@ public class ForceCalculation : MonoBehaviour {
 	public bool leftMotorDirection = true; // true = forward, false = backward;
 	public byte rightMotorPower = 0;
 	public bool rightMotorDirection = true; // true = forward, false = backward;
-	float maxSpeed = 220;
+	float maxSpeed = 160;
+	float minSpeed = 0;
+	public bool stopStuart = false;
 
 	//force
 	public Vector3 counterForce = Vector3.zero;
@@ -35,11 +37,27 @@ public class ForceCalculation : MonoBehaviour {
 		oscStuart = GetComponent<OSCSendStuart>();
 	}
 	
-	void FixedUpdate ()
+	void Update ()
 	{
-		targetVector = astarVehicle.targetVector;
+	//	targetVector = astarVehicle.targetVector;
 		GetCubesForce();
-		WheelAngle();
+		if(!stopStuart)
+		{
+			WheelAngle();
+		}
+		else
+		{
+			StopStuart();
+		}
+	}
+
+	public void StopStuart()
+	{
+			oscStuart.m1_1 = (byte)0;
+			oscStuart.m1_2 = (byte)0;
+			oscStuart.m2_1 = (byte)0;
+			oscStuart.m2_2 = (byte)0;
+	
 	}
 
 	void WheelAngle()
@@ -50,6 +68,7 @@ public class ForceCalculation : MonoBehaviour {
 			targetVector = (targetVector + counterForce) * 0.5f;
 			Debug.DrawRay(transform.position,targetVector*2,Color.black); // the target vector with forces
 		}
+		Debug.DrawRay(this.transform.position,targetVector, Color.red);
 
 		float angle = Vector3.Angle(targetVector, transform.forward);
 		Vector3 cross= Vector3.Cross(targetVector, transform.forward);
@@ -73,21 +92,22 @@ public class ForceCalculation : MonoBehaviour {
 				leftMotorDirection = false;
 				rightMotorDirection = true;
 				
-				leftMotorPower = (byte)Remap(angle,50,-180,0,maxSpeed);
-				rightMotorPower  = (byte)Remap(angle,50,-180,0,maxSpeed);
+				leftMotorPower = (byte)Remap(angle,50,180,maxSpeed,0);
+				rightMotorPower  = (byte)Remap(angle,50,180,maxSpeed,minSpeed);
+				rightMotorPower  = (byte)maxSpeed;
 			} 
-			else
+			else if( angle < -50 )
 			{
 				//doit tourner vers la droite
 				leftMotorDirection = true;
 				rightMotorDirection = false;
 				
-				leftMotorPower = (byte)Remap(angle,-50,-180,0,maxSpeed);
-				rightMotorPower  = (byte)Remap(angle,-50,-180,0,maxSpeed);
+				leftMotorPower = (byte)Remap(angle,-50,-180,minSpeed,maxSpeed);
+				rightMotorPower  = (byte)Remap(angle,-50,-180,maxSpeed,0);
+				leftMotorPower  = (byte)maxSpeed;
+
 			}
 		} // end left/right
-
-
 
 		/*
 	  Just remember...
@@ -108,7 +128,6 @@ public class ForceCalculation : MonoBehaviour {
 		if(rightMotorDirection) oscStuart.m1_2 = (byte)rightMotorPower;
 		else oscStuart.m1_1 = (byte)rightMotorPower;
 
-		//oscStuart.
 
 	}
 
@@ -143,7 +162,14 @@ public class ForceCalculation : MonoBehaviour {
 	}
 
 
-	void OnApplicationQuit()
+	void OnDisable()
+	{
+			oscStuart.m1_1 = (byte)0;
+			oscStuart.m1_2 = (byte)0;
+			oscStuart.m2_1 = (byte)0;
+			oscStuart.m2_2 = (byte)0;
+	}
+	void OnApplicationQuit() 
 	{
 		oscStuart.m1_1 = (byte)0;
 		oscStuart.m1_2 = (byte)0;

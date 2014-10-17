@@ -59,8 +59,9 @@ public class PositionCalcul : MonoBehaviour {
 
 		stuartObj.transform.rotation = Quaternion.LookRotation(direction);
 
-		Debug.DrawRay(nearDistance,direction,Color.red);
-		Debug.DrawRay(center,Vector3.up,Color.green);
+
+		Debug.DrawRay(nearDistance,direction,Color.yellow);
+		//Debug.DrawRay(nearDistance,Vector3.up*5,Color.green);
 
 	}
 

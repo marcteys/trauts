@@ -71,7 +71,7 @@ void mousePressed() {
   sendMessage(A_TAG,
      0,
      0,
-     255,
+     0,
      0);
 }
 

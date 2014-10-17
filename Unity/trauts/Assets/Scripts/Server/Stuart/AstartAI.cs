@@ -31,7 +31,7 @@ public class AstartAI : MonoBehaviour {
 	//custom values
 	public Vector3 targetVector =  Vector3.zero;
 
-
+	public ForceCalculation fc;
 
 	public void Start ()
 	{
@@ -42,6 +42,7 @@ public class AstartAI : MonoBehaviour {
 		seeker.StartPath (transform.position,target.position, OnPathComplete);
 		tr=transform;
 		Repath ();
+		fc = this.GetComponent<ForceCalculation>();
 	}
 
 	public void OnPathComplete (Path p)
@@ -159,8 +160,8 @@ public class AstartAI : MonoBehaviour {
 
 		//set target vector
 		targetVector = /*path[pathIndex-3]*/currentWaypoint - tr.position;
-		Debug.DrawRay(tr.position, targetVector, Color.red);
-
+		//Debug.DrawRay(tr.position, targetVector, Color.red);
+		fc.targetVector = this.targetVector/2;
 		//	___________ Pas touche Astar
 	}
 

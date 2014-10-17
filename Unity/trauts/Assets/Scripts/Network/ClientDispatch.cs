@@ -26,6 +26,7 @@ public class ClientDispatch : MonoBehaviour {
 
 	// target manager
 	private GameObject targetObj;
+	public bool isStuartTablet = false;
 
 	public SoundManager soundManager;
 
@@ -89,6 +90,7 @@ public class ClientDispatch : MonoBehaviour {
 				cubesListNetwork[i].transform.position = cubesList[i].transform.position;
 				Vector3 newRotation = new Vector3(cubesList[i].transform.eulerAngles.x, cubesList[i].transform.eulerAngles.x, cubesList[i].transform.eulerAngles.z);
 				cubesListNetwork[i].transform.eulerAngles = newRotation;
+				cubesListNetwork[i].transform.parent =cubesList[i].transform;
 			}
 
 			stuartObjNetwork.transform.position = stuartObj.transform.position;
@@ -113,11 +115,15 @@ public class ClientDispatch : MonoBehaviour {
 	void CreateWave(int cubeID, int intMode)
 	{
 		Vector3 cubePos = cubesList[cubeID].transform.position;
+		if(isStuartTablet) cubePos = cubesListNetwork[cubeID].transform.position;
+
 		InteractiveMode waveType =  (InteractiveMode)intMode;
+
 		GameObject repulsiveWave = (GameObject)Resources.Load ("Tablet/StuartWaveRepulsive") as GameObject;
 		GameObject attractiveWave = (GameObject)Resources.Load ("Tablet/StuartWaveAttractive") as GameObject;
 		GameObject emcWave = (GameObject)Resources.Load ("Tablet/StuartWaveEmc") as GameObject;
 		GameObject wavePrefab  = attractiveWave;
+
 		switch(waveType)
 		{
 		case InteractiveMode.Repulsive :
