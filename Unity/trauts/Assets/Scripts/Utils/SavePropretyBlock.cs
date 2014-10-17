@@ -11,7 +11,7 @@ public class SavePropretyBlock : MonoBehaviour {
 	public bool goToZero = false;
 	
 	private Color originalColor;
-	private float speed = 20f;
+	public float speed = 20f;
 
 	public bool useTint = true;
 	public Color newColor;

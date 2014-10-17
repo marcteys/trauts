@@ -136,7 +136,7 @@ public class ClientDispatch : MonoBehaviour {
 			break;
 		}
 
-		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos+new Vector3(0,0.05f,0),wavePrefab.transform.rotation);
+		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos+wavePrefab.transform.position,wavePrefab.transform.rotation);
 	}
 
 	[RPC]
