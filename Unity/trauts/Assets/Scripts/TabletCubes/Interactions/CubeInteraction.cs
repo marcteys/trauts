@@ -176,8 +176,8 @@ public class CubeInteraction : MonoBehaviour {
 		switch(interactiveMode)
 		{
 		case InteractiveMode.Repulsive :
-			transform.Find("BottomDeco/SelectedRPS01").gameObject.SetActive(true);
-			transform.Find("BottomDeco/SelectedRPS02").gameObject.SetActive(true);
+			transform.Find("BottomDeco/SelectedRPS01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedRPS02").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedEMC01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedEMC02").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
@@ -190,18 +190,17 @@ public class CubeInteraction : MonoBehaviour {
 			transform.Find("BottomDeco/SelectedRPS02").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedEMC01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedEMC02").gameObject.SetActive(false);
-			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(true);
-			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(true);
+			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
 			transform.Find("Hologram").GetComponent<SetHologramColor>().SetColor(GameData.attractiveColor);
-
 
 			break;
 			
 		case InteractiveMode.Emc : 
 			transform.Find("BottomDeco/SelectedRPS01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedRPS02").gameObject.SetActive(false);
-			transform.Find("BottomDeco/SelectedEMC01").gameObject.SetActive(true);
-			transform.Find("BottomDeco/SelectedEMC02").gameObject.SetActive(true);
+			transform.Find("BottomDeco/SelectedEMC01").gameObject.SetActive(false);
+			transform.Find("BottomDeco/SelectedEMC02").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
 			transform.Find("Hologram").GetComponent<SetHologramColor>().SetColor(GameData.emcColor);

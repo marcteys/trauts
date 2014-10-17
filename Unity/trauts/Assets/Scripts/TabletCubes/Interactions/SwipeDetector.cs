@@ -42,7 +42,6 @@ public class SwipeDetector : MonoBehaviour {
 				{
 					couldBeSwipe = false;
 					return;
-
 				}
 				break;
 				
@@ -83,6 +82,10 @@ public class SwipeDetector : MonoBehaviour {
 						// Set the time the last swipe occured, useful for other scripts to check:
 						lastSwipeTime = Time.time;
 						Debug.Log("Found a swipe!  Direction: " + lastSwipe);
+					}else
+					{
+						Debug.Log ("Create a wave");
+						clickedCube.CreateWave();
 					}
 				}
 				couldBeSwipe = false;
@@ -107,4 +110,6 @@ public class SwipeDetector : MonoBehaviour {
 		return false;
 
 	}
+
+
 }

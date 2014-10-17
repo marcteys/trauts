@@ -36,8 +36,8 @@ public class InfosOrientation : MonoBehaviour {
 
     void RotateGauge()
     {
-		float gauche = AngleDir(new Vector3(1, 0, 1), mainCam.position, Vector3.up);
-		float face = AngleDir(new Vector3(-1, 0, 1), mainCam.position, Vector3.up);
+		float gauche = AngleDir(new Vector3(1, 0, 1), mainCam.position, parent.up);
+		float face = AngleDir(new Vector3(-1, 0, 1), mainCam.position, parent.up);
 
         if (gauche == 1)
         {
