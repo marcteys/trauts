@@ -21,7 +21,7 @@ public class StuartControls : MonoBehaviour {
 	{
 		targetObj.transform.position = clickedPosition;
 
-		Vector3 targetVector = clickedPosition - this.transform.position;
+		Vector3 targetVector = clickedPosition;
 
 		serverView.RPCEx("SetStuartTarget",RPCMode.Server,targetVector.x,targetVector.y,targetVector.z);
 

@@ -111,7 +111,9 @@ public class ClientDispatch : MonoBehaviour {
 			stuartObjNetwork.transform.eulerAngles = stRotation;
 
 			//recalculate target in real time
-			Vector3 recalculatedTarget = targetObj.transform.position - stuartObj.transform.position;
+			Vector3 recalculatedTarget = (targetObj.transform.position - stuartObj.transform.position);
+			recalculatedTarget = Quaternion.Inverse(stuartObj.transform.rotation) * recalculatedTarget;
+
 			serverView.RPCEx("SendStuartTarget",RPCMode.Others,recalculatedTarget.x,recalculatedTarget.y,recalculatedTarget.z);
 
 		}
@@ -200,7 +202,8 @@ public class ClientDispatch : MonoBehaviour {
 	void SetStuartTarget(float targetPositionX,float targetPositionY,float targetPositionZ)
 	{
         //quand la tablette stuart envoie une nouvelle direction au serveur
-		targetObj.transform.position = stuartObj.transform.position + new Vector3(targetPositionX,targetPositionY,targetPositionZ);
+		targetObj.transform.position = stuartObj.transform.position + (stuartObj.transform.rotation  * new Vector3(targetPositionX,targetPositionY,targetPositionZ));
+
 	}
 
 	[RPC]

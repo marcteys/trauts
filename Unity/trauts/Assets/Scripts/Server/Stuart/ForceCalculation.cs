@@ -46,10 +46,14 @@ public class ForceCalculation : MonoBehaviour {
 
 	public void StopStuart()
 	{
+		if(oscStuart != null)
+		{
 			oscStuart.m1_1 = (byte)0;
 			oscStuart.m1_2 = (byte)0;
 			oscStuart.m2_1 = (byte)0;
 			oscStuart.m2_2 = (byte)0;
+		}
+
 	}
 
 	void WheelAngle()
@@ -58,7 +62,7 @@ public class ForceCalculation : MonoBehaviour {
 		if(counterForce != Vector3.zero)
 		{
 			targetVector = (targetVector + counterForce) * 0.5f;
-			Debug.DrawRay(transform.position,targetVector*2,Color.black); // the target vector with forces
+			Debug.DrawRay(transform.position,targetVector,Color.black); // the target vector with forces
 		}
 		Debug.DrawRay(this.transform.position,targetVector, Color.red);
 
@@ -110,12 +114,13 @@ public class ForceCalculation : MonoBehaviour {
      int(motors[3]));// celui de gauche vers l'arrière
 */
 
-		if(Vector3.Distance(targetObj.position, transform.position) < 0.5f)
+		if(Vector3.Distance(targetObj.position, transform.position) < 1.0f)
 		{
 			StopStuart();
 		}
 		else
 		{
+			StopStuart();
 			if(leftMotorDirection) oscStuart.m2_1 = (byte)leftMotorPower;
 			else oscStuart.m2_2 = (byte)leftMotorPower;
 			
@@ -132,20 +137,39 @@ public class ForceCalculation : MonoBehaviour {
 
 		//We hit a ray 
 		RaycastHit[] hits;
-		hits = Physics.RaycastAll(transform.position+(Vector3.up*3), -Vector3.up * 5 , 100.0F);
+		hits = Physics.RaycastAll(transform.position+(Vector3.up*3), -Vector3.up * 10f , 100.0F);
 		//Debug.DrawRay(transform.position+(Vector3.up*3), -Vector3.up * 5 ,Color.grey); //The ray from the car to the ground
 		int i = 0;
 		while (i < hits.Length)
 		{
 			RaycastHit hit = hits[i];
-			if(hit.collider.CompareTag("Wave")) 
+			//Debug.Log (hit.collider.name);
+			if(hit.collider.CompareTag("RepulsiveWave")) 
 			{
 				counterForce = counterForce + hit.collider.GetComponent<Waves>().GetForceAtPoint(hit.point);
 				// ici appliquer une force relative a la puissance ???
 			}
+			else if(hit.collider.CompareTag("AttractiveWave")) 
+			{
+				counterForce = counterForce + hit.collider.GetComponent<Waves>().GetForceAtPoint(hit.point);
+				counterForce = -counterForce;
+			}
 			i++;
 		}
-		Debug.DrawRay(transform.position, counterForce, Color.blue);//the counter force
+		//Debug.DrawRay(transform.position, counterForce, Color.blue);//the counter force
+
+/*
+		RaycastHit hite ;
+		Ray ray =  new Ray(transform.position+(Vector3.up*3), -Vector3.up * 10f);
+		float distance = 123.123f ; //however far your ray shoots
+		int layerMask = 1<< 11 ;  // "7" here needing to be replaced by whatever layer it is you're wanting to use
+		layerMask = ~layerMask ; //invert the mask so it targets all layers EXCEPT for this one
+		if(Physics.Raycast(ray, out hite, distance, layerMask)){
+			Debug.Log (hite.collider.name);
+		}
+
+*/
+
 
 	}
 
@@ -157,17 +181,16 @@ public class ForceCalculation : MonoBehaviour {
 
 	void OnDisable()
 	{
-			oscStuart.m1_1 = (byte)0;
-			oscStuart.m1_2 = (byte)0;
-			oscStuart.m2_1 = (byte)0;
-			oscStuart.m2_2 = (byte)0;
+		StopStuart();
 	}
 	void OnApplicationQuit() 
 	{
-		oscStuart.m1_1 = (byte)0;
-		oscStuart.m1_2 = (byte)0;
-		oscStuart.m2_1 = (byte)0;
-		oscStuart.m2_2 = (byte)0;
+		StopStuart();
+	}
+
+	void OnApplicationPause() 
+	{
+		StopStuart();
 	}
 	
 }

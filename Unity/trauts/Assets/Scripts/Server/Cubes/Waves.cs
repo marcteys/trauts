@@ -12,6 +12,13 @@ public class Waves : MonoBehaviour {
 
 	public float currentForce = 0f;
 
+	public bool isRepulsive = true;
+
+	void Awake()
+	{
+		SetParent(transform.parent.gameObject);
+	}
+
 	void FixedUpdate()
 	{
 		currentForce = currentForce + Time.deltaTime*waveSpeed ;

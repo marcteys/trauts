@@ -46,7 +46,7 @@ public class ReceiveUDP : MonoBehaviour
 			}
 			catch (Exception e)
 			{
-			//	Debug.Log("ReceiveUDP.cs : Not so good " + e.ToString());
+				Debug.Log("ReceiveUDP.cs : Not so good " + e.ToString());
 			}
 			Thread.Sleep(20);
 		}
