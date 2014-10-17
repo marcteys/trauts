@@ -26,7 +26,7 @@ public class ClientDispatch : MonoBehaviour {
 	// target manager
 	private GameObject targetObj;
 
-	private SoundManager soundManager;
+	public SoundManager soundManager;
 
 	void Start()
 	{
@@ -98,7 +98,7 @@ public class ClientDispatch : MonoBehaviour {
 			Vector3 recalculatedTarget = targetObj.transform.position - stuartObj.transform.position;
 			serverView.RPCEx("SendStuartTarget",RPCMode.Others,recalculatedTarget.x,recalculatedTarget.y,recalculatedTarget.z);
 
-			}
+		}
 
 
 		if (Input.GetMouseButtonDown(0))
@@ -177,14 +177,15 @@ public class ClientDispatch : MonoBehaviour {
 	[RPC]
 	void SetStuartTarget(float targetPositionX,float targetPositionY,float targetPositionZ)
 	{
-		targetObj.transform.position = new Vector3(targetPositionX,targetPositionY,targetPositionZ);
+        //quand la tablette stuart envoie une nouvelle direction au serveur
+		targetObj.transform.position = stuartObj.transform.position + new Vector3(targetPositionX,targetPositionY,targetPositionZ);
 	}
 
 	[RPC]
 	void SendStuartTarget(float targetPositionX,float targetPositionY,float targetPositionZ)
 	{
-		targetObj.transform.position = new Vector3(targetPositionX,targetPositionY,targetPositionZ);
-		soundManager.Trigger(SoundManager.SoundType.stuartReact);
+        //retour en temps réel recalculé dans cette boucle loop
+        targetObj.transform.position = stuartObj.transform.position +  new Vector3(targetPositionX, targetPositionY, targetPositionZ);
 	}
 
 

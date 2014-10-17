@@ -20,8 +20,8 @@ public class InfosOrientation : MonoBehaviour {
 	void Update ()
 	{
 
-		float gauche = AngleDir(new Vector3(1,0,1),mainCam.position,Vector3.up);
-		float face = AngleDir(new Vector3(-1,0,1),mainCam.position,Vector3.up);
+		float gauche = AngleDir(new Vector3(1,0,1),mainCam.position,this.transform.root.up);
+        float face = AngleDir(new Vector3(-1, 0, 1), mainCam.position, this.transform.root.up);
 	
 		if(gauche == 1)
 		{

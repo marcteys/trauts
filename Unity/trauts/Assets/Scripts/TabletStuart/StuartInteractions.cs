@@ -7,11 +7,12 @@ public class StuartInteractions : MonoBehaviour {
 
 	private GameObject ground;
 	private GameObject stuartObj;
-	
+    private ClientDispatch cd;
 	void Start ()
 	{
 		ground = GameObject.Find ("Ground");
 		stuartObj = GameObject.Find("Stuart");
+        cd = GameObject.Find("_NetworkDispatcher").GetComponent<ClientDispatch>();
 	}
 	
 	void Update ()
@@ -32,6 +33,7 @@ public class StuartInteractions : MonoBehaviour {
 			if(hit.transform.CompareTag( "Ground" ))
 			{
 				stuartObj.GetComponent<StuartControls>().SetTarget(hit.point);
+               cd.soundManager.Trigger(SoundManager.SoundType.stuartReact);
 			}
 		}
 	}
