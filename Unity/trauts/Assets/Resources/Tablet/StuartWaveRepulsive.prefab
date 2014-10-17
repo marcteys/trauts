@@ -120,7 +120,7 @@ GameObject:
   - 23: {fileID: 2300012}
   - 114: {fileID: 11400004}
   m_Layer: 0
-  m_Name: Circle008
+  m_Name: WaveObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -17,8 +17,6 @@ public class InfosOrientation : MonoBehaviour {
 	{
 		parent = this.transform.parent;
 		mainCam = Camera.main.transform;
-        Debug.Log("root for " + this.transform.name + " ; " + this.transform.root);
-
        
 	}
 	
@@ -79,8 +77,6 @@ public class InfosOrientation : MonoBehaviour {
 			return 0;
 		}
 	}
-
-
 
 
 }

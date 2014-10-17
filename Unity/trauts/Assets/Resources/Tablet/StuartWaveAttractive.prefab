@@ -120,8 +120,8 @@ GameObject:
   - 23: {fileID: 2300012}
   - 114: {fileID: 11400006}
   m_Layer: 0
-  m_Name: Circle008
-  m_TagString: Untagged
+  m_Name: WaveObj
+  m_TagString: Wave
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -522,6 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyDelay: 2.5
   fadeAfter: .5
+  fadeSpeed: 8
   fade: 1
 --- !u!114 &11400002
 MonoBehaviour:

@@ -31,7 +31,7 @@ public class SoundManager : MonoBehaviour {
 		{
 			audioList.Add(g);
 		}
-		Debug.Log ("SoundManager.cs : Play sound " + soundType);
+//		Debug.Log ("SoundManager.cs : Play sound " + soundType);
 
 		AudioSource audioSource = Camera.main.GetComponent<AudioSource>();
 		audioSource.clip = audioList[Random.Range(0, audioList.Count)];
