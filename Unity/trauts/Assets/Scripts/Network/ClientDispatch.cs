@@ -173,7 +173,7 @@ public class ClientDispatch : MonoBehaviour {
 			break;
 		}
 
-		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos+wavePrefab.transform.position,cubesList[cubeID].transform.rotation);
+		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos,cubesList[cubeID].transform.rotation);
 	}
 
 	[RPC]
@@ -205,7 +205,7 @@ public class ClientDispatch : MonoBehaviour {
 	{
 		Vector3 cubeOrigin = new Vector3( cubeOriginX, cubeOriginY, cubeOriginZ);
 
-		Debug.DrawRay(cubeOrigin,Vector3.up, Color.black,50f);
+		//Debug.DrawRay(cubeOrigin,Vector3.up, Color.black,50f);
 
 		EmcCreator emc = new EmcCreator();
 		emc.LaunchEmc(cubeOrigin,cubesList[cubeID]);
@@ -226,6 +226,13 @@ public class ClientDispatch : MonoBehaviour {
 	{
         //retour en temps réel recalculé dans cette boucle loop
         targetObj.transform.position = stuartObj.transform.position +  new Vector3(targetPositionX, targetPositionY, targetPositionZ);
+	}
+
+	[RPC]
+	void StuartDead()
+	{
+
+
 	}
 
 

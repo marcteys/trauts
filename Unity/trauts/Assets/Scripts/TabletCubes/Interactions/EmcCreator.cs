@@ -5,7 +5,7 @@ public class EmcCreator : MonoBehaviour {
 
 	public Transform emcOrigin;
 	private float shadowSize = 10f;
-	public float destroyAfter = 2f;
+	public float destroyAfter = 15f;
 	//test
 	public GameObject emcTarget;
 	public Material depth;
@@ -19,12 +19,13 @@ public class EmcCreator : MonoBehaviour {
 
 		depth = (Material)Resources.Load("Materials/DepthCutout") as Material;
 
+		Debug.Log ("lauchEMC");
 
 		origin = targetObj.transform.position + origin;
 		targetObj = targetObj.transform.Find("emc").gameObject;
 
 
-		Debug.DrawRay(targetObj.transform.position,targetObj.transform.position + origin, Color.red,50f);
+		//Debug.DrawRay(targetObj.transform.position,targetObj.transform.position + origin, Color.red,50f);
 
 
 
@@ -77,6 +78,8 @@ public class EmcCreator : MonoBehaviour {
 					MeshRenderer renderer = plane.AddComponent(typeof(MeshRenderer)) as MeshRenderer;
 					renderer.material = depth;
 					plane.transform.parent = targetObj.transform;
+					plane.transform.Translate(0,0,-0.05f);
+					plane.transform.tag = "SafeZone";
 					Autodestroy ad = plane.AddComponent<Autodestroy>();
 					ad.destroyDelay = destroyAfter;
 				}

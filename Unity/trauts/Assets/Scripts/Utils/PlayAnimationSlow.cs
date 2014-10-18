@@ -10,7 +10,6 @@ public class PlayAnimationSlow : MonoBehaviour {
 		this.animation["WaveEMC"].speed = 1/speed;
 		this.animation.Play("WaveEMC");
 
-
 	}
 
 }

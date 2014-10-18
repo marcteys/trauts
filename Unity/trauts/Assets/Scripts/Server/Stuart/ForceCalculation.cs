@@ -19,27 +19,67 @@ public class ForceCalculation : MonoBehaviour {
 	//force
 	public Vector3 counterForce = Vector3.zero;
 
+	//emc
+	public bool isInEmc = false;
+	public bool isSafe = false;
+	public float delayBeforeHide = 1f;
+	private float countDownBeforeDie = 0; 
+	private bool isAlive = true;
+
 	//sendViaOSC
 	private OSCSendStuart oscStuart;
 
+	//network
+	public NetworkView serverView;
 
 	void Start ()
 	{
 		astarVehicle = this.GetComponent<AstartAI>();
 		oscStuart = GetComponent<OSCSendStuart>();
 		targetObj = GameObject.Find ("Target").transform;
+
+		if(serverView == null) serverView = GameObject.Find("_NetworkDispatcher").GetComponent<NetworkView>();
+
 	}
 	
 	void Update ()
 	{
-	//	targetVector = astarVehicle.targetVector;
-		GetCubesForce();
-		if(!stopStuart)
+		if(isAlive)
 		{
-			WheelAngle();
-		}
-		else
+			if(isInEmc)
+			{
+				if( countDownBeforeDie > delayBeforeHide)
+				{
+					if(!isSafe) 
+					{
+						//stuart est mort
+						serverView.RPCEx("StuartDead", RPCMode.All);
+						isAlive = false;
+
+					} else
+					{
+						//reset des variables
+						countDownBeforeDie = 0f;
+						isInEmc = false;
+						isSafe = true;
+					}
+				}
+				//décrémente le temps
+				countDownBeforeDie += Time.deltaTime;
+			}
+			GetCubesForce();
+			if(!stopStuart)
+			{
+				WheelAngle();
+			}
+			else
+			{
+				StopStuart();
+			}
+
+		} else
 		{
+			stopStuart = true;
 			StopStuart();
 		}
 	}
@@ -153,26 +193,24 @@ public class ForceCalculation : MonoBehaviour {
 			{
 				counterForce = counterForce + hit.collider.GetComponent<Waves>().GetForceAtPoint(hit.point);
 				counterForce = -counterForce;
+			}else if(hit.collider.CompareTag("EmcWave")) 
+			{
+				isInEmc = true;
+				Debug.Log ("Warning, is in emc ! ");
+
+			} else if(hit.collider.CompareTag("SafeZone")) 
+			{
+				isSafe = true;
+				Debug.Log ("You are safe");
 			}
+
+
 			i++;
 		}
-		//Debug.DrawRay(transform.position, counterForce, Color.blue);//the counter force
-
-/*
-		RaycastHit hite ;
-		Ray ray =  new Ray(transform.position+(Vector3.up*3), -Vector3.up * 10f);
-		float distance = 123.123f ; //however far your ray shoots
-		int layerMask = 1<< 11 ;  // "7" here needing to be replaced by whatever layer it is you're wanting to use
-		layerMask = ~layerMask ; //invert the mask so it targets all layers EXCEPT for this one
-		if(Physics.Raycast(ray, out hite, distance, layerMask)){
-			Debug.Log (hite.collider.name);
-		}
-
-*/
 
 
 	}
-
+	
 	float Remap(this float value,  float low1,  float high1,  float low2,  float high2)
 	{
 		return low2 + (value - low1) * (high2 - low2) / (high1 - low1);

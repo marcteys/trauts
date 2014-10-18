@@ -15,7 +15,6 @@ public class AutoScanAStar : MonoBehaviour {
 	
 	void FixedUpdate ()
 	{
-
 		if(frequency > 0) {
 			currentTime += Time.deltaTime;
 			if(currentTime >= frequency)

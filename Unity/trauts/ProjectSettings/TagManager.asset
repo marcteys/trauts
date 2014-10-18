@@ -8,6 +8,8 @@ TagManager:
   - TriggerCube
   - Ground
   - AttractiveWave
+  - EmcWave
+  - SafeZone
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
