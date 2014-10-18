@@ -82,6 +82,7 @@ public class EmcCreator : MonoBehaviour {
 					Material[] allMat = new Material[matNum];
 					renderer.materials = new Material[matNum];
 
+
 					for(int m = 0; m < matNum; m++)
 					{
 						Material newMat = (Material)Instantiate(depth) as Material;
@@ -93,12 +94,16 @@ public class EmcCreator : MonoBehaviour {
 
 					
 					plane.transform.parent = targetObj.transform;
+
+
 					plane.transform.Translate(0,0,-0.05f);
 					plane.transform.tag = "SafeZone";
 					plane.AddComponent<MeshCollider>().sharedMesh = meshFilter.mesh;
 
 					Autodestroy ad = plane.AddComponent<Autodestroy>();
 					ad.destroyDelay = destroyAfter;
+
+					if(Network.isClient && targetObj.renderer.isVisible == false) plane.renderer.enabled = false;
 				}
 			} // end %3
 		}// end triangles loop
