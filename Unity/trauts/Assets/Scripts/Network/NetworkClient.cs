@@ -66,11 +66,13 @@ public class NetworkClient : MonoBehaviour {
 		if( !Network.isClient )
 		{
 			serverIP = GUI.TextField(new Rect(10, 10, 120, 30), serverIP);
+
+			if (GUI.Button (new Rect (10,50,60,30), "Connect"))
+			{
+				ConnectToServer();
+			}
 		}
-		if (GUI.Button (new Rect (10,50,60,30), "Connect"))
-		{
-			ConnectToServer();
-		}
+
 	}
 	
 
