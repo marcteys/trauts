@@ -69,6 +69,7 @@ public class ClientDispatch : MonoBehaviour {
 			cubesListNetwork[i] = GameObject.Find("Cube_Network_"+i +"(Clone)");
 		}
 		stuartObjNetwork = GameObject.Find("Stuart_Network(Clone)");
+		HideScreen();
 	}
 
 
@@ -231,9 +232,39 @@ public class ClientDispatch : MonoBehaviour {
 	[RPC]
 	void StuartDead()
 	{
-
+		if(isStuartTablet)
+		{
+			Debug.Log ("qsfùpbjqdf");
+			SavePropretyBlock sb =  GameObject.Find("WhiteFade").GetComponent<SavePropretyBlock>();
+			sb.originalColor = Color.white;
+			sb.speed = 5f;
+			sb.newColor = Color.white;
+			sb.Display();
+		}
 
 	}
+
+	void HideScreen()
+	{
+		if(isStuartTablet)
+		{
+			Debug.Log ("qsfùpbjqdf");
+			SavePropretyBlock sb =  GameObject.Find("WhiteFade").GetComponent<SavePropretyBlock>();
+			sb.originalColor = Color.white;
+			sb.speed = 5f;
+			sb.newColor = Color.white;
+			sb.Fade();
+		}
+		
+	}
+
+
+	//is stuart Tablet
+	void PlayWarning()
+	{
+
+	}
+
 
 
 }
