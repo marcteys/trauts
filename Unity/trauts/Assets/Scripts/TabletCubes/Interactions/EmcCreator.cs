@@ -17,7 +17,7 @@ public class EmcCreator : MonoBehaviour {
 
 	public void LaunchEmc(Vector3 origin, GameObject targetObj) {
 
-		depth = (Material)Resources.Load("Materials/DepthCutout") as Material;
+		depth = (Material)Resources.Load("Materials/Extrustion/Ext01") as Material;
 
 		origin = targetObj.transform.position + origin;
 		targetObj = targetObj.transform.Find("emc").gameObject;
@@ -72,8 +72,25 @@ public class EmcCreator : MonoBehaviour {
 					GameObject plane = new GameObject("EmcPlane_"+targetObj.transform.parent.name);
 					MeshFilter meshFilter = (MeshFilter)plane.AddComponent(typeof(MeshFilter));
 					meshFilter.mesh = CreateMesh(planeVertices);
+					meshFilter.mesh.RecalculateBounds();	
+
+
+					//application des materails
 					MeshRenderer renderer = plane.AddComponent(typeof(MeshRenderer)) as MeshRenderer;
-					renderer.material = depth;
+					int matNum = 8;
+					Material[] allMat = new Material[matNum];
+					renderer.materials = new Material[matNum];
+
+					for(int m = 0; m < matNum; m++)
+					{
+						Material newMat = (Material)Instantiate(depth) as Material;
+						newMat.SetFloat("_Amount", 0.05f*m);
+						allMat[m] = newMat;
+
+					}
+					renderer.materials = allMat;
+
+					
 					plane.transform.parent = targetObj.transform;
 					plane.transform.Translate(0,0,-0.05f);
 					plane.transform.tag = "SafeZone";
@@ -123,6 +140,7 @@ public class EmcCreator : MonoBehaviour {
 		uv[3] = new Vector2(1, 1);
 		
 		mesh.uv = uv;
+		mesh.RecalculateBounds();	
 
 		return mesh;
 	}
