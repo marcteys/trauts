@@ -55,18 +55,23 @@ public class ForceCalculation : MonoBehaviour {
 						//stuart est mort
 						serverView.RPCEx("StuartDead", RPCMode.All);
 						isAlive = false;
-
+						Debug.Log("You'r dead, bitch");
 					} else
 					{
 						//reset des variables
 						countDownBeforeDie = 0f;
 						isInEmc = false;
 						isSafe = true;
+						Debug.Log("Definitly safe");
+
 					}
 				}
+
 				//décrémente le temps
 				countDownBeforeDie += Time.deltaTime;
 			}
+
+
 			GetCubesForce();
 			if(!stopStuart)
 			{
@@ -182,6 +187,7 @@ public class ForceCalculation : MonoBehaviour {
 		int i = 0;
 		while (i < hits.Length)
 		{
+
 			RaycastHit hit = hits[i];
 			//Debug.Log (hit.collider.name);
 			if(hit.collider.CompareTag("RepulsiveWave")) 
@@ -193,17 +199,16 @@ public class ForceCalculation : MonoBehaviour {
 			{
 				counterForce = counterForce + hit.collider.GetComponent<Waves>().GetForceAtPoint(hit.point);
 				counterForce = -counterForce;
-			}else if(hit.collider.CompareTag("EmcWave")) 
+			}else if(!isInEmc && hit.collider.CompareTag("EmcWave")) 
 			{
 				isInEmc = true;
 				Debug.Log ("Warning, is in emc ! ");
 
-			} else if(hit.collider.CompareTag("SafeZone")) 
+			} else if(!isSafe && hit.collider.CompareTag("SafeZone")) 
 			{
 				isSafe = true;
 				Debug.Log ("You are safe");
 			}
-
 
 			i++;
 		}

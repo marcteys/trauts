@@ -65,7 +65,7 @@ public class CubeInteraction : MonoBehaviour {
 
 	public void CreateWave()
 	{
-		Debug.Log (activeGauge.transform.name);
+		//Debug.Log (activeGauge.transform.name);
 		activeGauge.CreateWave();
 	}
 
@@ -98,7 +98,7 @@ public class CubeInteraction : MonoBehaviour {
 			{
 			case InteractiveMode.Repulsive :
 				interactiveMode = InteractiveMode.Emc;
-				activeGauge = gaugeAttract;
+				activeGauge = gaugeEmc;
 				GaugeToRight();
 				break;
 				
@@ -110,8 +110,7 @@ public class CubeInteraction : MonoBehaviour {
 				
 			case InteractiveMode.Emc : 
 				interactiveMode = InteractiveMode.Attractive;
-				activeGauge = gaugeEmc;
-				
+				activeGauge = gaugeAttract;
 				GaugeToRight ();
 				break;
 			}

@@ -195,7 +195,7 @@ public class ClientDispatch : MonoBehaviour {
 			{
 				Vector3 diffVector =  cubesList[cubeID].transform.position - cubesList[i].transform.position;
 				serverView.RPCEx("ApplyEmC", RPCMode.All, i, diffVector.x,diffVector.y,diffVector.z);
-				Debug.Log ("we create a emc from cube_" + cubeID );
+//				Debug.Log ("we create a emc from cube_" + cubeID );
 			}
 		}
 	}
