@@ -77,7 +77,7 @@ public class GaugeInfo : MonoBehaviour {
 
 	public void CreateWave()
 	{
-		if(gauge > waveCost)
+		if(gauge >= waveCost)
 		{
 			#if UNITY_ANDROID
 			Handheld.Vibrate();
@@ -87,7 +87,7 @@ public class GaugeInfo : MonoBehaviour {
 		}
 		else
 		{
-
+			//jouer un son ?
 		}
 	}
 

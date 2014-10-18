@@ -21,7 +21,7 @@ public class CubeInteraction : MonoBehaviour {
 	private GaugeInfo gaugeRepuls;
 	private GaugeInfo gaugeAttract;
 	private GaugeInfo gaugeEmc;
-	private GaugeInfo activeGauge;
+	public GaugeInfo activeGauge;
 
 	public TextMesh percentText;
 
@@ -47,7 +47,7 @@ public class CubeInteraction : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		percentText.text = "kj";
+		//percentText.text = "kj";
 		if(activeGauge != null) percentText.text = GetGaugePercent(activeGauge);
 	}
 	
@@ -71,17 +71,23 @@ public class CubeInteraction : MonoBehaviour {
 
 	public void CreateNewWave() 
 	{
+
 		switch(interactiveMode)
 		{
 		case InteractiveMode.Repulsive :
 			serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
+			Debug.Log ("a");
+
 			break;
 			
 		case InteractiveMode.Attractive : 
 			serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
+			Debug.Log ("b");
+
 			break;
 			
 		case InteractiveMode.Emc : 
+			Debug.Log ("émojqhsfmoqshfg");
 			serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
 			break;
 		}

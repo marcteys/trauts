@@ -16,6 +16,7 @@ public class EmcCreator : MonoBehaviour {
 	}
 
 	public void LaunchEmc(Vector3 origin, GameObject targetObj) {
+		Debug.Log ("createEMC");
 
 		depth = (Material)Resources.Load("Materials/Extrustion/Ext01") as Material;
 

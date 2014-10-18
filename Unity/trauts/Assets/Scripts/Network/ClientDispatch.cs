@@ -130,6 +130,8 @@ public class ClientDispatch : MonoBehaviour {
 	[RPC]
 	void CreateWave(int cubeID, int intMode)
 	{
+		Debug.Log ((InteractiveMode)intMode);
+
 		Vector3 cubePos = cubesList[cubeID].transform.position;
 		if(isStuartTablet)
 		{

@@ -12,7 +12,7 @@ public class ForceCalculation : MonoBehaviour {
 	public bool leftMotorDirection = true; // true = forward, false = backward;
 	public byte rightMotorPower = 0;
 	public bool rightMotorDirection = true; // true = forward, false = backward;
-	float maxSpeed = 160;
+	public float maxSpeed = 160;
 	float minSpeed = 0;
 	public bool stopStuart = false;
 
