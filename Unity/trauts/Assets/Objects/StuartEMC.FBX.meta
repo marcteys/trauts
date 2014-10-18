@@ -95,7 +95,7 @@ ModelImporter:
     4300030: Sphere011
     4300032: Sphere012
     4300034: Circle003
-    7400000: Take 001
+    7400000: WaveEMC
     9500000: //RootNode
     11100000: //RootNode
   materials:
@@ -111,9 +111,73 @@ ModelImporter:
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
-    animationWrapMode: 0
+    animationWrapMode: 1
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WaveEMC
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 70.0000076
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Box003
+        weight: 1
+      - path: Box004
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      - path: Sphere004
+        weight: 1
+      - path: Sphere005
+        weight: 1
+      - path: Sphere006
+        weight: 1
+      - path: Sphere007
+        weight: 1
+      - path: Sphere008
+        weight: 1
+      - path: Sphere011
+        weight: 1
+      - path: Sphere012
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

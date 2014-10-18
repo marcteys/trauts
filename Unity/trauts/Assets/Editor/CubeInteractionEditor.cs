@@ -18,5 +18,10 @@ public class CubeInteractionEditor : Editor
 		{
 			myScript.SwipteType(false);
 		}
+
+		if(GUILayout.Button("Create WAve"))
+		{
+			myScript.CreateWave();
+		}
 	}
 }

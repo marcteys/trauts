@@ -82,11 +82,9 @@ public class CubeInteraction : MonoBehaviour {
 			break;
 			
 		case InteractiveMode.Emc : 
-			serverView.RPCEx("CreateWave", RPCMode.Server, cubeId, (int)interactiveMode);
+			serverView.RPCEx("CreateWave", RPCMode.All, cubeId, (int)interactiveMode);
 			break;
 		}
-
-	
 	}
 
 	public void SwipteType(bool slideRight)
@@ -169,11 +167,8 @@ public class CubeInteraction : MonoBehaviour {
 		gaugeEmc.GoToRight();
 	}
 
-
 	void NewDeco()
 	{
-
-
 		switch(interactiveMode)
 		{
 		case InteractiveMode.Repulsive :
@@ -194,7 +189,6 @@ public class CubeInteraction : MonoBehaviour {
 			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
 			transform.Find("Hologram").GetComponent<SetHologramColor>().SetColor(GameData.attractiveColor);
-
 			break;
 			
 		case InteractiveMode.Emc : 
@@ -205,8 +199,6 @@ public class CubeInteraction : MonoBehaviour {
 			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
 			transform.Find("Hologram").GetComponent<SetHologramColor>().SetColor(GameData.emcColor);
-
-
 			break;
 		}
 	}

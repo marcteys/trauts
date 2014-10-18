@@ -205,7 +205,7 @@ public class ClientDispatch : MonoBehaviour {
 	{
 		Vector3 cubeOrigin = new Vector3( cubeOriginX, cubeOriginY, cubeOriginZ);
 
-		//Debug.DrawRay(cubeOrigin,Vector3.up, Color.black,50f);
+		Debug.DrawRay(cubeOrigin,Vector3.up, Color.black,50f);
 
 		EmcCreator emc = new EmcCreator();
 		emc.LaunchEmc(cubeOrigin,cubesList[cubeID]);
