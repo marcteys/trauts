@@ -65,7 +65,7 @@ public class CubeInteraction : MonoBehaviour {
 
 	public void CreateWave()
 	{
-		//Debug.Log (activeGauge.transform.name);
+		Debug.Log (activeGauge.transform.name);
 		activeGauge.CreateWave();
 	}
 

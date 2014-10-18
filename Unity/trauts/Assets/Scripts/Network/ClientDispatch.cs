@@ -140,7 +140,7 @@ public class ClientDispatch : MonoBehaviour {
 			}
 			else if(stuartObj.GetComponent<DefaultTrackableEventHandler>().isActive)
 			{
-				cubePos = Quaternion.Inverse(stuartObjNetwork.transform.rotation) * (cubesListNetwork[cubeID].transform.position - stuartObjNetwork.transform.position);
+				cubePos = Quaternion.Inverse(stuartObjNetwork.transform.rotation) * (stuartObjNetwork.transform.position - cubesListNetwork[cubeID].transform.position );
 			}
 			else
 			{
@@ -174,14 +174,22 @@ public class ClientDispatch : MonoBehaviour {
 			break;
 		}
 
-		/*GameObject tmpWave = (GameObject)*/Instantiate(wavePrefab,cubePos,cubesList[cubeID].transform.rotation);
+		GameObject tmpWave = (GameObject)Instantiate(wavePrefab,cubePos,cubesList[cubeID].transform.rotation);
+		if(isStuartTablet)
+		{
+			if(cubesList[cubeID].transform.parent.GetComponent<DefaultTrackableEventHandler>().isActive == true )
+			{
+				tmpWave.transform.parent = cubesList[cubeID].transform;
+				tmpWave.transform.localPosition = Vector3.zero;
+			}
+		}
 	}
 
 	[RPC]
 	void ChangeMode(int cubeID, int newMode)
 	{
 		cubesList[cubeID].GetComponent<CubeInteraction>().SetNewType(newMode);
-		if(!Network.isServer) soundManager.Trigger(SoundManager.SoundType.slide);
+		if(!Network.isServer && !isStuartTablet) soundManager.Trigger(SoundManager.SoundType.slide);
 	}
 
 	[RPC]
@@ -196,7 +204,7 @@ public class ClientDispatch : MonoBehaviour {
 			{
 				Vector3 diffVector =  cubesList[cubeID].transform.position - cubesList[i].transform.position;
 				serverView.RPCEx("ApplyEmC", RPCMode.All, i, diffVector.x,diffVector.y,diffVector.z);
-//				Debug.Log ("we create a emc from cube_" + cubeID );
+					Debug.Log ("we create a emc from cube_" + cubeID );
 			}
 		}
 	}
