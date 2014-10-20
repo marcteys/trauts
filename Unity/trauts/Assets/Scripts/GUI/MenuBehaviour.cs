@@ -7,6 +7,7 @@ public class MenuBehaviour : MonoBehaviour {
 	public GameObject background;
 	public GameObject menuOpen;
 	public GameObject menuClose;
+	public GameObject menuRestart;
 	public GameObject pauseText;
 	public GameObject dieText;
 	public GameObject winText;
@@ -25,6 +26,7 @@ public class MenuBehaviour : MonoBehaviour {
 		winText = this.transform.Find("WinText").gameObject;
 		stuartBtn = this.transform.Find("StuartBtn").gameObject;
 		cubesBtn = this.transform.Find("CubesBtn").gameObject;
+		menuRestart = this.transform.Find("MenuRestart").gameObject;
 
 		HideAll();
 
@@ -101,6 +103,10 @@ public class MenuBehaviour : MonoBehaviour {
 			{
 				StartLevel("clientCubes");
 
+			}else if(hit.transform.name == menuRestart.transform.name)
+			{
+				StartLevel("androidScene");
+				
 			}
 
 			
@@ -114,6 +120,7 @@ public class MenuBehaviour : MonoBehaviour {
 	{
 		menuClose.SetActive(active);
 		menuOpen.SetActive(!active);
+		menuRestart.SetActive(!active);
 
 		pauseText.SetActive(active);
 		stuartBtn.SetActive(active);

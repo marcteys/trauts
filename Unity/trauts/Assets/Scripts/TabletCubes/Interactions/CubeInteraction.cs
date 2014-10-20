@@ -49,6 +49,23 @@ public class CubeInteraction : MonoBehaviour {
 	{
 		//percentText.text = "kj";
 		if(activeGauge != null) percentText.text = GetGaugePercent(activeGauge);
+
+		/// DEBUG /////////
+		/// 
+		if(this.transform.name == "Cube_04")
+		{
+			if(Input.GetMouseButtonUp(0)) 
+			{	
+				CreateWave();
+
+			}	
+			if(Input.GetMouseButtonUp(2)) 
+			{	
+				SwipteType(true);
+				
+			}	
+
+		}
 	}
 	
 	string GetGaugePercent(GaugeInfo gi)
