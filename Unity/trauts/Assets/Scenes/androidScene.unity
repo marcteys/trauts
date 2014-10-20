@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleFactor: 1
+  useParentcam: 0
 --- !u!1 &196960434
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02da8d598fd052b49815dc6db8d12eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleFactor: 3
+  scaleFactor: 5
+  useParentcam: 0
 --- !u!1 &338510834
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,7 +433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02da8d598fd052b49815dc6db8d12eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleFactor: 3
+  scaleFactor: 5
+  useParentcam: 0
 --- !u!1 &425597420
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,7 +517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02da8d598fd052b49815dc6db8d12eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleFactor: 3
+  scaleFactor: 5
+  useParentcam: 0
 --- !u!1 &795213571
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleFactor: .5
+  useParentcam: 0
 --- !u!23 &795213573
 Renderer:
   m_ObjectHideFlags: 0
@@ -777,6 +782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleFactor: 3
+  useParentcam: 0
 --- !u!23 &1783486406
 Renderer:
   m_ObjectHideFlags: 0
@@ -840,3 +846,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de6816a8fd78b4f4098f8ef8df3e23b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useParentCamera: 0
+  toRight: 0

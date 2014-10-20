@@ -159,8 +159,10 @@ public class ForceCalculation : MonoBehaviour {
      int(motors[3]));// celui de gauche vers l'arrière
 */
 
+		//set the target to stuart position
 		if(Vector3.Distance(targetObj.position, transform.position) < 0.6f)
 		{
+			targetObj.position = transform.position;
 			StopStuart();
 		}
 		else

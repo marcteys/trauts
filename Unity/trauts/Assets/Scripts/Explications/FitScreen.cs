@@ -4,12 +4,16 @@ using System.Collections;
 public class FitScreen : MonoBehaviour {
 
 
-	private float margin = 2f;
+	private float margin = 0f;
 	public float scaleFactor = 1f;
+	public bool useParentcam = false;
+
 
 	void Start () {
-		
-		float height = Camera.main.orthographicSize * 2.0f;
+		Camera cam = Camera.main;
+		if(useParentcam) cam = this.transform.parent.camera;
+	
+		float height = cam.orthographicSize * 2.0f;
 		float width = height * Screen.width / Screen.height;
 		float fix = 0;
 

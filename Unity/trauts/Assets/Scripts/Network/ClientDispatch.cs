@@ -30,6 +30,8 @@ public class ClientDispatch : MonoBehaviour {
 
 	public SoundManager soundManager;
 
+	public MenuBehaviour menuGui;
+
 	void Start()
 	{
 		//debug
@@ -44,6 +46,9 @@ public class ClientDispatch : MonoBehaviour {
 		targetObj = GameObject.Find ("Target");
 
 		soundManager = new SoundManager();
+
+		menuGui = GameObject.Find("UICamera").GetComponent<MenuBehaviour>();
+
 	}
 
 
@@ -69,7 +74,8 @@ public class ClientDispatch : MonoBehaviour {
 			cubesListNetwork[i] = GameObject.Find("Cube_Network_"+i +"(Clone)");
 		}
 		stuartObjNetwork = GameObject.Find("Stuart_Network(Clone)");
-		HideScreen();
+
+		menuGui.HideGameObject(menuGui.background,5f);
 	}
 
 
@@ -245,15 +251,21 @@ public class ClientDispatch : MonoBehaviour {
 	[RPC]
 	void StuartDead()
 	{
-		if(isStuartTablet)
+
+		if(Network.isServer)
 		{
-			Debug.Log ("qsfùpbjqdf");
-			SavePropretyBlock sb =  GameObject.Find("WhiteFade").GetComponent<SavePropretyBlock>();
-			sb.originalColor = Color.white;
-			sb.speed = 5f;
-			sb.newColor = Color.white;
-			sb.Display();
+			//we set the target point to stuart position
+			targetObj.transform.position = stuartObj.transform.position;
 		}
+		else if( Network.isClient)
+		{
+			menuGui.DisplayEnd();
+
+			if(isStuartTablet) GameObject.Find("_StuartInteractions").GetComponent<StuartInteractions>().enabled = false;
+			else if(!isStuartTablet) GameObject.Find("_InteractionsDetection").GetComponent<StuartInteractions>().enabled = false;
+		}
+
+
 
 	}
 
