@@ -32,6 +32,11 @@ public class ForceCalculation : MonoBehaviour {
 	//network
 	public NetworkView serverView;
 
+	public void Respawn()
+	{
+		isAlive = true;
+	}
+
 	void Start ()
 	{
 		astarVehicle = this.GetComponent<AstartAI>();

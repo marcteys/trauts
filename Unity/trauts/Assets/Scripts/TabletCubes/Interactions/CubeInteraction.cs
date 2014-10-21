@@ -52,7 +52,7 @@ public class CubeInteraction : MonoBehaviour {
 
 		/// DEBUG /////////
 		/// 
-		if(this.transform.name == "Cube_1")
+		if(this.transform.name == "Cube_1" && Network.isServer)
 		{
 			if(Input.GetMouseButtonUp(0)) 
 			{	

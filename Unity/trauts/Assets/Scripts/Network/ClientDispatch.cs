@@ -36,7 +36,6 @@ public class ClientDispatch : MonoBehaviour {
 	{
 		//debug
 	//	Network.InitializeServer(200,8081,true);
-
 		cubesList = new GameObject[cubeNumber];
 		for(int i= 0; i<cubeNumber; ++i)
 		{
@@ -48,9 +47,7 @@ public class ClientDispatch : MonoBehaviour {
 		soundManager = new SoundManager();
 
 		if(!Network.isServer) menuGui = GameObject.Find("UICamera").GetComponent<MenuBehaviour>();
-
 	}
-
 
 	void OnServerInitialized()
 	{
@@ -75,6 +72,11 @@ public class ClientDispatch : MonoBehaviour {
 		stuartObjNetwork = GameObject.Find("Stuart_Network(Clone)");
 
 		menuGui.HideGameObject(menuGui.background,5f);
+		if(isStuartTablet && !Network.isServer) GameObject.Find("_StuartInteractions").GetComponent<StuartInteractions>().enabled = true;
+		else if(!isStuartTablet && !Network.isServer) GameObject.Find("_InteractionsDetection").GetComponent<StuartInteractions>().enabled = true;
+
+
+
 	}
 
 
@@ -240,7 +242,7 @@ public class ClientDispatch : MonoBehaviour {
 	void SetStuartTarget(float targetPositionX,float targetPositionY,float targetPositionZ)
 	{
         //quand la tablette stuart envoie une nouvelle direction au serveur
-		targetObj.transform.position = stuartObj.transform.position + (stuartObj.transform.rotation  * new Vector3(targetPositionX,targetPositionY,targetPositionZ));
+		targetObj.transform.position = stuartObj.transform.position + (stuartObj.transform.rotation  * new Vector3(targetPositionX,targetPositionY-0.5f,targetPositionZ));
 
 	}
 
@@ -264,8 +266,8 @@ public class ClientDispatch : MonoBehaviour {
 		{
 			menuGui.DisplayEnd();
 			Debug.Log ("stuart is dead , snif");
-			if(isStuartTablet) GameObject.Find("_StuartInteractions").GetComponent<StuartInteractions>().enabled = false;
-			else if(!isStuartTablet) GameObject.Find("_InteractionsDetection").GetComponent<StuartInteractions>().enabled = false;
+			if(isStuartTablet && !Network.isServer) GameObject.Find("_StuartInteractions").GetComponent<StuartInteractions>().enabled = false;
+			else if(!isStuartTablet && !Network.isServer) GameObject.Find("_InteractionsDetection").GetComponent<StuartInteractions>().enabled = false;
 		}
 
 	}
@@ -274,7 +276,9 @@ public class ClientDispatch : MonoBehaviour {
 	[RPC]
 	void RespawnStuart()
 	{
-
+		targetObj.transform.position = stuartObj.transform.position;
+		stuartObj.GetComponent<ForceCalculation>().Respawn();
+		if(!Network.isServer) menuGui.RestartApp();
 	}
 
 	void HideScreen()
@@ -297,7 +301,13 @@ public class ClientDispatch : MonoBehaviour {
 	{
 
 	}
-
-
+	void OnApplicationQuit()
+	{
+		Network.Disconnect();
+	}
+	void OnDisable()
+	{
+		Network.Disconnect();
+	}
 
 }

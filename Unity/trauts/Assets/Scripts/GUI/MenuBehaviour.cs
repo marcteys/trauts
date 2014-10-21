@@ -40,7 +40,16 @@ public class MenuBehaviour : MonoBehaviour {
 		parentCam = this.transform.camera;
 
 	}
-	
+
+
+	void Awake()
+	{
+		
+
+
+	}
+
+
 	void Update ()
 	{
 		if(Input.GetMouseButtonUp(0)) 
@@ -80,6 +89,19 @@ public class MenuBehaviour : MonoBehaviour {
 		sb.Display();
 	}
 
+	public void RestartApp()
+	{
+		HideAll();
+		Debug.Log ("restart app");
+		pauseText.SetActive(false);
+		menuClose.SetActive(false);
+		dieText.SetActive(false);
+		winText.SetActive(false);
+		stuartBtn.SetActive(false);
+		cubesBtn.SetActive(false);
+	}
+
+
 	void DetectBouton()
 	{
 
@@ -98,15 +120,19 @@ public class MenuBehaviour : MonoBehaviour {
 				DisplayMenu(false);
 
 			}else if(hit.transform.name == stuartBtn.transform.name)
-			{
+			{				Network.Disconnect();
+
 				StartLevel("clientStuart");
 				
 			}else if(hit.transform.name == cubesBtn.transform.name)
-			{
+			{				Network.Disconnect();
+
+
 				StartLevel("clientCubes");
 
 			}else if(hit.transform.name == menuRestart.transform.name)
 			{
+				Network.Disconnect();
 				StartLevel("androidScene");
 				
 			}
@@ -124,9 +150,9 @@ public class MenuBehaviour : MonoBehaviour {
 		menuOpen.SetActive(!active);
 		menuRestart.SetActive(!active);
 
-		pauseText.SetActive(!active);
-		stuartBtn.SetActive(!active);
-		cubesBtn.SetActive(!active);
+		pauseText.SetActive(active);
+		stuartBtn.SetActive(active);
+		cubesBtn.SetActive(active);
 
 		if(active)
 		{
@@ -141,10 +167,8 @@ public class MenuBehaviour : MonoBehaviour {
 			HideGameObject(stuartBtn,5f);
 			HideGameObject(cubesBtn,5f);
 			HideGameObject(background,5f);
-
+			
 		}
-
-
 
 	}
 
@@ -152,10 +176,12 @@ public class MenuBehaviour : MonoBehaviour {
 	{
 
 		string thisLevel = Application.loadedLevelName;
+		DisplayMenu(false);
+
+		DisplayGameObject(background,5f);
 
 		if(thisLevel == "clientStuart")
 		{
-			DisplayGameObject(background,5f);
 			DisplayGameObject(dieText, 5f);
 			DisplayGameObject(stuartBtn, 5f);
 			DisplayGameObject(cubesBtn, 5f);
@@ -165,7 +191,6 @@ public class MenuBehaviour : MonoBehaviour {
 		}
 		else
 		{
-			DisplayGameObject(background,5f);
 			DisplayGameObject(winText, 5f);
 			DisplayGameObject(stuartBtn, 5f);
 			DisplayGameObject(cubesBtn, 5f);
