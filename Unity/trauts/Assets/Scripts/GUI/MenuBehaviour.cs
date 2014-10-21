@@ -72,6 +72,8 @@ public class MenuBehaviour : MonoBehaviour {
 
 	public void DisplayGameObject(GameObject go, float speed)
 	{
+		if(go.activeInHierarchy ==false) go.SetActive(true);
+
 		SavePropretyBlock sb =  go.GetComponent<SavePropretyBlock>();
 	//	sb.originalColor = Color.white;
 		sb.speed = speed;
@@ -122,9 +124,9 @@ public class MenuBehaviour : MonoBehaviour {
 		menuOpen.SetActive(!active);
 		menuRestart.SetActive(!active);
 
-		pauseText.SetActive(active);
-		stuartBtn.SetActive(active);
-		cubesBtn.SetActive(active);
+		pauseText.SetActive(!active);
+		stuartBtn.SetActive(!active);
+		cubesBtn.SetActive(!active);
 
 		if(active)
 		{
@@ -154,13 +156,21 @@ public class MenuBehaviour : MonoBehaviour {
 		if(thisLevel == "clientStuart")
 		{
 			DisplayGameObject(background,5f);
+			DisplayGameObject(dieText, 5f);
+			DisplayGameObject(stuartBtn, 5f);
+			DisplayGameObject(cubesBtn, 5f);
 
 			StartCoroutine(WaitBeforeDisplay());
 
 		}
 		else
 		{
-
+			DisplayGameObject(background,5f);
+			DisplayGameObject(winText, 5f);
+			DisplayGameObject(stuartBtn, 5f);
+			DisplayGameObject(cubesBtn, 5f);
+			
+			StartCoroutine(WaitBeforeDisplay());
 		}
 
 	}

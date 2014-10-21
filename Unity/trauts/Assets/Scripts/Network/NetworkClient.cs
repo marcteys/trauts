@@ -7,8 +7,8 @@ public class NetworkClient : MonoBehaviour {
 	private HostData[] hostData;
 	string gameType = "Stuart";
 	bool autoConnect = false;
-	string defaultServerIP = "192.168.0.13";
-    string serverIP = "192.168.0.13";
+	string defaultServerIP = "127.0.0.1";
+	string serverIP = "127.0.0.1";
 
 	public bool connectOnStart = false;
 

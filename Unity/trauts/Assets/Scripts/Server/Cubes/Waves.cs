@@ -36,7 +36,7 @@ public class Waves : MonoBehaviour {
 	}
 	void StopWave() 
 	{
-		Destroy(this.transform.gameObject);
+		GetComponent<MeshCollider>().enabled = false;
 	}
 
 	public void SetParent(GameObject parent)

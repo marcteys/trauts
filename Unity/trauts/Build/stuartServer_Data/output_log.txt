@@ -19,8 +19,5611 @@ Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServe
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
 Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
 Loading C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
-- Completed reload, in  0.102 seconds
+- Completed reload, in  0.129 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Waiting for finish
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Marc\Documents\trauts\Unity\trauts\Build\stuartServer_Data\Managed\System.Core.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Trauts/AlphaUnlit' - Pass '' shader state not supported
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AstarPath:Awake() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1270)
+ 
+(Filename: C Line: 0)
+
+Starting Server
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkServer:StartServer2() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:27)
+NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+ 
+(Filename: C Line: 0)
+
+opening udpclient listener on port 8000
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Server initialized !
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkServer:OnServerInitialized() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:33)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkServer:StartServer2() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:28)
+NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+ 
+(Filename: C Line: 0)
+
+No registration on MasterServer
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkServer:StartServer2() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:29)
+NetworkServer:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\NetworkServer.cs:10)
+ 
+(Filename: C Line: 0)
+
+AutoScanAStar.cs : Auto scan fixed to 3 seconds. (0 = disabled) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AutoScanAStar:Start() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:13)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/160/0/110
+Splitting 0/160/0/110
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+CubeInfoRepuls
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:85)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+émojqhsfmoqshfg
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:107)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Warning, is in emc ! 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:GetCubesForce() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Server\Stuart\ForceCalculation.cs:207)
+ForceCalculation:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Server\Stuart\ForceCalculation.cs:75)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/160/0/149
+Splitting 0/160/0/149
+You'r dead, bitch
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ForceCalculation:Update() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Server\Stuart\ForceCalculation.cs:58)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+CubeInfoRepuls
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:85)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+émojqhsfmoqshfg
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:107)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+CubeInfoRepuls
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:85)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+émojqhsfmoqshfg
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:107)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:220)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+we create a emc from cube_1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ClientDispatch:CreateEmc(Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:221)
+ClientDispatch:CreateWave(Int32, Int32) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:185)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
+UnityEngine.NetworkView:RPC(String, RPCMode, Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:408)
+InheritableRPCExtensions:RPCEx(NetworkView, String, RPCMode, Object[]) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:62)
+CubeInteraction:CreateNewWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:108)
+GaugeInfo:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Infos\GaugeInfo.cs:85)
+CubeInteraction:CreateWave() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:86)
+CubeInteraction:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\CubeInteraction.cs:59)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+createEMC
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EmcCreator:LaunchEmc(Vector3, GameObject) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\TabletCubes\Interactions\EmcCreator.cs:19)
+ClientDispatch:ApplyEmC(Int32, Single, Single, Single) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Network\ClientDispatch.cs:235)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+InheritableRPC:PerformRPCCall(String, String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs:39)
+ 
+(Filename: C Line: 0)
+
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Scanning
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:592)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1820)
+AstarPath:Scan() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\AstarPathfindingProject\Core\AstarPath.cs:1679)
+AutoScanAStar:FixedUpdate() (at C:\Users\Marc\Documents\trauts\Unity\trauts\Assets\Scripts\Utils\AutoScanAStar.cs:22)
+ 
+(Filename: C Line: 0)
+
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting 0/0/0/0
+Splitting ##end##
+CompareBaseObjectsInternal can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineObject.cpp Line: 17)
+

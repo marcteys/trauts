@@ -47,7 +47,7 @@ public class ClientDispatch : MonoBehaviour {
 
 		soundManager = new SoundManager();
 
-		menuGui = GameObject.Find("UICamera").GetComponent<MenuBehaviour>();
+		if(!Network.isServer) menuGui = GameObject.Find("UICamera").GetComponent<MenuBehaviour>();
 
 	}
 
@@ -62,8 +62,7 @@ public class ClientDispatch : MonoBehaviour {
 	//	SpawnCubes();
 		//Debug.Log("Connected to server");
 		StartCoroutine(GetObjects());
-
-
+		serverView.RPCEx("RespawnStuart",RPCMode.Server);
 	}
 
 	IEnumerator GetObjects() {
@@ -114,9 +113,12 @@ public class ClientDispatch : MonoBehaviour {
 			}
 
 			stuartObjNetwork.transform.position = stuartObj.transform.position;
+			stuartObjNetwork.transform.rotation = stuartObj.transform.rotation;
+
+			/*
 			Vector3 stRotation = new Vector3(stuartObj.transform.eulerAngles.x, stuartObj.transform.eulerAngles.x, stuartObj.transform.eulerAngles.z);
 			stuartObjNetwork.transform.eulerAngles = stRotation;
-
+*/
 			//recalculate target in real time
 			Vector3 recalculatedTarget = (targetObj.transform.position - stuartObj.transform.position);
 			recalculatedTarget = Quaternion.Inverse(stuartObj.transform.rotation) * recalculatedTarget;
@@ -136,7 +138,6 @@ public class ClientDispatch : MonoBehaviour {
 	[RPC]
 	void CreateWave(int cubeID, int intMode)
 	{
-		Debug.Log ((InteractiveMode)intMode);
 
 		Vector3 cubePos = cubesList[cubeID].transform.position;
 		if(isStuartTablet)
@@ -148,7 +149,9 @@ public class ClientDispatch : MonoBehaviour {
 			}
 			else if(stuartObj.GetComponent<DefaultTrackableEventHandler>().isActive)
 			{
-				cubePos = Quaternion.Inverse(stuartObjNetwork.transform.rotation) * (stuartObjNetwork.transform.position - cubesListNetwork[cubeID].transform.position );
+				Vector3 distanceStuartCubes =  cubesListNetwork[cubeID].transform.position - stuartObjNetwork.transform.position;
+				Vector3 calculatedNetworkPosition = Quaternion.Inverse(stuartObjNetwork.transform.rotation) * (distanceStuartCubes);
+				cubePos = calculatedNetworkPosition;
 			}
 			else
 			{
@@ -260,12 +263,17 @@ public class ClientDispatch : MonoBehaviour {
 		else if( Network.isClient)
 		{
 			menuGui.DisplayEnd();
-
+			Debug.Log ("stuart is dead , snif");
 			if(isStuartTablet) GameObject.Find("_StuartInteractions").GetComponent<StuartInteractions>().enabled = false;
 			else if(!isStuartTablet) GameObject.Find("_InteractionsDetection").GetComponent<StuartInteractions>().enabled = false;
 		}
 
+	}
 
+
+	[RPC]
+	void RespawnStuart()
+	{
 
 	}
 
