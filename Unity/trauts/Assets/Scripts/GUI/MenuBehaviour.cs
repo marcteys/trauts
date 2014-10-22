@@ -16,6 +16,13 @@ public class MenuBehaviour : MonoBehaviour {
 
 	private Camera parentCam;
 
+	private float flickerTarget;
+	private float flickerMaxTime = 2f;
+	private float flickerMaxCurrent = 0;
+	private float flickerCurrent = 0;
+	private bool flickr = false;
+	private bool displayBg = false;
+
 	void Start ()
 	{
 		background = this.transform.Find("Background").gameObject;
@@ -39,6 +46,8 @@ public class MenuBehaviour : MonoBehaviour {
 
 		parentCam = this.transform.camera;
 
+		flickerTarget = Random.Range(0,1);
+
 	}
 
 
@@ -56,7 +65,29 @@ public class MenuBehaviour : MonoBehaviour {
 		{	
 			DetectBouton ();
 		}	
+	
 
+		if(flickr)
+		{
+			if(flickerCurrent >= flickerTarget)
+			{
+				displayBg = !displayBg;
+				flickerCurrent = 0;
+				flickerTarget = Random.Range (0,1);
+				if(displayBg) DisplayGameObject(background,500f);
+				else HideGameObject(background,500f);
+			}
+	
+			flickerCurrent += Time.deltaTime;
+
+			flickerMaxCurrent += Time.deltaTime;
+
+			if(flickerMaxCurrent > flickerMaxTime){
+				flickr = false;
+				DisplayGameObject(background,3f);
+			}
+
+		}
 	}
 
 
@@ -118,25 +149,22 @@ public class MenuBehaviour : MonoBehaviour {
 			else if(hit.transform.name == menuClose.transform.name)
 			{
 				DisplayMenu(false);
-
-			}else if(hit.transform.name == stuartBtn.transform.name)
-			{				Network.Disconnect();
-
+			}
+			else if(hit.transform.name == stuartBtn.transform.name)
+			{
+				Network.Disconnect();
 				StartLevel("clientStuart");
-				
-			}else if(hit.transform.name == cubesBtn.transform.name)
-			{				Network.Disconnect();
-
-
+			}
+			else if(hit.transform.name == cubesBtn.transform.name)
+			{
+				Network.Disconnect();
 				StartLevel("clientCubes");
-
-			}else if(hit.transform.name == menuRestart.transform.name)
+			}
+			else if(hit.transform.name == menuRestart.transform.name)
 			{
 				Network.Disconnect();
 				StartLevel("androidScene");
-				
 			}
-
 			
 		}
 	}
@@ -170,6 +198,11 @@ public class MenuBehaviour : MonoBehaviour {
 			
 		}
 
+	}
+
+	public void Flickr()
+	{
+		flickr = true;
 	}
 
 	public void DisplayEnd()

@@ -265,6 +265,7 @@ public class ClientDispatch : MonoBehaviour {
 		else if( Network.isClient)
 		{
 			menuGui.DisplayEnd();
+		//	if(isStuartTablet && !Network.isServer) menuGui.Flickr();
 			Debug.Log ("stuart is dead , snif");
 			if(isStuartTablet && !Network.isServer) GameObject.Find("_StuartInteractions").GetComponent<StuartInteractions>().enabled = false;
 			else if(!isStuartTablet && !Network.isServer) GameObject.Find("_InteractionsDetection").GetComponent<StuartInteractions>().enabled = false;

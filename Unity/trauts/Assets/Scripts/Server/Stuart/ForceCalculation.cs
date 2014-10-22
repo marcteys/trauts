@@ -92,9 +92,18 @@ public class ForceCalculation : MonoBehaviour {
 			stopStuart = true;
 			StopStuart();
 		}
-	}
 
-	public void StopStuart()
+
+		//debug stuff
+		if(Input.GetMouseButtonUp(2)) 
+		{	
+			targetObj.transform.position = this.transform.position;	
+		}	
+
+	}	
+
+
+public void StopStuart()
 	{
 		if(oscStuart != null)
 		{

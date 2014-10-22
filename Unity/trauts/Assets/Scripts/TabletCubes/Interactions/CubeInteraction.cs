@@ -201,6 +201,7 @@ public class CubeInteraction : MonoBehaviour {
 			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
 			transform.Find("Hologram").GetComponent<SetHologramColor>().SetColor(GameData.repulsiveColor);
+			percentText.color = GameData.repulsiveColor;
 			break;
 			
 		case InteractiveMode.Attractive : 
@@ -211,6 +212,7 @@ public class CubeInteraction : MonoBehaviour {
 			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
 			transform.Find("Hologram").GetComponent<SetHologramColor>().SetColor(GameData.attractiveColor);
+			percentText.color = GameData.attractiveColor;
 			break;
 			
 		case InteractiveMode.Emc : 
@@ -221,6 +223,7 @@ public class CubeInteraction : MonoBehaviour {
 			transform.Find("BottomDeco/SelectedATC01").gameObject.SetActive(false);
 			transform.Find("BottomDeco/SelectedATC02").gameObject.SetActive(false);
 			transform.Find("Hologram").GetComponent<SetHologramColor>().SetColor(GameData.emcColor);
+			percentText.color = GameData.emcColor;
 			break;
 		}
 	}

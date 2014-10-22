@@ -18261,7 +18261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gauge: 1
-  interactiveMode: 2
+  interactiveMode: 0
   activeGauge: {fileID: 0}
   percentText: {fileID: 1670101739}
   serverView: {fileID: 0}
